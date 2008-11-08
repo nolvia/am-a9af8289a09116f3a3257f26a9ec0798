@@ -1,0 +1,175 @@
+/* GENERAL */
+
+body {
+	border-collapse: collapse;
+	background-image: url(/images/background.jpg);
+	background-repeat: repeat-x;
+	background-color: white;
+	margin:0;
+	padding:0;
+	color: #141414;
+	line-height: 140%;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 95%;
+	font-family: "Lucida Grande", "Trebuchet MS", Verdana, Arial, sans-serif;
+	text-align:center;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 200%;
+	color: #cc0099;
+}
+
+h2 {
+	text-align: center;
+	font-size: 130%;
+}
+
+img {
+	border-width: 0px;
+}
+
+
+/* HEADER */
+#macok_logo{
+  
+}
+#header h2 a{
+  color:black;
+  text-decoration: none;
+}
+
+/* SECTIONS */
+#sections {
+  margin: 0 auto;
+  width:720px;
+  text-align:center;
+  padding-top:1em;
+}
+
+#sections a{
+  display: block;
+  width:136px;
+  float:left;
+  height:160px;
+  text-align:center;
+  font-size: 150%;
+  color:#c09;
+  font-weight: bold;
+  padding:2px;
+  margin:0 20px;
+}
+
+#sections a.active, #sections a:hover{
+  color:#f6c;
+  
+/*  padding-top:0;
+  border: 2px solid #c09;
+  border-width: 0;
+  border-top-width: 2px;*/
+}
+#sections a span{
+  display:block;
+}
+ul.with_image{
+  padding-right:350px;
+  display:block;
+}
+
+/* INNER SECTIONS */
+#inner_sections {
+  margin: 0 auto;
+  width:400px;
+  text-align:center;
+  padding-top:0.5em;
+}
+
+#inner_sections a{
+  display: block;
+  width:76px;
+  float:left;
+  height:90px;
+  text-align:center;
+  font-size: 80%;
+  color:#c09;
+  font-weight: bold;
+  padding:2px;
+  margin:0 10px;
+}
+
+#inner_sections a:hover{
+  color:#f6c;
+  
+/*  padding-top:0;
+  border: 2px solid #c09;
+  border-width: 0;
+  border-top-width: 2px;*/
+}
+#inner_sections a span{
+  display:block;
+}
+
+
+.phone_number {
+  font-weight:bold;
+}
+
+/** CONTAINER */
+#container{
+  clear:both;
+  width:720px;
+  margin:0 auto;
+}
+
+#content{
+/*  padding:3em;*/
+}
+
+#content a {
+  color:black;
+  font-weight: bold;
+  text-decoration: none;
+  padding:3px 2px;
+  padding-bottom:0px;
+  border-bottom:3px solid #c09;
+}
+
+#content a.active, #content a:hover{
+  background-color: #c09;
+  color:white;
+}
+
+
+/** FOOTER */
+#footer{
+  color:#bbb;
+  border-top:1px solid #eee;
+  font-size:small;
+  text-align:center;
+  margin-top: 3em;
+}
+#footer a {
+  color:#999;
+/*  text-decoration: underline;*/
+  border-width:0px;
+  font-weight:normal;
+}
+#footer a:hover {
+/*  color:white;
+  background-color:#999;*/
+  color:black;
+  background-color: inherit;
+  text-decoration: none;
+  border-width:0px;
+}
+#footer .author a, #footer .author a:hover {
+  color:#ccc;
+  background-color:transparent;
+  text-decoration: none;
+}
+#footer .pi {
+/*  color:#bbb;*/
+}

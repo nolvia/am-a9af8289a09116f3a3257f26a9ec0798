@@ -1,0 +1,30 @@
+8
+
+dir
+0
+http://tools.assembla.com/svn/macok/trunk/images/portfolio/deagostini
+http://tools.assembla.com/svn/macok
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+angela_fletcher.jpg
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
