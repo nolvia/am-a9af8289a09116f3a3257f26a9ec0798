@@ -1,4 +1,3 @@
-<!-- #tminclude "/Users/Elia/Sites/macok/_header.html" #title#="~ Home Page" -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//IT"
 			 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
@@ -31,65 +30,38 @@
 			&ldquo;<%=t :slogan %>&rdquo;
 		</a></h2>
 	</div>
-<!-- end tminclude -->
-
-<!-- #tminclude "/Users/Elia/Sites/macok/_sections.html" -->
 <div style="background: url('../images/top_shadow.gif') repeat-x bottom;">
 	<div id="sections" style="clear:both;">
 	  <%= section_links :about, :services, :portfolio, :contacts %>
-	  
-	  
-    <!-- <a href="about.html" id="about" style="text-decoration:none;">
-      <span style="display:block;">Chi siamo<br />
-        <img src="../images/director_chair.png" width="115" height="110" alt="Ciak" />
-      </span><br />
-    </a> -->
-    <!-- <a href="servizi.html" id="services" style="text-decoration:none;">
-      <span style="">Servizi<br />
-        <img src="../images/ciak.png" width="110" height="109" alt="Director Chair" />
-      </span><br />
-    </a> -->
-    <!-- <a href="portfolio.html" id="portfolio" style="text-decoration:none;">
-      <span style="">Portfolio<br />
-        <img src="../images/book.png" width="113" height="93" alt="Portfolio" />
-      </span><br />
-    </a> -->
-    <!-- <a href="contatti.html" id="contacts" style="text-decoration:none;">
-      <span style="display:block;">Contatti<br />
-        <img src="../images/paper.png" width="109" height="102" alt="Paper" />
-      </span><br />
-    </a> -->
-	
 		<div style="clear:both;"></div>
 	</div>
 </div>
 <div style="clear:both;background: url('../images/central_shadow.gif') no-repeat top center;">
 	<br />&nbsp;<br />
 </div>
-<!-- end tminclude -->
-
-
 <div style="clear:both;"></div>
-<!-- #tminclude "/Users/Elia/Sites/macok/_content_start.html" -->
+
 <div id="container" style="clear:both;">
 	<div id="subsections">
 		
 	</div>
 	<div id="content">
-<!-- end tminclude -->
-
 
 
 <%= yield %>
 
 
 
-<!-- #tminclude "/Users/Elia/Sites/macok/_footer.html" #language#='it' -->
-<div id="footer" class="it">
-	<p style="">
-		<!-- Per informazioni: <br /> -->
-		<a href="http://macok.com/">MACOK Cinevideoservizi</a> 
-		<span class="pi">Partita&nbsp;Iva:&nbsp;02235090962</span>
+<div id="footer">
+  <p>
+    <!-- <br /> -->
+    
+		<a href="http://macok.com/">MACOK <%= t :cinevideoservices %></a> 
+		<span class="pi"><%=t :tax_code, :tax_code => '02235090962' %></span>
+		
+    &rarr; <%=with_locale((language == 'it') ? 'en-US' : 'it-IT'){|locale| t 'language.version', :link => link_to_language(locale)} %>
+		<!-- <%= link_to_language((language == 'it') ? 'en-US' : 'it-IT') %> -->
+		
 		<br />
 		<a href="mailto:macok58@tiscali.it">macok58@tiscali.it</a> &mdash;
 		<a href="contatti.html">Tel:   02 92 151 964</a> &mdash;
@@ -99,17 +71,6 @@
 			Via Toscana, 10/a &mdash;
 			20061 Carugate MI
 		</a>
-		<br />
-  	<span style="text-transform:uppercase;">
-  		<a class="language it" href="../it/index.html">
-  			<img src="../images/it.gif" alt="" />
-  		  Italiano
-  		</a>
-  		<a class="language us" href="../en/index.html">
-  		  <img src="../images/us.gif" alt="" />
-  		  English
-  		</a>
-  	</span>
 		<br />
 		<span class="author"><a href="http://elia.wordpress.com/" title="Design and Programming: Elia Schito">
 			Eli&aelig; Societas Design

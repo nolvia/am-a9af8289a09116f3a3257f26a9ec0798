@@ -70,8 +70,3 @@ Rails::Initializer.run do |config|
   # Please note that observers generated using script/generate observer need to have an _observer suffix
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
 end
-
-
-I18n.load_path << 'lib/translations.rb'
-I18n.default_locale = 'it-IT'
-

@@ -12,11 +12,25 @@ module SiteHelper
       url = send "#{action_name}_path", language
       style = ' style="display:block;"' if action_name == action_names.first or
                                           action_name == action_names.last
-      link_content = "<span#{style}>"+
-                     "  #{t action_name.to_s+'_section'}<br />"+
-                  	 "	#{image_tag("sections/#{action_name.to_s}.png")}"+
-                  	 "</span><br />"
+      link_content = "<span#{style}>" + 
+                       t(action_name, :scope => :sections) + '<br />' +
+                    	 image_tag("sections/#{action_name.to_s}.png") + 
+                  	 '</span><br />'
       link_to link_content, url, :style => 'text-decoration:none;', :id => action_name
     end.join "\n"
+  end
+  
+  def with_locale locale
+    locale_backup = I18n.locale
+    I18n.locale = locale
+    result = yield locale
+    I18n.locale = locale_backup
+    return result
+  end
+  
+  def link_to_language locale
+    with_locale locale do 
+      link_to image_tag("flags/#{t 'language.short'}.gif")+" #{t 'language.name'}", :action => controller.action_name, :language => t('language.short')
+    end
   end
 end

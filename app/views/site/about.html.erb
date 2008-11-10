@@ -1,2 +1,4 @@
-<h1>SiteGenerator#about</h1>
-<p>Find me in app/views/site_generator/about.html.erb</p>
+<h2>“<%=t :slogan %>”</h2>
+
+<p><%=t 'about.story', :services => link_to( t('about.services'), services_path(language) ) %></p>
+<p><%=t 'about.philosophy' %></p>
