@@ -72,8 +72,8 @@
     :index => {
       :what       => 'MACOK is a {{production}} house.',
         :production => 'video production',
-      :many       => 'We also offer other {{services}}.',
-        :services   => 'various services',
+      :many       => 'We also offer many {{services}}.',
+        :services   => 'other services',
       :where      => 'Located in Carugate, {{distance}}.', 
         :distance   => 'just a few kilometers away from Milano'
     },

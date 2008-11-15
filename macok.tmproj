@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>config/environment.rb</string>
+	<string>public/javascripts/glider.js</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -15,6 +15,8 @@
 			<string>.*</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+			<key>selected</key>
+			<true/>
 			<key>sourceDirectory</key>
 			<string></string>
 		</dict>
@@ -107,6 +109,20 @@
 			<key>firstVisibleLine</key>
 			<integer>42</integer>
 		</dict>
+		<key>public/javascripts/glider.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>47</integer>
+				<key>line</key>
+				<integer>61</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
@@ -116,6 +132,7 @@
 		<string>app/views/site/about.html.erb</string>
 		<string>app/helpers/site_helper.rb</string>
 		<string>config/environment.rb</string>
+		<string>public/javascripts/glider.js</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>

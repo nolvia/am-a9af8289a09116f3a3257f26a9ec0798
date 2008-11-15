@@ -1,0 +1,128 @@
+it-IT:
+  services:
+    video_production:
+      id:           produzione
+      title:        Produzione Video
+      title_short:  Produzione Video
+      
+      organization: Organizzazione generale
+      permissions:  Richieste permessi
+      recording:    Riprese in tutti i formati video
+    
+    post_production:
+      id:           post_produzione
+      title:        Post Produzione
+      title_short:  Post Produzione
+      
+      editing:      Montaggi e grafica 3D 
+      copywriting:  Testi autorali 
+      dubbing:      Speakeraggi 
+      music:        Musiche 
+      down_mix:     Mix finale 
+      master:       Master digibeta o DLT
+    
+    footages:
+      id:           repertorio
+      title:        Repertorio
+      title_short:  Repertorio (&rsquo;900-oggi)
+      
+      library:      Video library  <br /><small style="white-space:nowrap;">Dai primi del ‘900 ad oggi</small>
+      research:     Ricerca footage 
+      actual:       Realizzazione footage ad hoc
+    
+    videoclip:
+      id:           videoclip
+      title:        Spot e Videoclip
+      title_short:  Spot e Videoclip
+      
+      idea:         Ideazione 
+      storyboard:   Storyboard 
+      recording:    Riprese 
+      editing:      Montaggio
+    
+    finished_product:
+      id:           prodotti_finiti
+      title:        Prodotti Chiavi in Mano
+      title_short:  Prodotti Finiti
+      
+      finished:     Realizziamo lavori completi, dall'ideazione al prodotto finito 
+      new:          Idealizziamo <br />nuovi progetti TV 
+    
+    events:
+      id:           eventi
+      title:        Organizzazione Eventi e Convention
+      title_short:  Eventi e Convention
+      
+      organization: Organizzazione Generale
+      location:     Sopralluoghi
+      slide:        Preparazione di slide e filmati (di contributo)
+      set:          Allestimento
+      direction:    Regia audio e video
+      shoots:       Riprese e messa in onda su maxischermi
+      
+  
+
+
+en-US:
+  services:
+    video_production:
+      id:           production
+      title:        Video Production
+      
+      organization: General Organization
+      permissions:  Permit Requests
+      recording:    Video Recording and Formatting
+    
+    post_production:
+      id:           post_production
+      title:        Post Production
+      
+      editing:      Editing and 3D graphics
+      copywriting:  Author’s text
+      dubbing:      Dubbing
+      music:        Music
+      down_mix:     Mix Finale
+      master:       Master digibeta or DLT
+    
+    footages:
+      id:           footages
+      title:        Footages / Archives
+      
+      
+      library:      Video library <br /><small style="white-space:nowrap;">from &lsquo;900 up to present
+      research:     Researched Footage
+      actual:       Actual Footage
+    
+    videoclip:
+      id:           videoclip
+      title:        Spot and Video Clip
+      
+      idea:         Ideas
+      storyboard:   Storyboard
+      recording:    Film Recording
+      editing:      Editing
+    
+    finished_product:
+      id:           finished_product
+      title:        Finished Product
+      
+      finished:     Fullfill a complete intentional finish product
+      new:          Think of <br />new television projects
+    
+    events:
+      id: events
+      title: Organized Events and Conventions
+      title_short: Events and Conventions
+      
+      organization: General Organization
+      location:     Location Survey
+      slide:        Film and Slide Preparation
+      set:          Film Set and Backdraft
+      direction:    Audio and Film Direction
+      shoots:       On AIR Shoots on Maxi-screen
+    
+  
+
+
+
+

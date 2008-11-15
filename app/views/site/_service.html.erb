@@ -1,0 +1,8 @@
+<% scope, items = ['services', service.first], service.last %>
+<div class="section" id="<%=t :id, :scope => scope %>" 
+  style="background:url('<%= image_path("services/#{service.first}.png") %>') bottom right no-repeat;">
+  <h2><%=t :title, :scope => scope %></h2>
+  <ul class="with_image">
+    <li><%= t(items, :scope => scope).join '</li><li>' %></li>
+  </ul>
+</div>
