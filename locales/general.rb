@@ -88,11 +88,8 @@
                       services with satisfaction and to completely personalized 
                       the exact requirements of our costumers, because for us 
                       it was the most important.'
-    }, 
-    
-    :services => {
-      
     }
+    
   }
 }
 
