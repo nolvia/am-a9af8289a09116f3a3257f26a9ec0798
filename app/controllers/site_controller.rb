@@ -24,7 +24,7 @@ class SiteController < ApplicationController
   end
   
   def portfolio
-    # @works = 
+    @works_per_client = eval(File.read(Rails.root / 'locales' / 'portfolio' / 'portfolio.structure.rb'))
   end
   
 end

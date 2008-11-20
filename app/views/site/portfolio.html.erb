@@ -1,5 +1,73 @@
-<pre>
-<% require 'translations/portfolio.rb' %>
+<%# I18n.load_path << 'locales/portfolio/portfolio.yml' %>
 
-<%=h File.read(Rails.root + '/lib/translations/portfolio.structure.it-IT.txt') %>
-</pre>
+
+
+
+<div id="portfolio_container" class="glider">
+	<div class="controls">
+		<h3>TRA I NOSTRI CLIENTI CI SONO:</h3>
+    <% @works_per_client.each do |(client, works)| %>
+      <% css_classes = [client.to_s+'_link', client == @works_per_client.first.first ? 'active' : nil].compact.join(' ') %>
+      &nbsp;&nbsp;<%= link_to t(:client_name, :scope => [:portfolio, :clients, client]), "##{client}", :class => css_classes %>
+    <% end %>
+    <!--       
+    &nbsp;      <a href="#deagostini">                                                    De Agostini                        <!--  <img src="images/portfolio/deagostini.png" width="143" height="36" alt="Deagostini" />                                - ->  </a>
+    &nbsp;&nbsp;<a href="#ferrari" class="ferrari_link">                                  Ferrari Club Milano                <!--  <img src="images/portfolio/ferrari_club_milano.png" width="81" height="38" alt="Ferrari Club Milano" />               - ->  </a>
+    &nbsp;&nbsp;<a href="#open_idea" class="open_idea_link">                              Open Idea                          <!--  <img src="images/portfolio/open_idea.png" width="39" height="31" alt="Open Idea" />                                   - ->  </a>
+    &nbsp;&nbsp;<a href="#auprema" class="auprema_link">                                  Auprema                            <!--  <img src="images/portfolio/auprema.png" width="63" height="45" alt="Auprema" />                                       - ->  </a>
+    &nbsp;&nbsp;<a href="#mediaset" class="mediaset_link">                                Rete4                              <!--  <img src="images/portfolio/rete4.png" width="81" height="39" alt="Rete4" />                                           - ->  </a>
+    &nbsp;&nbsp;<a href="#fabbri" class="fabbri_link">                                    Fabbri Editori                     <!--  <img src="images/portfolio/fabbri_editori.png" width="63" height="33" alt="Fabbri Editori" />                         - ->  </a>
+    &nbsp;&nbsp;<a href="#mamiya" class="mamiya_link">                                    Mamiya                             <!--  <img src="images/portfolio/mamiya.png" width="72" height="36" alt="Mamiya" />                                         - ->  </a>
+    &nbsp;&nbsp;<a href="#hobby_and_work" class="hobby_and_work_link">                    Hobby and Work                     <!--  <img src="images/portfolio/hobby_and_work.png" width="82" height="65" alt="Hobby &amp; Work" />                       - ->  </a>
+    &nbsp;&nbsp;<a href="#prima_immagine" class="prima_immagine_link">                    Prima Immagine                     <!--  <img src="images/portfolio/prima_immagine.png" width="73" height="27" alt="Prima Immagine" />                         - ->  </a>
+    &nbsp;&nbsp;<a href="#mediolanum_channel" class="mediolanum_channel_link">            Mediolanum Channel                 <!--  <img src="images/portfolio/mediolanum_channel.png" width="111" height="31" alt="Mediolanum Channel" />                - ->  </a>
+    &nbsp;&nbsp;<a href="#odeon_tv" class="odeon_tv_link">                                Odeon TV                           <!--  <img src="images/portfolio/odeon.png" width="67" height="50" alt="Odeon Tv" />                                        - ->  </a>
+    &nbsp;&nbsp;<a href="#vorwerk" class="vorwerk_link">                                  Vorwerk                            <!--  <img src="images/portfolio/vorwerk.png" width="91" height="47" alt="Vorwerk" />                                       - ->  </a>
+    &nbsp;&nbsp;<a href="#editrice_giochi" class="editrice_giochi_link">                  Editrice Giochi                    <!--  <img src="images/portfolio/editrice_giochi.png" width="66" height="46" alt="Editrice Giochi" />                       - ->  </a>
+    &nbsp;&nbsp;<a href="#museo_diocesano_brescia" class="museo_diocesano_brescia_link">  Museo Diocesano Di Brescia         <!--  <img src="images/portfolio/museo_diocesano_di_brescia.png" width="109" height="38" alt="Museo Diocesano Di Brescia" />- ->  </a>
+    &nbsp;
+     -->
+	</div>
+	<br/>
+	<div style="clear:both;"></div>
+	<center>
+	<div class="scroller">
+		<div class="content">
+
+
+
+
+
+
+      <% @works_per_client.each do |(client, works)| %>
+        <div class="section" id="<%= client %>">
+        	<h2><%=t :client_name, :scope =>  [:portfolio, :clients, client] %></h2>
+          <% works.each do |work| %>
+            <h2><%=t :title,      :scope => [:portfolio, :clients, client, :works, work] %></h2>
+            <small><%=t :note,    :scope => [:portfolio, :clients, client, :works, work] %></small>
+            <p>
+              <%=t :description,  :scope => [:portfolio, :clients, client, :works, work] %>
+            </p>
+            <div style="clear:both;"></div>
+          <% end %>
+        </div>
+      <% end %>
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+	</center>
+</div>
+<%= image_tag 'left_arrow.gif',  :class => 'imgLink', :alt => '&larr;', :onclick => 'portfolio_glider.previous(); return false;' %>
+<%= image_tag 'right_arrow.gif', :class => 'imgLink', :alt => '&rarr;', :onclick => 'portfolio_glider.next();     return false;' %>
+<!-- <img src="./images/left_arrow.gif"  class="imgLink" alt="&larr;" onclick="portfolio_glider.previous();portfolio_glider.previous();return false;"/>
+<img src="./images/right_arrow.gif" class="imgLink" alt="&rarr;" onclick="portfolio_glider.next();portfolio_glider.next();return false"/> -->
+<script type="text/javascript" charset="utf-8">
+	var portfolio_glider = new Glider('portfolio_container', {duration:0.5});
+</script>

@@ -10,7 +10,21 @@ RAILS_GEM_VERSION = '2.2.0' unless defined? RAILS_GEM_VERSION
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
 
+class String
+  def / *path_elements
+    File.join self, *path_elements
+  end
+end
+
+
 Rails::Initializer.run do |config|
+  Dir['locales'/'**'/'*'].each do |translation|
+    filename = File.join(Rails.root,translation)
+    if File.file?(filename) and %w(.rb .yaml .yml).include?( File.extname(filename) )
+      I18n.load_path << translation
+      puts 'translation: '+translation
+    end
+  end
   
   
   # Settings in config/environments/* take precedence over those specified here.

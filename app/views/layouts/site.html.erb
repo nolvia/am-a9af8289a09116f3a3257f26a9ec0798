@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <%= stylesheet_link_tag     'screen',     'glider',             :cache => true %>
   <%= javascript_include_tag  'prototype',  'effects', 'glider',  :cache => true %>
-  <title>MACOK <%=t :cinevideoservices %> ~ <%=t @title || controller.action_name %></title>
+  <title>MACOK <%=t :cinevideoservices %> ~ <%= controller.action_name.humanize %></title>
   
   <!--[if lt IE 7]>
     <style type="text/css" media="screen">
