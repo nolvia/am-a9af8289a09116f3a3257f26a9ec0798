@@ -1,7 +1,7 @@
 <p style="font-size:150%;line-height:150%;">
   <%=t 'index.what', :production => link_to( t('index.production'), services_path+'#'+t(:production) ) %><br />
-  <%=t 'index.many', :services => link_to( t('index.services'), services_path ) %></a>
+  <%=t 'index.many', :services   => link_to( t('index.services'),   services_path ) %></a>
 </p>
 <p style="line-height:150%;">
-  <%=t 'index.where', :distance => link_to( t('index.distance'), macok_gmaps_url, :target => '_blank' ) %>
+  <%=t 'index.where', :distance => link_to( t('index.distance'), macok_address_map_url, :target => '_blank' ) %>
 </p>

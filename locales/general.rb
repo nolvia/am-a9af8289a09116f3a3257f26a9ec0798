@@ -12,6 +12,7 @@
       :portfolio  => 'Portfolio', 
       :contacts   => 'Contatti',
     },
+    
     :language => {
       :name => 'ITALIANO',
       :short => 'it',
@@ -40,7 +41,21 @@
     
     :services => {
       
+    }, 
+    
+    :portfolio => {
+      :our_clients => 'Tra i nostri clienti ci sono',
+    }, 
+    
+    :contacts => {
+      :contact_us => 'Come Contattarci',
+      :email      => 'E-mail',
+      :phone      => 'Telefono', 
+      :fax        => 'Fax', 
+      :address    => 'Indirizzo', 
+      :open_map   => 'Apri la mappa in una nuova finestra'
     }
+    
   },
   
   
@@ -64,17 +79,21 @@
     },
     
     :language => {
-      :name => 'ENGLISH',
-      :short => 'en',
-      :version => 'Go to the {{link}} version'
+      :name       => 'ENGLISH',
+      :short      => 'en',
+      :version    => 'See this page in {{link}}'
     },
     
+    :footer => {
+      
+    }, 
+    
     :index => {
-      :what       => 'MACOK is a {{production}} house.',
+      :what         => 'MACOK is a {{production}} house.',
         :production => 'video production',
-      :many       => 'We also offer many {{services}}.',
+      :many         => 'We also offer many {{services}}.',
         :services   => 'other services',
-      :where      => 'Located in Carugate, {{distance}}.', 
+      :where        => 'Located in Carugate, {{distance}}.', 
         :distance   => 'just a few kilometers away from Milano'
     },
     
@@ -88,8 +107,24 @@
                       services with satisfaction and to completely personalized 
                       the exact requirements of our costumers, because for us 
                       it was the most important.'
-    }
+    }, 
     
+    :services => {
+      
+    }, 
+    
+    :portfolio => {
+      :our_clients => 'Our Clients',
+    }, 
+    
+    :contacts => {
+      :contact_us => 'Contact us',
+      :email      => 'E-mail',
+      :phone      => 'Phone', 
+      :fax        => 'Fax', 
+      :address    => 'Address', 
+      :open_map   => 'Open the map in a new window' 
+    }
   }
 }
 

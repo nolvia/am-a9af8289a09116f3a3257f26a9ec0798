@@ -3,7 +3,11 @@ module SiteHelper
     params[:language] || 'it'
   end
   
-  def macok_gmaps_url
+  def localized_root
+    language == 'it' ? root_path : local_root_path(language)
+  end
+  
+  def macok_address_map_url
     'http://maps.google.com/maps?f=q&amp;hl=it&amp;q=MACOK+loc%3A+Via+Toscana,+10a+carugate+MI+italy&amp;ie=UTF8&amp;ll=45.550602,9.334388&amp;spn=0.003817,0.010042&amp;z=17&amp;iwloc=A&amp;om=1'
   end
   
@@ -38,7 +42,8 @@ module SiteHelper
   
   def link_to_language locale
     with_locale locale do 
-      link_to image_tag("flags/#{t 'language.short'}.gif")+" #{t 'language.name'}", :action => controller.action_name, :language => t('language.short')
+      link_to image_tag("flags/#{t 'language.short'}.gif")+" #{t 'language.name'}", 
+      send( controller.action_name+'_path', t('language.short') )
     end
   end
 end

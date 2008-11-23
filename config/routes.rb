@@ -2,7 +2,6 @@ ActionController::Routing::Routes.draw do |map|
   
   map.root :controller => 'site', :language => 'it'
   
-  
   def site_path map, action_name
     map.with_options  :controller => 'site', :action => action_name do |site|
       site.with_options :requirements => {:language => /it|en/} do |site_with_language|

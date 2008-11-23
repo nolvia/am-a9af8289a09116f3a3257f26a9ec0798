@@ -5,11 +5,12 @@
 
 <div id="portfolio_container" class="glider">
 	<div class="controls">
-		<h3>TRA I NOSTRI CLIENTI CI SONO:</h3>
+		<h3><%= t('portfolio.our_clients').upcase %>:</h3>
     <% @works_per_client.each do |(client, works)| %>
       <% css_classes = [client.to_s+'_link', client == @works_per_client.first.first ? 'active' : nil].compact.join(' ') %>
       &nbsp;&nbsp;<%= link_to t(:client_name, :scope => [:portfolio, :clients, client]), "##{client}", :class => css_classes %>
     <% end %>
+<%# 
     <!--       
     &nbsp;      <a href="#deagostini">                                                    De Agostini                        <!--  <img src="images/portfolio/deagostini.png" width="143" height="36" alt="Deagostini" />                                - ->  </a>
     &nbsp;&nbsp;<a href="#ferrari" class="ferrari_link">                                  Ferrari Club Milano                <!--  <img src="images/portfolio/ferrari_club_milano.png" width="81" height="38" alt="Ferrari Club Milano" />               - ->  </a>
@@ -27,6 +28,7 @@
     &nbsp;&nbsp;<a href="#museo_diocesano_brescia" class="museo_diocesano_brescia_link">  Museo Diocesano Di Brescia         <!--  <img src="images/portfolio/museo_diocesano_di_brescia.png" width="109" height="38" alt="Museo Diocesano Di Brescia" />- ->  </a>
     &nbsp;
      -->
+ %>
 	</div>
 	<br/>
 	<div style="clear:both;"></div>

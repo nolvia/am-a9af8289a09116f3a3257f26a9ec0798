@@ -1,2 +1,17 @@
-<h1>SiteGenerator#contacts</h1>
-<p>Find me in app/views/site_generator/contacts.html.erb</p>
+
+
+
+<h2 style="font-size:170%;line-height:120%;"><%=t 'contacts.contact_us' %></h2>
+<p style="font-size:120%;line-height:200%;">
+  
+  <%=t 'contacts.email' %>:   <a href="mailto:macok58@tiscali.it">macok58@tiscali.it</a> <br />
+  <%=t 'contacts.phone' %>:   <span class="phone_number">02 92 151 964</span> <br />
+  <%=t 'contacts.fax' %>:     <span class="phone_number">02 92 502 183</span><br />
+</p>
+  
+<p style="font-size:120%;line-height:200%;">
+  <span style="padding-left:0.25em;"><%=t 'contacts.address' %></span>:<br /> 
+  <%= link_to 'Via Toscana, 10/a &mdash; 20061 Carugate MI',
+  macok_address_map_url, :target => '_blank', 
+  :title => t('contacts.open_map') %><br />
+</p>
