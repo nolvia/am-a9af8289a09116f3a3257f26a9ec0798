@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>locales/portfolio/portfolio.structure.rb</string>
+	<string>.gitignore</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -13,6 +13,8 @@
 			<string>macok</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+			<key>selected</key>
+			<true/>
 			<key>sourceDirectory</key>
 			<string></string>
 		</dict>
@@ -21,6 +23,20 @@
 	<integer>302</integer>
 	<key>metaData</key>
 	<dict>
+		<key>.gitignore</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>app/controllers/site_controller.rb</key>
 		<dict>
 			<key>caret</key>
@@ -91,20 +107,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>locales/portfolio/portfolio.structure.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>22</integer>
-				<key>line</key>
-				<integer>17</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>37</integer>
-		</dict>
 		<key>locales/services.yml</key>
 		<dict>
 			<key>caret</key>
@@ -122,13 +124,7 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>app/controllers/site_controller.rb</string>
-		<string>app/views/layouts/site.html.erb</string>
-		<string>locales/portfolio/portfolio.structure.rb</string>
-		<string>locales/services.yml</string>
-		<string>config/environments/development.rb</string>
-		<string>app/helpers/site_helper.rb</string>
-		<string>config/routes.rb</string>
+		<string>.gitignore</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
