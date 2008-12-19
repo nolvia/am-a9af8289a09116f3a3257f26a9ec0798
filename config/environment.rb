@@ -5,7 +5,7 @@
 # ENV['RAILS_ENV'] ||= 'production'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.2.0' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.2.2' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
@@ -18,14 +18,15 @@ end
 
 
 Rails::Initializer.run do |config|
-  Dir['locales'/'**'/'*'].each do |translation|
-    filename = File.join(Rails.root,translation)
-    if File.file?(filename) and %w(.rb .yaml .yml).include?( File.extname(filename) )
-      I18n.load_path << translation
-      puts 'translation: '+translation
-    end
-  end
+  # Dir['locales'/'**'/'*'].each do |translation|
+  #   filename = File.join(Rails.root,translation)
+  #   if File.file?(filename) and %w(.rb .yaml .yml).include?( File.extname(filename) )
+  #     config.i18n.load_path << RAILS_ROOT/translation
+  #     puts 'translation: '+translation
+  #   end
+  # end
   
+  # config.i18n.load_path << Dir[File.join(RAILS_ROOT, 'my', 'locales', '*.{rb,yml}')]
   
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers

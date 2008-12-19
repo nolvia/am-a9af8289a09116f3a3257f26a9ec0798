@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>.gitignore</string>
+	<string>app/views/site/contacts.html.erb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -13,8 +13,6 @@
 			<string>macok</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
-			<key>selected</key>
-			<true/>
 			<key>sourceDirectory</key>
 			<string></string>
 		</dict>
@@ -42,14 +40,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>12</integer>
 				<key>line</key>
-				<integer>9</integer>
+				<integer>29</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>1</integer>
+			<integer>15</integer>
 		</dict>
 		<key>app/helpers/site_helper.rb</key>
 		<dict>
@@ -79,6 +77,34 @@
 			<key>firstVisibleLine</key>
 			<integer>43</integer>
 		</dict>
+		<key>app/views/site/about.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>21</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/site/contacts.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>config/environments/development.rb</key>
 		<dict>
 			<key>caret</key>
@@ -92,6 +118,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>config/locales/general.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>50</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>38</integer>
 		</dict>
 		<key>config/routes.rb</key>
 		<dict>
@@ -107,24 +147,14 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>locales/services.yml</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>2</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>98</integer>
-		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>.gitignore</string>
+		<string>app/controllers/site_controller.rb</string>
+		<string>config/locales/general.rb</string>
+		<string>app/views/site/about.html.erb</string>
+		<string>app/views/site/contacts.html.erb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>

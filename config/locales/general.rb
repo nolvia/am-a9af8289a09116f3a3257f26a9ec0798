@@ -48,12 +48,14 @@
     }, 
     
     :contacts => {
-      :contact_us => 'Come Contattarci',
-      :email      => 'E-mail',
-      :phone      => 'Telefono', 
-      :fax        => 'Fax', 
-      :address    => 'Indirizzo', 
-      :open_map   => 'Apri la mappa in una nuova finestra'
+      :contact_us   => 'Come Contattarci',
+      :email        => 'E-mail',
+      :phone        => 'Telefono', 
+      :phone_number => '02 92 151 964', 
+      :fax          => 'Fax', 
+      :fax_number   => '02 92 502 183', 
+      :address      => 'Indirizzo', 
+      :open_map     => 'Apri la mappa in una nuova finestra'
     }
     
   },
@@ -118,12 +120,14 @@
     }, 
     
     :contacts => {
-      :contact_us => 'Contact us',
-      :email      => 'E-mail',
-      :phone      => 'Phone', 
-      :fax        => 'Fax', 
-      :address    => 'Address', 
-      :open_map   => 'Open the map in a new window' 
+      :contact_us   => 'Contact us',
+      :email        => 'E-mail',
+      :phone        => 'Phone', 
+      :phone_number => '+ 39 (0) 2 92 151 964', 
+      :fax          => 'Fax', 
+      :fax_number   => '+ 39 (0) 2 92 502 183', 
+      :address      => 'Address', 
+      :open_map     => 'Open the map in a new window' 
     }
   }
 }

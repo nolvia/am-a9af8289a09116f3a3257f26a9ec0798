@@ -44,11 +44,11 @@
       <% @works_per_client.each do |(client, works)| %>
         <div class="section" id="<%= client %>">
         	<h2><%=t :client_name, :scope =>  [:portfolio, :clients, client] %></h2>
-          <% works.each do |work| %>
-            <h2><%=t :title,      :scope => [:portfolio, :clients, client, :works, work] %></h2>
-            <small><%=t :note,    :scope => [:portfolio, :clients, client, :works, work] %></small>
+          <% works.each_with_index do |work, index| %>
+            <h2><%=t :title,      :scope => [:portfolio, :clients, client, :works, "work_#{index}"] %></h2>
+            <small><%=t :note,    :scope => [:portfolio, :clients, client, :works, "work_#{index}"] %></small>
             <p>
-              <%=t :description,  :scope => [:portfolio, :clients, client, :works, work] %>
+              <%=t :description,  :scope => [:portfolio, :clients, client, :works, "work_#{index}"] %>
             </p>
             <div style="clear:both;"></div>
           <% end %>

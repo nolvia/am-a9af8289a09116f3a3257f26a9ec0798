@@ -1,0 +1,483 @@
+--- 
+it-IT: 
+  portfolio: 
+    clients: 
+      odeon_tv: 
+        :works: 
+          stanlio_e_ollio: 
+            title: Stanlio E Ollio
+            description: Cessione per passaggi televisivi di 25 comiche brevi (mute) completamente rilavorate da noi, con cartelli in italiano (didascalie) e musiche ricomposte ad hoc dal nostro musicista.
+            note: "* (25 comiche brevi)"
+          sexy_boxy: 
+            title: Sexy Boxy
+            description: Aiuto regia nel Reality Show in onda su Odeon TV (90 giorni), ambientato all&#x27;interno di una palestra dove 12 splendide ragazze si allenavano per diventare personal trainer o lottatrici. I segreti pi&ugrave; nascosti e le confessioni pi&ugrave; piccanti all&#x27;interno degli spogliatoi!
+            note: "* (Reality Show)"
+        :client_name: ODEON TV
+      open_idea_memory: 
+        :works: 
+          trofeo_biondetti: 
+            title: Trofeo Biondetti
+            description: Realizzazione del filmato della manifestazione &ldquo;TROFEO BIONDETTI&rdquo;, girato con 2 telecamere, a seguito dei percorsi pi&ugrave; famosi della Versilia, dove i piloti si sfidavano in entusiasmanti gare. Le auto partecipanti sono dagli anni &#x27;10 agli anni &#x27;30 tutte perfettamente conservate e gli equipaggi arrivano da tutta Europa. Score e montaggio finale del filmato anche con uso di footage. Studio e realizzazione della copertina finale dei video.
+            note: "* (8 puntate)"
+          concorso_d_x27_eleganza_per_auto_storiche_anni_x27_50_e_x27_60: 
+            title: Concorso D&#x27;eleganza Per Auto Storiche (Anni &#x27;50 E &#x27;60)
+            description: Realizzazione generale del filmato della manifestazione &ldquo;CONCORSO D&#x27;ELEGANZA PER AUTO CLASSICHE&rdquo; &ldquo; Stelle del Golfo&rdquo; (anno 2000, 2001, 2002, 2003, 2004, 2005 e 2006), che si svolge nella magnifica cornice notturna di Lerici (dal 2002 anche a La Spezia), con riprese (3 telecamere), score e montaggio finale.
+            note: "* (6 puntate)"
+          ferrari_for_children: 
+            title: Ferrari For Children
+            description: Realizzazione generale del filmato della manifestazione &ldquo;FERRARI FOR CHILDREN&rdquo; (Owners Club), con riprese (3 telecamere), score e montaggio finale con uso di grafica, effetti audio e video. Studio e realizzazione grafica della copertina della videocassetta.
+            note: "* (1 puntata)"
+        :client_name: OPEN IDEA - MEMORY
+      prima_immagine: 
+        :works: 
+          i_grandi_dittatori: 
+            title: I Grandi Dittatori
+            description: Selezione immagini (footage) dal nostro archivio, montaggio e pubblicazione su &ldquo;Il Borghese&rdquo;.
+            note: "* (6 puntate)"
+          i_pionieri_della_settima_arte: 
+            title: I Pionieri Della Settima Arte
+            description: Ricerca immagini e fotografie, sigla iniziale e collaborazione al montaggio della serie.
+            note: "* (15 puntate)"
+        :client_name: PRIMA IMMAGINE
+      mamiya_trading: 
+        :works: 
+          fotografando_le_rosse: 
+            title: Fotografando Le Rosse
+            description: Sigle, score immagini, utilizzo delle immagini di repertorio, montaggio, versione italiana, grafiche 2d e 3d dei filmati dedicati ai modelli Ferrari.
+            note: "* (3 puntate)"
+          photo_show: 
+            title: Photo Show
+            description: Realizzazione dei filmati istituzionali, girati presso le fiere di Milano e Roma, della manifestazione &ldquo;Photo Show&rdquo;, con una telecamera digitale, score e montaggio finale.
+            note: "* (1 puntata)"
+        :client_name: MAMIYA TRADING
+      cooperativa_auprema: 
+        :works: 
+          storia_della_cooperativa: 
+            title: Storia Della Cooperativa
+            description: Realizzazione dei 2 filmati istituzionali, uno da circa 15 minuti e l&#x27;altro da circa 40 minuti, che raccontano la storia delle tre storiche cooperative che hanno dato vita all&#x27;attuale Auprema, e cio&egrave; Aurora (1912), Previdente (1903) e Matteotti (1949). Riprese con 2 telecamere dei lavori eseguiti, dei cantieri in corso, della Sede della Cooperativa, anche con uso di immagini di repertorio (contributi) dai primi del &#x27;900 ai giorni nostri, studio e impaginazione dei filmati, montaggio anche con uso di effetti audio e video, stesura del testo, speakeraggio, realizzazione delle musiche d&#x27;accompagnamento e mix finale dei video. Restyling con nuove riprese e montaggi nel corso del 2003 e del 2006.
+            note: "* (2 puntate)"
+        :client_name: COOPERATIVA AUPREMA
+      vorwerk_contempora_bimby: 
+        :works: 
+          ldquo_convention_a_parigi_rdquo: 
+            title: "&ldquo;Convention A Parigi&rdquo;"
+            description: Sopralluogo a Parigi nelle location scelte, preparazione dei 12 filmati d&#x27;apertura agli interventi (anche con repertorio), grafica e preparazione delle 250 slide in computer graphic (d&#x27;accompagnamento degli interventi), riprese in teatro con 2 telecamere della Convention, messa in onda sui maxi-schermi dei contributi filmati e della stessa Convention (regia), servizio fotografico, allestimento audio e luci, preparazione del podio, riprese suggestive di Parigi con 3 telecamere digitali, consulenza ed assistenza generale durante tutto il tour. Montaggio del filmato generale della durata di circa 45minuti in DVD.
+            note: "* (1 settimana)"
+          ldquo_festa_26_deg_compleanno_rdquo: 
+            title: "&ldquo;Festa 26&deg; Compleanno&rdquo;"
+            description: Servizio fotografico e riprese video realizzati presso la Sede, con montaggio del video e stampa delle vhs.
+            note: "* (1 puntata)"
+          ldquo_demo_2004_rdquo: 
+            title: "&ldquo;Demo 2004&rdquo;"
+            description: Preparazione della location con faretti, microfoni per &ldquo;presa in diretta&rdquo; e arredamento, girato totale con 2 telecamere, score e montaggio finale del filmato &ldquo;Demo 2004&rdquo; di circa 40minuti, anche con uso di effetti audio/video.
+            note: "* (1 puntata)"
+          ldquo_festa_a_new_york_rdquo: 
+            title: "&ldquo;Festa A New York&rdquo;"
+            description: Preparazione del viaggio premio a &ldquo;New York&rdquo; presentato a Parigi e ripreso dal nostro operatore, anche con montaggio finale e con uso delle immagini di repertorio e con la stampa delle vhs richieste.
+            note: "* (1 puntata)"
+          ldquo_festa_smart_rdquo: 
+            title: "&ldquo;Festa Smart&rdquo;"
+            description: Riprese video della consegna della SMART realizzate a Bari, con operatore, con montaggio finale del filmato ricordo e stampa delle vhs.
+            note: "* (1 puntata)"
+        :client_name: VORWERK CONTEMPORA - BIMBY
+      fabbri_rcs_libri_e_collezionabili: 
+        :works: 
+          natura_estrema: 
+            title: Natura Estrema
+            description: Realizzazione dei master italiani con tagli audio e video, traduzioni ed adattamenti, incisione Speaker e mix finale. Realizzazione della sigla iniziale di collana e delle grafiche in 2d e 3d, presenti in ogni puntata.
+            note: "* (25 puntate)"
+          primo_soccorso: 
+            title: Primo Soccorso
+            description: Produzione completa con sigle, riprese in studio delle scenette e post produzione finale.
+            note: "* (1 puntata)"
+        :client_name: FABBRI - RCS LIBRI E COLLEZIONABILI
+      hobby_and_work: 
+        :works: 
+          erotika: 
+            title: Erotika
+            description: Ricerca e selezione immagini dei primi del &#x27;900 in bianco e nero, sigle, montaggio e realizzazione colonna musicale. Creazione e realizzazione dello Spot TV.
+            note: "* (2 puntate)"
+          animali_selvaggi: 
+            title: Animali Selvaggi
+            description: Acquisizione diritti dalla Rai, trailers iniziale, sigle e masterizzazione finale. Creazione e realizzazione dello Spot TV.
+            note: "* (30 puntate)"
+        :client_name: HOBBY AND WORK
+      museo_diocesano_paolo_vi_di_brescia: 
+        :works: 
+          storia_della_seta: 
+            title: Storia Della Seta
+            description: Produzione completa con riprese in studio ed in esterna, sigle, immagini di repertorio (footage) e post produzione finale del filmato trasmesso nell&#x27;inaugurazione del Museo Diocesano Paolo VI di
+            note: "* (1 puntata)"
+        :client_name: MUSEO DIOCESANO PAOLO VI di BRESCIA
+      mediolanum_channel: 
+        :works: 
+          aenigmata: 
+            title: Aenigmata
+            description: Ricerca e selezione delle immagini storiche e sportive, successivamente inserite nella serie televisiva &ldquo;Aenigmata&rdquo; in onda sul canale satellitare.
+            note: "* (5 puntate)"
+          navigatori_del_tempo: 
+            title: Navigatori Del Tempo
+            description: Ricerca e selezione immagini storiche (footage), successivamente inserite nella serie televisiva &ldquo;Navigatori del Tempo&rdquo; e nei Dvd usciti in allegato alla testata &ldquo;Espansione&rdquo;.
+            note: "* (56 puntate + 7 Dvd)"
+          monsieur: 
+            title: Monsieur
+            description: Ricerca e selezione immagini storiche, di cinema e sportive, successivamente inserite nella serie televisiva &ldquo;Monsieur&rdquo;. Profili finali dedicati a personaggi famosi e interamente montati con nostre immagini di repertorio (footage).
+            note: "* (6 puntate)"
+          alessandro_e_le_grandi_conquiste_dell_x27_economia: 
+            title: Alessandro E Le Grandi Conquiste Dell&#x27;economia
+            description: Ricerca e selezione delle immagini storiche e sportive, successivamente inserite nella serie televisiva &ldquo;Alessandro, le grandi imprese dell&#x27;economia&rdquo;.
+            note: "* (7 puntate)"
+        :client_name: MEDIOLANUM CHANNEL
+      editrice_giochi: 
+        :works: 
+          spot_tv_ldquo_expedition_rdquo: 
+            title: Spot-Tv &ldquo;Expedition&rdquo;
+            description: Invenzione della storia con stesura dello story board, ricerca della location, girato delle diverse situazioni, score e montaggio finale con uso di grafica, effetti audio e video, e con composizione della musica d&#x27;accompagnamento.
+            note: "* (versione da 15&rdquo; a 30&rdquo;)"
+        :client_name: EDITRICE GIOCHI
+      mediaset_rete_4: 
+        :works: 
+          i_miti_della_montagna: 
+            title: I Miti Della Montagna
+            description: Ricerca e fornitura delle immagini di repertorio (footage) della trasmissione in onda su RETE 4 &ldquo;I Miti della Montagna&rdquo; presentata da Mike Buongiorno (anni 2006 e 2007).
+            note: "* (2 puntate)"
+        :client_name: MEDIASET RETE 4
+      ferrari_club_milano: 
+        :works: 
+          ferrari_1_deg_raduno_citta_x27_di_seregno: 
+            title: "Ferrari: 1&deg; Raduno Citta&#x27; Di Seregno"
+            description: Realizzazione del filmato con riprese (1 telecamera), score del girato e montaggio finale con uso di effetti audio e video e con realizzazione delle musiche d&#x27;accompagnamento.
+            note: "* (1 puntata)"
+          ferrari_incontri_di_classe_15_deg_raduno_citta_x27_milano: 
+            title: "Ferrari Incontri Di Classe: 15&deg; Raduno Citta&#x27; Milano"
+            description: Realizzazione del filmato ufficiale con riprese (2 telecamere), score girato e montaggio finale con uso di grafica, ed effetti audio e video. Studio e realizzazione della copertina delle videocassette.
+            note: "* (1 puntata)"
+        :client_name: FERRARI CLUB MILANO
+      istituto_geografico_de_agostini: 
+        :works: 
+          le_grandi_avventure_sui_mari: 
+            title: Le Grandi Avventure Sui Mari
+            description: Sigle, versione italiana, ricerca immagini, montaggio e regia di alcuni episodi.
+            note: "* (20 puntate)"
+          diana_una_vita_straordinaria: 
+            title: Diana, Una Vita Straordinaria
+            description: Sigla iniziale e versione italiana a 4 voci.
+            note: "* (7 puntate)"
+          stanlio_e_ollio: 
+            title: Stanlio E Ollio
+            description: Masterizzazione di 24 comiche mute (2 comiche per puntata) lavorate con nuove musiche e didascalie in italiano.
+            note: "* (12 puntate)"
+          benny_hill_show: 
+            title: Benny Hill Show
+            description: Rimasterizzazione degli episodi con insert del Warning iniziale, del Q-Video e del Copyright finale, con controllo qualit&agrave; audio e video. Realizzazione dei contro-master in betacam/sp di tutti gli episodi.
+            note: "* (31 puntate)"
+          omniamedicina: 
+            title: Omniamedicina
+            description: Produzione dei filmati di Pronto Soccorso ed Esercizi Fisici realizzati in studio con 2 telecamere (una per i dettagli e l&#x27;altra per i totali), e poi montati in sequenze anche con uso di effetti audio e video. Realizzazione completa del servizio fotografico.
+            note: "* (1 CD-ROM)"
+          face_off_generali_a_confronto: 
+            title: "Face Off: Generali A Confronto"
+            description: Versione italiana dei 21 episodi con traduzione dei testi, inserimento dei singoli titoli degli episodi, delle cartine in 2d e 3d, con speakeraggio e mix finale, il tutto in Digital-betacam.
+            note: "* (21 puntate)"
+          nam_documenti: 
+            title: Nam Documenti
+            description: Sigla iniziale di collana con sound-effect e assemblaggio finale dei Master.
+            note: "* (12 puntate)"
+          corso_di_lingua_l_x27_inglese_in_dvd: 
+            title: "Corso Di Lingua: L&#x27;inglese In Dvd"
+            description: Realizzazione della puntata pilota con Casting attori per fiction, ricerca location e riprese sia in esterno che in interno, studio e realizzazione della grafica, montaggio completo con sottotitoli, musiche d&#x27;accompagnamento e finalizzazione totale del filmato in digital-betacam.
+            note: "* (Numero zero)"
+          la_signora_in_giallo: 
+            title: La Signora In Giallo
+            description: Creazione dei 43 DLT finali pronti per la duplicazione contenenti 2 episodi ciascuno, della leggendaria serie televisiva della grande Jessica Fletcher. Studio iniziale e realizzazione del men&ugrave; animato e di tutte le schermate presenti nei dvd, anche con controllo qualit&agrave; dei singoli Master in digital-betacam. Ideazione e realizzazione dei fascicoli che accompagnano i dvd, con ricerca fotografica e stesura dei testi autorali. (Prodotto chiavi in mano!)
+            note: "* (88 telefilm)"
+          egittomania: 
+            title: Egittomania
+            description: Realizzazione della sigla iniziale di collana con uso di grafica 3d ed effetti (anche sonori), versione italiana, e sigla di coda coi credits. Produzione delle 2 nuove puntate dedicate al Museo Egizio del Cairo, dallo score del girato al montaggio completo delle puntate con uso di grafica e di effetti audio e video, e con composizione delle musiche d&#x27;accompagnamento curate dal nostro musicista. Realizzazione della nuova sigla di testa (coi nuovi titoli) e di quella di coda (credits), anche per la versione internazionale.
+            note: "* (22 puntate + 2 nuove puntate)"
+          japan_animation: 
+            title: Japan Animation
+            description: Rimontaggio delle 12 puntate con insert iniziale e con la realizzazione dei contro-master in betacam/sp.
+            note: "* (12 puntate)"
+          aircraft: 
+            title: Aircraft
+            description: Rimasterizzazione degli episodi con insert iniziale del Warning, della sigla iniziale di collana e del copyright finale, con controllo qualit&agrave; audio e video e con realizzazione dei contro-master in betacam/sp.
+            note: "* (20 puntate)"
+          citta_x27_del_mondo_in_dvd: 
+            title: Citta&#x27; Del Mondo In Dvd
+            description: Organizzazione generale e realizzazione completa del &ldquo;girato&rdquo; in digital-betacam delle citt&agrave; di Venezia, Roma e Firenze.
+            note: "* (3 puntate)"
+          i_campioni_leggendari_della_boxe: 
+            title: I Campioni Leggendari Della Boxe
+            description: Sigle, versione italiana dei filmati e riprese degli stand-up iniziali con Rino Tommasi.
+            note: "* 48 puntate"
+          boxe_la_leggenda_del_ring_in_dvd: 
+            title: "Boxe: La Leggenda Del Ring In Dvd"
+            description: Versione italiana dei 3 filmati di test e delle 37 puntate successive della serie, con l&#x27;uso dello Speaker e Testimonial Rino Tommasi.
+            note: "* (3 + 37 puntate)"
+          grandi_velieri: 
+            title: Grandi Velieri
+            description: Realizzazione della versione italiana dei documentari didattici &ldquo;EL SAN JUAN BAUTISTA&rdquo; e &ldquo;L&#x27;AMERIGO VESPUCCI&rdquo;, con sigle e con traduzione, adattamento, registrazione speaker e mix finale in italiano.
+            note: "* (2 puntate)"
+          alfred_hitchcock_collection_in_dvd: 
+            title: Alfred Hitchcock Collection In Dvd
+            description: Creazione dei DLT finali per la duplicazione dei 15 titoli di film del grande Regista, con studio del men&ugrave; interattivo per navigare nelle varie sezioni e anche con lo studio e la realizzazione delle copertine dei dvd finali (archivio fotografico). Doppiaggio completo (anche con M/E) degli 8 film sonori e musiche e cartelli in italiano rifatti per i 7 film muti.
+            note: "* (15 film)"
+          bellezze_d_x27_italia_in_dvd: 
+            title: Bellezze D&#x27;italia In Dvd
+            description: Organizzazione generale (anche con permessi speciali per le riprese) e realizzazione del girato in &ldquo;digital-betacam&rdquo; della citt&agrave; di Napoli.
+            note: "* (Numero zero)"
+          l_x27_arte_del_biliardo: 
+            title: L&#x27;arte Del Biliardo
+            description: Produzione completa con sigle, riprese in studio (5 telecamere), post-produzione finale e spot-tv.
+            note: "* (30 puntate)"
+          archeologia: 
+            title: Archeologia
+            description: Rimasterizzazione dei 3 episodi con correzioni video, con aggiunte di grafiche e d&#x27;immagini di repertorio. Speakeraggio completo, anche per la versione internazionale. Realizzazione dei master in Digital-betacam.
+            note: "* (3 puntate)"
+          alfred_hitchcock_presenta_in_dvd: 
+            title: Alfred Hitchcock Presenta In Dvd
+            description: Creazione dei 28 DLT finali pronti per la duplicazione contenenti 3 episodi ciascuno, della leggendaria serie televisiva del grande Regista. Studio iniziale e realizzazione del men&ugrave; animato e di tutte le schermate presenti nei dvd, anche con controllo qualit&agrave; dei singoli Master in digital-betacam.
+            note: "* (84 telefilm)"
+        :client_name: ISTITUTO GEOGRAFICO DE AGOSTINI
+en-US: 
+  portfolio: 
+    clients: 
+      odeon_tv: 
+        :works: 
+          stanlio_and_ollio: 
+            title: Stanlio and Ollio
+            description: Passage television transfer of 25 (silent) short comedy completely remade with Italian poster and subtitle and revived music in hoc by our local musician.
+            note: "* (25 short comedy) "
+          sexy_boxy: 
+            title: Sexy Boxy
+            description: Assisted On Air Reality Show production on Odeon TV (90 days) in a gym background, where 12 splendid girls are trained to become personal trainers or boxer. Off &ndash; the &ndash; record was televised to show what was happening inside.
+            note: "* (Reality Show) "
+        :client_name: ODEON TV
+      open_idea_memory: 
+        :works: 
+          historic_elegant_car_competition_year_rsquo_50_and_lsquo_60: 
+            title: Historic Elegant Car Competition (Year &rsquo;50 And &lsquo;60)
+            description: Produced general film demonstration &ldquo;HISTORIC ELEGANT CAR COMPETITION&rdquo; &ldquo;Stelle del Golpo&rdquo; (year 2000, 2001, 2002, 2003, 2004, 2005 and 2006) where they perform the magnificent night frame of Lerici (from 2002 and the La Spezia), with film recording (3 video camera), score and final edition.
+            note: "* (6 episodes)"
+          biondetti_tourist_trophy: 
+            title: "Biondetti Tourist Trophy "
+            description: Produced film demonstration &ldquo;TROFEO BIONDETTI&rdquo; captured with 2 video camera, by the very famous Versilia, where the pilots compete excitedly in the race. The participating car ranges from 10 years old to 30 years old,  from all-over Europe came perfectly conserved and equipped. Score and final edition of the film and footage. Analyzed and produced graphics for videocassette final cover.
+            note: "* (8 episodes)"
+          ferrari_for_children: 
+            title: Ferrari For Children
+            description: Produced general film demonstration &ldquo;FERRARI FOR CHILDREN&rdquo; (Owner&rsquo;s Club). With film record (3 video camera) score and final edition with graphics, audio-video effects. Analyzed and produced graphics for videocassette cover.
+            note: "* (1 episode)"
+        :client_name: OPEN IDEA - MEMORY
+      prima_immagine: 
+        :works: 
+          the_pioneer_of_the_seventh_art: 
+            title: The Pioneer of the Seventh Art
+            description: Research images and photographs,  billboard and collaborated edition of the series.
+            note: "* (18 episodes)"
+          the_grand_dictators: 
+            title: The Grand Dictators
+            description: Selected images (footage) from our archives, edition and publication about &ldquo;Il Borghese&rdquo;.
+            note: "* (6 episodes)"
+        :client_name: PRIMA IMMAGINE
+      mamiya_trading: 
+        :works: 
+          taking_pictures_of_the_quot_reds_quot: 
+            title: Taking Pictures of the &quot;Reds&quot;
+            description: Initiated billboard, image score, taken up from the  archive images, editions, Italian version of 2d and 3d film graphics dedicated to Ferrari models.
+            note: "* (3 episodes)"
+          photo_show: 
+            title: Photo Show
+            description: Produced institutional films, taken around Milan and Rome &ldquo;Photo Show&rdquo; fair exhibit demonstration, using one digital video camera, score and edition finale.
+            note: "* (1 episode)"
+        :client_name: MAMIYA TRADING
+      cooperativa_auprema: 
+        :works: 
+          history_of_the_cooperative: 
+            title: History of the Cooperative
+            description: "Produced 2 institutional films, one lasts about 15 minutes and the other is 40 minutes where they tell the 3 history of the cooperative, given the real life of Auprema that is Aurora (1912), Previdenti (1903) e Matteotti (1949). Film recorded with 2  video camera their fulfilled work, construction site, the head office of the Cooperative, as well as the use of repertory images (contributed), the firsts &lsquo;900 of our days, analyzed and created film layout, voice- over, created the music accompanied by mix video final. Restyling with new shooting and editing from 2003 and 2006.  "
+            note: "* (2 episodes)"
+        :client_name: COOPERATIVA AUPREMA
+      vorwerk_contempora_bimby: 
+        :works: 
+          ldquo_party_in_new_york_rdquo: 
+            title: "&ldquo;Party in New York&rdquo;"
+            description: Organized  trip prize to &ldquo;New York&rdquo;  presented in Paris, recorded by our cameramen with final edition using repertory images printed in VHS as requested.
+            note: "* (1 episode)"
+          ldquo_smart_party_rdquo: 
+            title: "&ldquo;Smart Party&rdquo;"
+            description: Produced SMART inauguration video shoots in Bari, with operator, film edition final, recorded and printed in VHS.
+            note: "* (1 episode)"
+          ldquo_paris_convention_rdquo: 
+            title: "&ldquo;Paris Convention&rdquo;"
+            description: Selected location surveyed in Paris, prepared 12 films in the opening intervention ( as well as repertory), graphic and preparation of 250 computer graphic slide (intervention accompany), Convention recorded in theatre with 2 camera, on &ndash; air maximum screen on the same contributed Convention film production, photographic services, lights and audio prepared in podium, suggestive shoot in Paris with 3 digital video camera during the tour, film edited generally in DVD for 45 minutes.
+            note: "* (1 week)"
+          ldquo_demo_2004_rdquo: 
+            title: "&ldquo;Demo 2004&rdquo;"
+            description: Prepared the location with spotlight, microphone for &ldquo;live telecast&rdquo; and back draft, recorded with 2 video camera, themed and edited as &ldquo;Demo 2004&rdquo; around 40 minutes with audio and video effects.
+            note: "* (1 episode)"
+          ldquo_26_deg_birthday_party_rdquo: 
+            title: "&ldquo;26&deg; BIRTHDAY PARTY&rdquo;"
+            description: Produce photo services and video shoots taken in the head office, edited and printed in VHS.
+            note: "* (1 episode)"
+        :client_name: VORWERK CONTEMPORA-BIMBY
+      fabbri_rcs_libri_e_collezionabili: 
+        :works: 
+          nature_extreme: 
+            title: Nature Extreme
+            description: Produced Italian master with audio and video cuts, translations and adaption, Speaker recording and mix finale. Produced initial opening billboard of the series and graphics of 2d and 3d  of each episode.
+            note: "* (25 episodes) "
+          emergency_room: 
+            title: Emergency Room
+            description: Complete production in studio with billboard, and shoots from the scenes and post production finale.
+            note: "* (1 episode)"
+        :client_name: FABBRI - RCS LIBRI E COLLEZIONABILI
+      hobby_and_work: 
+        :works: 
+          erotika: 
+            title: Erotika
+            description: Research images and selection  from the first &lsquo;900 black and white, billboard, edition and production, soundtrack musical. Created and produced from the Spot television.
+            note: "* (2 episodes)"
+          saving_animals: 
+            title: Saving Animals
+            description: Direct acquisition from Rai, trailers initial  billboard and master finale. Created and produced from Spot television.
+            note: "* (30 episodes)"
+        :client_name: HOBBY AND WORK
+      museo_diocesano_paolo_vi_di_brescia: 
+        :works: 
+          history_of_the_silk: 
+            title: History of the Silk
+            description: Complete production shot in and outside the studio, billboard, repertory images(footage), and post production film finale broadcasted in the inauguration of Museo Diocesano Paolo VI of Brescia.
+            note: "* (1 episode)"
+        :client_name: MUSEO DIOCESANO PAOLO VI Di BRESCIA
+      mediolanum_channel: 
+        :works: 
+          aenigmata: 
+            title: Aenigmata
+            description: History and sports research images and photographs, successfully inserted edition of the series  &ldquo;Aenigmata&rdquo; in satellite channel on air.
+            note: "* (5 episodes)"
+          monsieur: 
+            title: Monsieur
+            description: Historical research and production and image selection, in sports and cinema, successfully inserted in television series &ldquo;Monsiuer&rdquo;. Final profile, edited images from archives (footage) dedicated to famous people.
+            note: "* (6 episodes)"
+          time_navigator: 
+            title: Time Navigator
+            description: Research and selected historical images (footage), inserted successfully in television series &ldquo;Time Navigator&rdquo; released in dvd enclosed with &ldquo;Expansion&rdquo;.
+            note: "* (56 episodes &ndash; 7 DVD)"
+          allessandro_and_the_grand_economic_conquest: 
+            title: Allessandro and the Grand Economic Conquest
+            description: History and sport research and production image selection, successfully inserted in television series &ldquo;Allessandro, the grand economic firm&rdquo;.
+            note: "* (7 episodes)"
+        :client_name: MEDIOLANUM CHANNEL
+      editrice_giochi: 
+        :works: 
+          spot_ndash_television_ldquo_expedition_rdquo: 
+            title: Spot &ndash; Television &ldquo;Expedition&rdquo;
+            description: History of story board invention, research location recorded in different situation, score and final edition with graphics, audio and video effects accompanied with musical composition.
+            note: "* (15&rdquo; to 30&rdquo; version)"
+        :client_name: EDITRICE GIOCHI
+      mediaset_rete_4: 
+        :works: 
+          the_myth_of_the_mountain: 
+            title: The Myth of the Mountain
+            description: Research and images from the archive (footage) of the program on air of RETE 4 &ldquo;The Myth of the Mountain&rdquo; hosted by Mike Bongiorno (year 2006 and 2007).
+            note: "* (2 episodes)"
+        :client_name: MEDIASET RETE 4
+      ferrari_club_milano: 
+        :works: 
+          ferrari_1_deg_city_show_of_seregno: 
+            title: "Ferrari : 1&deg; City Show of Seregno"
+            description: Produce film records (1 video camera)  final rotation scores using audio video effects accompanied with music.
+            note: "* (1 episode)"
+          ferrari_race_classified_15_deg_city_show_in_milan: 
+            title: "Ferrari Race Classified: 15&deg; City Show in Milan"
+            description: "Produced the official film with shooting (2 video camera) edited final rotation score with the use of graphics, audio-video effects. Produced in studio with videocassette cover. "
+            note: "* (1 episode)"
+        :client_name: FERRARI CLUB MILANO
+      istituto_geografico_de_agostini: 
+        :works: 
+          stanlio_and_ollio: 
+            title: Stanlio and Ollio
+            description: 24 silent comedy (episodes of 2 comedian) working in Italian musicals and stage plays.
+            note: "* (12 episodes)"
+          benny_hill_show: 
+            title: Benny Hill Show
+            description: Re-created master episodes, Warning  initials inserted, of their Q-Video and their final Copyright. Audio-video quality controlled and creation of contro-master in betacam/sp on all its episodes.
+            note: "* (31 episodes)"
+          english_languange_course_in_dvd: 
+            title: English Languange Course in Dvd
+            description: Created a training course with actor casting for fiction, internal and external location shooting, graphic studies, complete edition with subtitles, and music. Finalized film in digital beta-cam.
+            note: "* (Numero zero)"
+          alfred_hitchcock_dvd_collection: 
+            title: Alfred Hitchcock Dvd Collection
+            description: Duplicated in DLT the ultimate 15 titled films of the grand Director, with interactive menu for navigating its several section. Created also the DVD final cover (photographic archives). Complete dubbing(also with M/E) from 8 film soundtrack and music, and 7 Italian silent films with posters.
+            note: "* (15 films)"
+          boxing_champions_league: 
+            title: Boxing Champions League
+            description: Billboard, Italian version of the films, and film recording  of stand-up initials  with Rino Tommasi.
+            note: "* (48 episodes)"
+          nam_documentary: 
+            title: Nam Documentary
+            description: With Opening billboard and series of sound effects finally assembled in Master.
+            note: "* (12 episodes)"
+          omniamedicina: 
+            title: Omniamedicina
+            description: Produce films of the Emergency Room activities and Physical Exercise with 2 video cameras, made in studio (one is used for the scenario and the other is for the background). Then edited sequentially, with the use of audio video effects. Created complete final Photographic services.
+            note: "* (1 CD-ROM)"
+          world_cities_in_dvd: 
+            title: World Cities in Dvd
+            description: Created a complete &ldquo;tours&rdquo; in the cities of Italy such as Venice, Rome and Florence in digital-betacam.
+            note: "* (15 episodes)"
+          the_extraordinary_life_of_diana: 
+            title: The Extraordinary Life of Diana
+            description: Opening billboard and 4 voices in Italian version.
+            note: "* (7 episodes)"
+          japan_animation: 
+            title: Japan Animation
+            description: Re-edited 12 episodes with insert initials and produced betacam/sp of contro-master.
+            note: "* (12 episodes)"
+          aircraft: 
+            title: Aircraft
+            description: Remade master episodes with Warning inserted, of the opening billboard  Q-Video and their final Copyright. Audio-video quality controlled and creation of contro-master in betacam/sp of all episode.
+            note: "* (20 episodes)"
+          tha_grand_adventure_of_the_sea: 
+            title: Tha Grand Adventure of the Sea
+            description: Billboard, Italian version,  image research, edition and direction of each episode.
+            note: "* (20 episodes)"
+          face_off: 
+            title: Face Off
+            description: "Translated 21 Italian version video episodes, with added graphics and images and texts. Each episode has its own single title in 2nd and 3rd chart, with voice-over and mix finale made altogether in Digital - betacam. "
+            note: "* (21 episodes)"
+          the_grand_sailboats_the_laquo_amerigo_vespucci_raquo: 
+            title: The Grand Sailboats (the &laquo;Amerigo Vespucci&raquo;)
+            description: Made the Italian version educational documentary of &ldquo;EL SAN JUAN BAUTISTA&rdquo; and &ldquo;L&rsquo;AMERIGO VESPUCCI&rdquo; with billboard and translation, adaptation, speaker registration and mix finale in Italian version.
+            note: "* (2 episodes)"
+          egypt_mania: 
+            title: Egypt - Mania
+            description: Initiated with opening billboard, created 3d graphics and effects (even soundtracks), in Italian version with closing billboard. Produced 2 new episodes dedicated to Egypt Museum in Cairo. Complete episode with score, audio-video edition using graphics and effects, and musical theme composition edited by Italian compositor. Created a new initial billboard (for that, new title was made) and also credits for international version.
+            note: "* (22 + 2 new episodes)"
+          alfred_hitchcock_presented_in_dvd: 
+            title: Alfred Hitchcock Presented in Dvd
+            description: Duplicated  the ultimate 28 DLT,  which contains  3 episodes of the grand legendary television series Director. Studied the original and accomplished an all screen animation menu presented in DVD, or on single quality controlled Master in digital beta-cam.
+            note: "* (84 video film)"
+          the_art_of_billiards: 
+            title: The Art of Billiards
+            description: Complete production with billboard,  shot in studio (5 video camera), final post production and television spot.
+            note: "* (30 episodes)"
+          murder_she_wrote: 
+            title: Murder, She Wrote
+            description: Duplicated the ultimate 43 DLT, which contains 2 episodes of the grand legendary television series of Jessica Fletcher. Studied the original and accomplished an all screen animation menu presented in DVD, or on single quality controlled Master in digital beta-cam. Includes pamphlets, photographic research and authors draft.
+            note: "* (88 video film)"
+          boxe_the_legend_of_the_ring_in_dvd: 
+            title: "Boxe: the Legend of the Ring in Dvd"
+            description: 3 Italian version text films and 37 subsequent serial episodes with billboards. With the use of Speaker and Rino Tommasi Testimonial.
+            note: "* (3+37 episodes)"
+          archeology: 
+            title: Archeology
+            description: " Remade 3 master video episode correction and added graphics, images and footage. Complete international version  voice-over created in master digital-betacam."
+            note: "* (3 episodes)"
+          italian_beauty_in_dvd: 
+            title: Italian Beauty in Dvd
+            description: Organizes a complete view of Naple City in digital-betacam with permits on special shoots.
+            note: "* (Numero zero)"
+        :client_name: ISTITUTO GEOGRAFICO DE AGOSTINI
