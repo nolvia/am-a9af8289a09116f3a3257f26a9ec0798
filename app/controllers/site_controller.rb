@@ -5,7 +5,7 @@ class SiteController < ApplicationController
   I18n.default_locale = 'it-IT'
   
   before_filter :set_language
-  caches_page :index, :about, :services, :portfolio, :contacts
+  # caches_page :index, :about, :services, :portfolio, :contacts
   
   def expire_all
     [:index, :about, :services, :portfolio, :contacts].each do |action|

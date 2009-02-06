@@ -1,4 +1,4 @@
-docs/api
+doc/api
 *.log
 *.pid
 *.DS_Store

@@ -45,18 +45,31 @@ img {
 /* SECTIONS */
 #sections {
   margin: 0 auto;
-  width:720px;
+  width:763px !important;
+  overflow:visible;
   text-align:center;
-  padding-top:1em;
+  padding:0;
+  padding-top:26px;
+  height:190px;
+/*  border: 1px red solid !important;*/
+}
+
+#sections a img{
+/*  border: 1px green solid !important;*/
+  padding:0;
+  margin:0;
 }
 
 #sections a{
+/*  border: 1px blue solid !important;*/
+  text-decoration:none;
   display: block;
-  width:136px;
+  width:136px !important;
+  overflow:hidden;
   float:left;
   height:160px;
   text-align:center;
-  font-size: 150%;
+  font-size: 24px;
   color:#c09;
   font-weight: bold;
   padding:2px;
@@ -71,9 +84,7 @@ img {
   border-width: 0;
   border-top-width: 2px;*/
 }
-#sections a span{
-  display:block;
-}
+
 ul.with_image{
   padding-right:350px;
   display:block;
@@ -120,7 +131,7 @@ ul.with_image{
 /** CONTAINER */
 #container{
   clear:both;
-  width:720px;
+/*  width:830px;*/
   margin:0 auto;
 }
 
