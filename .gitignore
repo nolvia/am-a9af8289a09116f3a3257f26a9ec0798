@@ -3,3 +3,5 @@ doc/api
 *.pid
 *.DS_Store
 *.log
+macok.zip
+*.tmproj
