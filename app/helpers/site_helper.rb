@@ -8,7 +8,7 @@ module SiteHelper
   end
   
   def macok_address_map_url
-    'http://maps.google.com/maps?f=q&amp;hl=it&amp;q=MACOK+loc%3A+Via+Toscana,+10a+carugate+MI+italy&amp;ie=UTF8&amp;ll=45.550602,9.334388&amp;spn=0.003817,0.010042&amp;z=17&amp;iwloc=A&amp;om=1'
+    "http://maps.google.com/maps?f=q&amp;hl=#{language || it}&amp;q=MACOK+loc%3A+Via+Toscana,+10a+carugate+MI+italy&amp;ie=UTF8&amp;ll=45.550602,9.334388&amp;spn=0.003817,0.010042&amp;z=17&amp;iwloc=A&amp;om=1"
   end
   
   def section_links *action_names
