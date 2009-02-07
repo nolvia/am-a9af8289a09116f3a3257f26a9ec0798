@@ -14,17 +14,12 @@ module SiteHelper
   def section_links *action_names
     action_names.map do |action_name|
       url = send "#{action_name}_path", language
-      style = ' style="display:block;"' if action_name == action_names.first or
-                                          action_name == action_names.last
-      style = ''
-      # link_content = "<span#{style}>" + 
-      #                  t(action_name, :scope => :sections) + '<br />' +
-      #                  image_tag("sections/#{action_name.to_s}.png") + 
-      #                '</span><br />'
+      name = t(action_name, :scope => :sections) + #'<br />' +
+             image_tag("sections/#{action_name.to_s}.png")
+      options = {:id => action_name}
+      options[:class] = :active if current_page?(url)
       
-      link_content = t(action_name, :scope => :sections) + '<br />' +
-                     image_tag("sections/#{action_name.to_s}.png")
-      link_to link_content, url, :id => action_name
+      link_to name, url, options
     end.join "\n"
   end
   
