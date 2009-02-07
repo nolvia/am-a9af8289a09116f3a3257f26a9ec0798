@@ -1,10 +1,12 @@
 <div id="services_container" class="glider">
   <div class="controls">
     <% @services.each do |service| %>
+      <div><%# this div serves to avoid the "duplicated text IE6 bug" %>
       <%= link_to t(:title_short, :scope => [:services, service.first], :default => :title), 
                   "##{t(:id, :scope => [:services, service.first])}", 
                   :class => (service == @services.first ? 'active ' : '')+
                             "#{t(:id, :scope => [:services, service.first])}_link" %>
+      </div>
     <% end %>
   </div>
   <div style="clear:both;"></div>
