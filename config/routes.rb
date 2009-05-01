@@ -1,18 +1,19 @@
 ActionController::Routing::Routes.draw do |map|
+  Translate::Routes.translation_ui(map) #if RAILS_ENV != "production"
   
-  map.root :controller => 'site', :language => 'it'
+  map.root :controller => 'site', :locale => 'it'
   
-  map.reset 'reset', :controller => 'site', :action => 'expire_all'
+  map.reset 'clean', :controller => 'site', :action => 'clean'
   
   def site_path map, action_name
     map.with_options  :controller => 'site', :action => action_name do |site|
-      site.with_options :requirements => {:language => /it|en/} do |site_with_language|
-        site_with_language.connect           ":language" if action_name.to_s == 'index'
-        site_with_language.connect           ":language/#{action_name}"
-        site_with_language.connect           ":language/#{action_name}.htm"
-        site_with_language.send action_name, ":language/#{action_name}.html"
+      site.with_options :requirements => {:locale => /it|en/} do |site_with_locale|
+        site_with_locale.connect           ":locale" if action_name.to_s == 'index'
+        site_with_locale.connect           ":locale/#{action_name}"
+        site_with_locale.connect           ":locale/#{action_name}.htm"
+        site_with_locale.send action_name, ":locale/#{action_name}.html"
       end
-      # site.with_options :language => 'it' do |site|
+      # site.with_options :locale => 'it' do |site|
       site.connect                        "#{action_name}"
       site.connect                        "#{action_name}.htm"
       site.send "#{action_name}_default", "#{action_name}.html"
