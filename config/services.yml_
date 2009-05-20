@@ -1,4 +1,4 @@
-it-IT:
+it:
   services:
     video_production:
       id:           produzione
@@ -63,7 +63,7 @@ it-IT:
   
 
 
-en-US:
+en:
   services:
     video_production:
       id:           production
