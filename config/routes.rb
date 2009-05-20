@@ -7,7 +7,7 @@ ActionController::Routing::Routes.draw do |map|
   
   def site_path map, action_name
     map.with_options  :controller => 'site', :action => action_name do |site|
-      site.with_options :requirements => {:locale => /it|en/} do |site_with_locale|
+      site.with_options :requirements => {:locale => /it|en|es|fr|de/} do |site_with_locale|
         site_with_locale.connect           ":locale" if action_name.to_s == 'index'
         site_with_locale.connect           ":locale/#{action_name}"
         site_with_locale.connect           ":locale/#{action_name}.htm"
@@ -21,7 +21,7 @@ ActionController::Routing::Routes.draw do |map|
     end
   end
   
-  %w[index home about services portfolio contacts].each do |action_name|
+  %w[index home about services portfolio contacts products].each do |action_name|
     site_path map, action_name
   end
   

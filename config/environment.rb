@@ -5,27 +5,22 @@
 # ENV['RAILS_ENV'] ||= 'production'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.2.2' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
 
-class String
+module PathSlashOperator
   def / *path_elements
     File.join self, *path_elements
   end
 end
 
+Pathname.send :include, PathSlashOperator
+String.send :include, PathSlashOperator
+
 
 Rails::Initializer.run do |config|
-  # Dir['locales'/'**'/'*'].each do |translation|
-  #   filename = File.join(Rails.root,translation)
-  #   if File.file?(filename) and %w(.rb .yaml .yml).include?( File.extname(filename) )
-  #     config.i18n.load_path << RAILS_ROOT/translation
-  #     puts 'translation: '+translation
-  #   end
-  # end
-  
   # config.i18n.load_path << Dir[File.join(RAILS_ROOT, 'my', 'locales', '*.{rb,yml}')]
   
   # Settings in config/environments/* take precedence over those specified here.
@@ -36,6 +31,7 @@ Rails::Initializer.run do |config|
   # Skip frameworks you're not going to use. To use Rails without a database
   # you must remove the Active Record framework.
   # config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
+  config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
 
   # Specify gems that this application depends on. 
   # They can then be installed with "rake gems:install" on new installations.

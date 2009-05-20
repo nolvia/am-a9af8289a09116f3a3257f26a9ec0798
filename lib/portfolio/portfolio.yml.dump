@@ -1,5 +1,5 @@
 --- 
-it-IT: 
+it: 
   portfolio: 
     clients: 
       odeon_tv: 
@@ -240,7 +240,7 @@ it-IT:
             description: Creazione dei 28 DLT finali pronti per la duplicazione contenenti 3 episodi ciascuno, della leggendaria serie televisiva del grande Regista. Studio iniziale e realizzazione del men&ugrave; animato e di tutte le schermate presenti nei dvd, anche con controllo qualit&agrave; dei singoli Master in digital-betacam.
             note: "* (84 telefilm)"
         :client_name: ISTITUTO GEOGRAFICO DE AGOSTINI
-en-US: 
+en: 
   portfolio: 
     clients: 
       odeon_tv: 

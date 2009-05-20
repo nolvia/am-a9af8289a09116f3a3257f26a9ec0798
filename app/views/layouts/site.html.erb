@@ -23,16 +23,20 @@
   
 </head>
 <body>
+  <div id="top_locales" class="locales">
+    <%= render :partial => 'locales' %>
+  </div>
+  
   <div id="header" style="text-align:center;margin:0 auto;">
-    <h1 style="margin-bottom:0;"><%= link_to image_tag('logo_emb.gif', :alt => 'MACOK Logo'), url_for(:action => nil, :language => language) %></h1>
-    <h2 style="margin-top:0;"><a href="<%=url_for :action => nil, :language => language %>" style="line-height:140%;">
+    <h1 style="margin-bottom:0;"><%= link_to image_tag('logo3d.png', :alt => 'MACOK Logo'), url_for(:action => nil, :locale => locale) %></h1>
+    <h2 style="margin-top:0;"><a href="<%=url_for :action => nil, :locale => locale %>" style="line-height:140%;">
       MACOK <%=t :cinevideoservices %><br />
       &ldquo;<%=t :slogan %>&rdquo;
     </a></h2>
   </div>
-<div style="background: url('../images/top_shadow.gif') repeat-x bottom;">
+<div id="sections_wrapper">
   <div id="sections" style="clear:both;">
-    <%= section_links :about, :services, :portfolio, :contacts %>
+    <%= section_links :about, :services, :portfolio, :contacts, :products %>
     <div style="clear:both;"></div>
   </div>
 </div>
@@ -58,10 +62,10 @@
     
     <a href="http://macok.com/">MACOK <%= t :cinevideoservices %></a> 
     <span class="pi"><%=t :tax_code, :tax_code => '02235090962' %></span>
-    
-    &rarr; <%=with_locale((language == 'it') ? 'en-US' : 'it-IT'){|locale| t 'language.version', :link => link_to_language(locale)} %>
-    <!-- <%= link_to_language((language == 'it') ? 'en-US' : 'it-IT') %> -->
-    
+    <span id="bottom_locales" class="locales">
+      <%=t 'translations', :default => 'Translations:' %>
+      <%= render :partial => 'locales' %>
+    </span>
     <br />
     <a href="mailto:macok58@tiscali.it">macok58@tiscali.it</a> &mdash;
     <a href="contatti.html">Tel:   02 92 151 964</a> &mdash;

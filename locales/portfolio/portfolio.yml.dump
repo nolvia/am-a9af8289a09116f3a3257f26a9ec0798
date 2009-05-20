@@ -1,5 +1,5 @@
 --- 
-it-IT: 
+it: 
   portfolio: 
     clients: 
       odeon_tv: 
@@ -240,7 +240,7 @@ it-IT:
             title: Citta&#x27; Del Mondo In Dvd
             description: Organizzazione generale e realizzazione completa del &ldquo;girato&rdquo; in digital-betacam delle citt&agrave; di Venezia, Roma e Firenze.
             note: "* (3 puntate)"
-en-US: 
+en: 
   portfolio: 
     clients: 
       odeon_tv: 

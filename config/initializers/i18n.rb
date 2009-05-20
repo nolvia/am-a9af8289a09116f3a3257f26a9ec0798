@@ -7,3 +7,6 @@
 # Dir['lib/locales/**/*'].each do |translation|
 #   I18n.load_path << translation if File.file? translation
 # end
+
+
+I18n.load_path = Dir['config/locales/*.yml']

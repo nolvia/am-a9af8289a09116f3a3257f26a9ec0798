@@ -58,6 +58,7 @@ class Translate::Keys
   private
   def extract_i18n_keys(hash, parent_keys = [])
     hash.inject([]) do |keys, (key, value)|
+      next(keys) if key.to_s =~ /^(activerecord|time|support|date|number)/
       full_key = parent_keys + [key]
       if value.is_a?(Hash)
         # Nested hash

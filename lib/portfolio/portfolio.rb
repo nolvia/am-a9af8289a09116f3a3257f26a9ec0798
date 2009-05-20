@@ -1,6 +1,6 @@
 # raise  Rails.root.inspect 
 def do_trans!
-  built_translations = %w'it-IT en-US'.inject({}) do |translations, locale|
+  built_translations = %w'it en'.inject({}) do |translations, locale|
   
     text = File.read(File.dirname(__FILE__)+"/portfolio.#{locale}.txt")
 
