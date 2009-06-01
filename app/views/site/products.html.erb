@@ -1,28 +1,25 @@
-<div id="services_container" class="glider">
+<div id="products_container" class="glider">
   <div class="controls">
-    <% @products.each do |service| %>
+    <% categories = @products_per_category.keys %>
+    <% for category in categories %>
       <div><%# this div serves to avoid the "duplicated text IE6 bug" %>
-      <%= link_to t(:title_short, :scope => [:services, service.first], :default => :title), 
-                  "##{t(:id, :scope => [:services, service.first])}", 
-                  :class => (service == @services.first ? 'active ' : '')+
-                            "#{t(:id, :scope => [:services, service.first])}_link" %>
+      <%= link_to category.humanize, "##{category}", 
+        :class => (category == categories.first ? 'active ' : '')+"#{category}_link" %>
       </div>
     <% end %>
   </div>
   <div style="clear:both;"></div>
-  <center>
-    <div class="scroller">
-      <div class="content">
-        
-        <%= render :partial => 'service', :collection => @services %>
-        
+  <div class="scroller">
+    <div class="content">
+      <% for category in categories %>
+        <%= render :partial => 'products', :locals => {:category => category, :products => category[:products]} %>
+      <% end %>      
     </div>
   </div>
-</center>
 </div>
-<%= image_tag 'left_arrow.gif',  :class => 'imgLink', :alt => '&larr;', :onclick => 'services_glider.previous();return false;' %>
-<%= image_tag 'right_arrow.gif', :class => 'imgLink', :alt => '&rarr;', :onclick => 'services_glider.next();return false;' %>
+<%= image_tag 'left_arrow.gif',  :class => 'imgLink', :alt => '&larr;', :onclick => 'products_glider.previous();return false;' %>
+<%= image_tag 'right_arrow.gif', :class => 'imgLink', :alt => '&rarr;', :onclick => 'products_glider.next();return false;' %>
 
 <script type="text/javascript" charset="utf-8">
-var services_glider = new Glider('services_container', {duration:0.5, lastActiveElement: "<%=t 'services.video_production.id' %>"});
+var products_glider = new Glider('products_container', {duration:0.5, lastActiveElement: "<%= categories.first %>"});
 </script>

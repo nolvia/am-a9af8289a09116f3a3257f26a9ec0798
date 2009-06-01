@@ -4,11 +4,11 @@
 }
 
 div.scroller { 
-	/* modify width and height of scrolling section if necessary	*/		
-	width: 690px; 
-	height: 400px;
-	overflow: hidden;
-	border:1px solid #ddd;
+  /* modify width and height of scrolling section if necessary  */    
+  width: 690px; 
+  height: 400px;
+  overflow: hidden;
+  border:1px solid #ddd;
 /*  border-top:1px solid #555;*/
 }
 
@@ -16,17 +16,62 @@ div.scroller div.section ul{
   text-align:left;
 }
 div.scroller div.section {
-	/* modify width and height of each section as needed (should match the size of the scroller window)	*/		
-	width:670px;
-	height:370px;
-	overflow:hidden;
-	float:left;
-	padding:10px;		
+  /* modify width and height of each section as needed (should match the size of the scroller window)  */    
+  width:670px;
+  height:370px;
+  overflow:hidden;
+  float:left;
+  padding:10px;    
 }
 div.scroller div.content {
-	width: 20000px;
+  width: 20000px;
 }
-			
+
+
+
+
+/* SERVIZI */
+#products_container .controls a.active{
+  text-decoration: underline;
+  background: url('../images/film.png') no-repeat bottom right;
+}
+
+#products_container .controls a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+#products_container .content{
+  font-size:160%;
+  line-height:130%;
+}
+#products_container .content li{
+  margin-bottom:1em;
+}
+#products_container .content h2{
+  line-height:140%;
+  margin-top:0;
+}
+#products_container p{
+/*  text-align:left;*/
+}
+#products_container .controls a{
+  display:block;
+  float:left;
+  width:100px;
+  height:50px;
+  text-align:center;
+  padding:0;
+  margin:0;
+  padding-right: 10px;
+  margin-right: 5px;
+  color: black; 
+  text-decoration: none;
+  vertical-align:middle;
+  border:none;
+}
+
+
 
 
 /* SERVIZI */
@@ -69,6 +114,8 @@ div.scroller div.content {
   vertical-align:middle;
   border:none;
 }
+
+
 
 
 /* CONTROLS */
@@ -139,7 +186,7 @@ div.scroller div.content {
 }
 
 #portfolio_container div.scroller { 
-	/* modify width and height of scrolling section if necessary	*/		
-	width: 720px; 
-	height:430px;
+  /* modify width and height of scrolling section if necessary  */    
+  width: 720px; 
+  height:430px;
 }

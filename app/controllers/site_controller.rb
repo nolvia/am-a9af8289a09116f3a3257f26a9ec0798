@@ -39,14 +39,7 @@ class SiteController < ApplicationController
   end
   
   def products
-    @products_per_category = [
-      ['video_production', [:organization, :permissions, :recording]                      ],
-      ['post_production',  [:editing, :copywriting, :dubbing, :music, :down_mix, :master] ],
-      ['footages',         [:library, :research, :actual]                                 ],
-      ['videoclip',        [:idea, :storyboard, :recording, :editing]                     ],
-      ['finished_product', [:finished, :new]                                              ],
-      ['events',           [:organization, :location, :slide, :set, :direction, :shoots]  ]
-    ]
+    @products_per_category = YAML.load_file(Rails.root / 'lib' / 'products.yml')
   end
   
   def portfolio

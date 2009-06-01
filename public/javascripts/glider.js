@@ -55,17 +55,13 @@ Object.extend(Object.extend(Glider.prototype, Abstract.prototype), {
 
   moveTo: function(element, container, options){
       this.current = $(element);
-      
-      $$('.active').each(function(link){
-        link.removeClassName('active');
-      });
-      $$('.'+element.id+'_link').each(function(link){
-        link.addClassName('active');
-      });
+      // move activation
+      $$('.controls .active').each(function(link){ link.removeClassName('active'); });
+      $$('.'+element+'_link').first().addClassName('active');
       
       Position.prepare();
       var containerOffset = Position.cumulativeOffset(container),
-       elementOffset = Position.cumulativeOffset($(element));
+       elementOffset = Position.cumulativeOffset(this.current);
 
       this.scrolling   = new Effect.SmoothScroll(container, 
         {duration:options.duration, x:(elementOffset[0]-containerOffset[0]), y:(elementOffset[1]-containerOffset[1])});

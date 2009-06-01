@@ -1,0 +1,22 @@
+
+<div class="section" id="<%= category.underscore %>" 
+     style="overflow:auto;background:url('<%= image_path("products/#{category}.png") %>') bottom right no-repeat;">
+  <h2><%= category %></h2>
+  <ul style="font-size:0.5em;">
+    <% @products_per_category[category].each_with_index do |product, id| %>
+      <% product_dom_id = [category, 'product', id].join('_') %>
+      <li>
+        <b><%= product['title'] %></b>: <%= product['description'] %>
+        <%= link_to_function 'video', "$('#{product_dom_id}_video').toggle();" %>
+        <div id="<%= "#{product_dom_id}_video" %>" style="min-height:100px;display:none;">
+          <object width="425" height="344">
+            <param name="movie" value="http://www.youtube.com/v/iJm2HrAGjGM&hl=it&fs=1&color1=0xcc2550&color2=0xe87a9f" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+            <embed src="http://www.youtube.com/v/iJm2HrAGjGM&hl=it&fs=1&color1=0xcc2550&color2=0xe87a9f" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344" />
+          </object>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+</div>
