@@ -2,7 +2,7 @@
 
 body {
   border-collapse: collapse;
-  background-image: url(/images/background.jpg);
+  background-image: url('/images/background.jpg');
   background-repeat: repeat-x;
   background-color: white;
   margin:0;
@@ -103,7 +103,8 @@ img {
 #sections a.active {
 /*  height:136px;*/
 /*  height:120px;*/
-  border-bottom: 6px solid #f6c;
+/*  border-bottom: 6px solid #f6c;*/
+  background: white url('../images/sections/shadow.gif') no-repeat scroll bottom center;
   color: #f6c;
 }
 
@@ -233,7 +234,7 @@ ul.with_image{
 .locales a.active, #content .locales a.active{
 /*  border-bottom:2px solid #c09;
   padding:0px;*/
-  background: #white url('../images/flags/shadow.gif') no-repeat scroll bottom center;
+  background: white url('../images/flags/shadow.gif') no-repeat scroll bottom center;
 }
 
 #top_locales {

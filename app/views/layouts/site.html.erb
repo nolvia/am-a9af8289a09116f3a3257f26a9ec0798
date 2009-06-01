@@ -28,7 +28,7 @@
   </div>
   
   <div id="header" style="text-align:center;margin:0 auto;">
-    <h1 style="margin-bottom:0;"><%= link_to image_tag('logo3d.png', :alt => 'MACOK Logo'), url_for(:action => nil, :locale => locale) %></h1>
+    <h1 style="margin-bottom:0;"><%= link_to image_tag('logo_emb.gif', :alt => 'MACOK Logo'), url_for(:action => nil, :locale => locale) %></h1>
     <h2 style="margin-top:0;"><a href="<%=url_for :action => nil, :locale => locale %>" style="line-height:140%;">
       MACOK <%=t :cinevideoservices %><br />
       &ldquo;<%=t :slogan %>&rdquo;
@@ -62,10 +62,10 @@
     
     <a href="http://macok.com/">MACOK <%= t :cinevideoservices %></a> 
     <span class="pi"><%=t :tax_code, :tax_code => '02235090962' %></span>
-    <span id="bottom_locales" class="locales">
-      <%=t 'translations', :default => 'Translations:' %>
-      <%= render :partial => 'locales' %>
-    </span>
+    <!-- <span id="bottom_locales" class="locales">
+      <%#=t 'translations', :default => 'Translations:' %>
+      <%#= render :partial => 'locales' %>
+    </span> -->
     <br />
     <a href="mailto:macok58@tiscali.it">macok58@tiscali.it</a> &mdash;
     <a href="contatti.html">Tel:   02 92 151 964</a> &mdash;

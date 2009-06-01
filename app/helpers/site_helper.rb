@@ -34,19 +34,9 @@ module SiteHelper
     return result
   end
   
-  # def with_translation_scope scope = nil, &block
-  #   locale_backup = I18n.locale
-  #   I18n.locale = locale
-  #   result = yield locale
-  #   I18n.locale = locale_backup
-  #   return result
-  # end
-  
   def link_to_locale locale, name
-    # with_locale locale do 
-      active = (I18n.locale.to_s == locale.to_s)
-      link_to image_tag("flags/#{locale}.gif", :title => name), 
-              send( controller.action_name+'_path', locale ), :class => (active ? 'active' : '')
-    # end
+    active = (I18n.locale.to_s == locale.to_s)
+    link_to image_tag("flags/#{locale}_big.png", :title => name), 
+            send( controller.action_name+'_path', locale ), :class => (active ? 'active' : '')
   end
 end
