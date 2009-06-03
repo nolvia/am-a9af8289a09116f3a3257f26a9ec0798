@@ -1,6 +1,6 @@
 --- 
 es: 
-  slogan: in un certo senso la tv &egrave; il nostro sesto senso
+  slogan: en un cierto sentido la televisi&oacute;n es nuestro sexto sentido
   portfolio: 
     clients: 
       odeon_tv: 
@@ -241,7 +241,12 @@ es:
             title: Citta&#x27; Del Mondo In Dvd
             description: Organizzazione generale e realizzazione completa del &ldquo;girato&rdquo; in digital-betacam delle citt&agrave; di Venezia, Roma e Firenze.
             note: "* (3 puntate)"
-    our_clients: Tra i nostri clienti ci sono
+          
+        
+      
+    
+  
+    our_clients: Entre nuestros clientes hay
   sections: 
     portfolio: Portafolio
     products: Productos
@@ -250,7 +255,7 @@ es:
     services: Servicios
   tax_code: Partita&nbsp;Iva:&nbsp;{{tax_code}}
   translations: Traduzioni
-  cinevideoservices: Cinevideoservizi
+  cinevideoservices: Cinevideoservicios
   about: 
     story: "MACOK es una empresa fundada en 1992 por la experiencia y la pasi\xC3\xB3n de un equipo experimentado.  Desde entonces, seguimos {{services}} de la m\xC3\xA1s alta calidad a nuestros clientes."
     philosophy: "La filosof\xC3\xADa que tenemos es ofrecer a los clientes un servicio que cumpla con su cada necesidad, y que es totalmente personalizado, para que sus necesidades son importantes para nosotros."
@@ -262,11 +267,11 @@ es:
     what: MACOK es un hogar de {{production}}.
     services: otros servicios
     distance: "a pocos kil\xC3\xB3metros de Mil\xC3\xA1n"
-  production: produzione
+  production: producci\xC3\xB3n
   locale: 
-    name: ITALIANO
+    name: ESPAÑOL
     version: "Ir a la versi\xC3\xB3n {{link}}"
-    short: it
+    short: es
   contacts: 
     fax_number: 02 92 502 183
     open_map: Abra el mapa en una nueva ventana
@@ -278,50 +283,50 @@ es:
     email: E-mail
   services: 
     videoclip: 
-      idea: Ideazione
-      title: Spot e Videoclip
-      editing: Montaggio
+      idea: Ideación
+      title: Spot y Videoclip
+      editing: Montaje
       id: videoclip
       storyboard: Storyboard
-      recording: Riprese
-      title_short: Spot e Videoclip
+      recording: Rodajes
+      title_short: Spot y Videoclip
     footages: 
       title: Repertorio
       id: repertorio
-      library: "Video library  <br /><small style=\"white-space:nowrap;\">Dai primi del \xE2\x80\x98900 ad oggi</small>"
-      actual: Realizzazione footage ad hoc
-      research: Ricerca footage
-      title_short: Repertorio (&rsquo;900-oggi)
+      library: "Video library  <br /><small style=\"white-space:nowrap;\">desde el principio de \xE2\x80\x98900 hasta hoy</small>"
+      actual: Realización footage ad hoc
+      research: Busqueada footage
+      title_short: Repertorio (&rsquo;900-hoy)
     finished_product: 
-      new: Idealizziamo <br />nuovi progetti TV
-      title: Prodotti Chiavi in Mano
-      id: prodotti_finiti
-      finished: Realizziamo lavori completi, dall'ideazione al prodotto finito
-      title_short: Prodotti Finiti
+      new: Idealizamos  <br />nuevos proyectos TV
+      title: Productos listos de usar
+      id: productos_listos
+      finished: Realizamos trabajos complete, desde la ideación hasta el producto terminado
+      title_short: Productos Listos
     post_production: 
-      copywriting: Testi autorali
-      title: Post Produzione
-      down_mix: Mix finale
+      copywriting: Pruebas profesionales
+      title: Post Producción
+      down_mix: Mix final
       master: Master digibeta o DLT
-      editing: Montaggi e grafica 3D
-      id: post_produzione
-      music: Musiche
-      dubbing: Speakeraggi
-      title_short: Post Produzione
+      editing: Montajes y gráfica 3D
+      id: post_produccion
+      music: Músicas
+      dubbing: Voces
+      title_short: Post Producción
     video_production: 
-      title: Produzione Video
-      id: produzione
-      recording: Riprese in tutti i formati video
-      permissions: Richieste permessi
-      organization: Organizzazione generale
-      title_short: Produzione Video
+      title: Producción Video
+      id: produccion
+      recording: Rodajes en todos lo formato video
+      permissions: Peticiónes y Permisos
+      organization: Organización general
+      title_short: Producción Video
     events: 
-      shoots: Riprese e messa in onda su maxischermi
-      set: Allestimento
-      title: Organizzazione Eventi e Convention
-      id: eventi
-      slide: Preparazione di slide e filmati (di contributo)
-      organization: Organizzazione Generale
-      direction: Regia audio e video
-      title_short: Eventi e Convention
-      location: Sopralluoghi
+      shoots: Rodajes y proyección sobre pantillas grandes
+      set: Instalación
+      title: Organización acontecimientos y convention
+      id: acontecimientos
+      slide: Preparación de slide y filmados (de contribución)
+      organization: Organización general
+      direction: Dirección audio y video
+      title_short: Acontecimientos y Convention
+      location: Inspección
