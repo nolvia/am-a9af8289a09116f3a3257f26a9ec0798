@@ -1,4 +1,5 @@
-#!/opt/local/bin/ruby
+#!/usr/bin/env ruby
+# coding: utf-8
 
 require File.dirname(__FILE__) + "/../config/environment" unless defined?(RAILS_ROOT)
 
