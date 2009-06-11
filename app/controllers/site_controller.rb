@@ -2,7 +2,7 @@ class SiteController < ApplicationController
   
   PAGES = %w[index about services portfolio contacts]
   LOCALES = %w[it en es de fr]
-  caches_page *PAGES
+  caches_page *PAGES unless Rails.env == 'production'
   
   
   # Force reload if in development mode
