@@ -1,33 +1,6 @@
 --- 
 en: 
   slogan: in a certain sense the television is our sixth sense
-  activerecord: 
-    errors: 
-      messages: 
-        accepted: must be accepted
-        taken: has already been taken
-        not_a_number: is not a number
-        greater_than_or_equal_to: must be greater than or equal to {{count}}
-        blank: can't be blank
-        confirmation: doesn't match confirmation
-        less_than_or_equal_to: must be less than or equal to {{count}}
-        exclusion: is reserved
-        odd: must be odd
-        invalid: is invalid
-        too_short: is too short (minimum is {{count}} characters)
-        wrong_length: is the wrong length (should be {{count}} characters)
-        empty: can't be empty
-        less_than: must be less than {{count}}
-        too_long: is too long (maximum is {{count}} characters)
-        even: must be even
-        equal_to: must be equal to {{count}}
-        inclusion: is not included in the list
-        greater_than: must be greater than {{count}}
-      template: 
-        body: "There were problems with the following fields:"
-        header: 
-          one: 1 error prohibited this {{model}} from being saved
-          other: "{{count}} errors prohibited this {{model}} from being saved"
   portfolio: 
     clients: 
       odeon_tv: 
