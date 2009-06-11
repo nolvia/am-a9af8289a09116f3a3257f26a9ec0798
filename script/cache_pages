@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-@pages = %w[index home about services portfolio contacts]
+@pages = %w[index home about services products portfolio contacts]
 @locales = %w[it en de fr es]
 
 
