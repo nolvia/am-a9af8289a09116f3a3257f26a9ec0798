@@ -34,5 +34,5 @@ cache File.join('/index.html')
 end
 
 
-Process.kill 'TERM', @server_pid
+Process.kill 'KILL', @server_pid
 Process.wait @server_pid
