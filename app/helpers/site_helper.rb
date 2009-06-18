@@ -36,7 +36,7 @@ module SiteHelper
   
   def link_to_locale locale, name
     active = (I18n.locale.to_s == locale.to_s)
-    link_to image_tag("flags/#{locale}_big.png", :title => name), 
+    link_to image_tag("flags/#{locale}_medium.png", :title => name), 
             send( controller.action_name+'_path', locale ), :class => (active ? 'active' : '')
   end
 end

@@ -223,17 +223,15 @@ ul.with_image{
 }
 
 .locales img {
-  opacity:0.7;
+  opacity:0.5;
 }
 
-.locales a.active img, #content .locales a.active img{
+.locales a.active img, #content .locales a.active img {
   vertical-align:top;
   opacity:1;
 }
 
 .locales a.active, #content .locales a.active{
-/*  border-bottom:2px solid #c09;
-  padding:0px;*/
   background: white url('../images/flags/shadow.gif') no-repeat scroll bottom center;
 }
 
