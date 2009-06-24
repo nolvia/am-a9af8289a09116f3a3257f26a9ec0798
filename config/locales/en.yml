@@ -286,6 +286,7 @@ en:
     about: About us
     contacts: Contact us
     services: Services
+    products: Products
   date: 
     order: 
     - :year
