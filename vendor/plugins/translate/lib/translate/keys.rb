@@ -74,16 +74,25 @@ class Translate::Keys
   def extract_files
     files_to_scan.inject(HashWithIndifferentAccess.new) do |files, file|
       IO.read(file).scan(i18n_lookup_pattern).flatten.map(&:to_sym).each do |key|
-        files[key] ||= []
         path = Pathname.new(File.expand_path(file)).relative_path_from(Pathname.new(Rails.root)).to_s
+        key  = scope_key_by_partial(key, path)
+        files[key] ||= []
         files[key] << path if !files[key].include?(path)
       end
       files
     end
   end
+  
+  def scope_key_by_partial(key, path)
+    if key.to_s.first == '.'
+      path.split('.').first.split(%r{/_?})[2..-1].join('.') + key.to_s
+    else
+      key
+    end
+  end
 
   def i18n_lookup_pattern
-    /\b(?:I18n\.t|I18n\.translate|t)(?:\s|\():?'([a-z0-9_]+.[a-z0-9_.]+)'\)?/
+    /\b(?:I18n\.t|I18n\.translate|t)(?:\s|\():?['"]([a-z0-9_.]+)['"]\)?/
   end
 
   def files_to_scan

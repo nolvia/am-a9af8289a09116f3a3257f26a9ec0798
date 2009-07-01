@@ -29,6 +29,14 @@ describe Translate::Keys do
       @keys.i18n_keys(:en).should == ['articles.new.page_title', 'categories.flash.created', 'home.about']
     end
     
+    it 'should scope keys by partial' do
+      path       = 'app/views/my_controller/my_view.html.erb'
+      key        = '.scoped'
+      scoped_key = 'my_controller.my_view.scoped'
+      
+      @keys.send(:scope_key_by_partial, key, path).should == scoped_key
+    end
+    
     def translations
       {
         :en => {
