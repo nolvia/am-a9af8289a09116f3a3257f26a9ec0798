@@ -1,6 +1,5 @@
 --- 
 fr: 
-  slogan: in un certo senso la tv &egrave; il nostro sesto senso
   portfolio: 
     clients: 
       odeon_tv: 
@@ -103,13 +102,6 @@ fr:
             title: Erotika
             description: Ricerca e selezione immagini dei primi del &#x27;900 in bianco e nero, sigle, montaggio e realizzazione colonna musicale. Creazione e realizzazione dello Spot TV.
             note: "* (2 puntate)"
-      museo_diocesano_paolo_vi_di_brescia: 
-        client_name: MUSEO DIOCESANO PAOLO VI di BRESCIA
-        works: 
-          work_0: 
-            title: Storia Della Seta
-            description: Produzione completa con riprese in studio ed in esterna, sigle, immagini di repertorio (footage) e post produzione finale del filmato trasmesso nell&#x27;inaugurazione del Museo Diocesano Paolo VI di
-            note: "* (1 puntata)"
       mediolanum_channel: 
         client_name: MEDIOLANUM CHANNEL
         works: 
@@ -129,6 +121,13 @@ fr:
             title: Aenigmata
             description: Ricerca e selezione delle immagini storiche e sportive, successivamente inserite nella serie televisiva &ldquo;Aenigmata&rdquo; in onda sul canale satellitare.
             note: "* (5 puntate)"
+      museo_diocesano_paolo_vi_di_brescia: 
+        client_name: MUSEO DIOCESANO PAOLO VI di BRESCIA
+        works: 
+          work_0: 
+            title: Storia Della Seta
+            description: Produzione completa con riprese in studio ed in esterna, sigle, immagini di repertorio (footage) e post produzione finale del filmato trasmesso nell&#x27;inaugurazione del Museo Diocesano Paolo VI di
+            note: "* (1 puntata)"
       editrice_giochi: 
         client_name: EDITRICE GIOCHI
         works: 
@@ -189,14 +188,14 @@ fr:
             title: Archeologia
             description: Rimasterizzazione dei 3 episodi con correzioni video, con aggiunte di grafiche e d&#x27;immagini di repertorio. Speakeraggio completo, anche per la versione internazionale. Realizzazione dei master in Digital-betacam.
             note: "* (3 puntate)"
-          work_12: 
-            title: Grandi Velieri
-            description: Realizzazione della versione italiana dei documentari didattici &ldquo;EL SAN JUAN BAUTISTA&rdquo; e &ldquo;L&#x27;AMERIGO VESPUCCI&rdquo;, con sigle e con traduzione, adattamento, registrazione speaker e mix finale in italiano.
-            note: "* (2 puntate)"
           work_9: 
             title: Egittomania
             description: Realizzazione della sigla iniziale di collana con uso di grafica 3d ed effetti (anche sonori), versione italiana, e sigla di coda coi credits. Produzione delle 2 nuove puntate dedicate al Museo Egizio del Cairo, dallo score del girato al montaggio completo delle puntate con uso di grafica e di effetti audio e video, e con composizione delle musiche d&#x27;accompagnamento curate dal nostro musicista. Realizzazione della nuova sigla di testa (coi nuovi titoli) e di quella di coda (credits), anche per la versione internazionale.
             note: "* (22 puntate + 2 nuove puntate)"
+          work_12: 
+            title: Grandi Velieri
+            description: Realizzazione della versione italiana dei documentari didattici &ldquo;EL SAN JUAN BAUTISTA&rdquo; e &ldquo;L&#x27;AMERIGO VESPUCCI&rdquo;, con sigle e con traduzione, adattamento, registrazione speaker e mix finale in italiano.
+            note: "* (2 puntate)"
           work_13: 
             title: Omniamedicina
             description: Produzione dei filmati di Pronto Soccorso ed Esercizi Fisici realizzati in studio con 2 telecamere (una per i dettagli e l&#x27;altra per i totali), e poi montati in sequenze anche con uso di effetti audio e video. Realizzazione completa del servizio fotografico.
@@ -217,14 +216,14 @@ fr:
             title: Alfred Hitchcock Presenta In Dvd
             description: Creazione dei 28 DLT finali pronti per la duplicazione contenenti 3 episodi ciascuno, della leggendaria serie televisiva del grande Regista. Studio iniziale e realizzazione del men&ugrave; animato e di tutte le schermate presenti nei dvd, anche con controllo qualit&agrave; dei singoli Master in digital-betacam.
             note: "* (84 telefilm)"
-          work_2: 
-            title: "Boxe: La Leggenda Del Ring In Dvd"
-            description: Versione italiana dei 3 filmati di test e delle 37 puntate successive della serie, con l&#x27;uso dello Speaker e Testimonial Rino Tommasi.
-            note: "* (3 + 37 puntate)"
           work_16: 
             title: Diana, Una Vita Straordinaria
             description: Sigla iniziale e versione italiana a 4 voci.
             note: "* (7 puntate)"
+          work_2: 
+            title: "Boxe: La Leggenda Del Ring In Dvd"
+            description: Versione italiana dei 3 filmati di test e delle 37 puntate successive della serie, con l&#x27;uso dello Speaker e Testimonial Rino Tommasi.
+            note: "* (3 + 37 puntate)"
           work_3: 
             title: Alfred Hitchcock Collection In Dvd
             description: Creazione dei DLT finali per la duplicazione dei 15 titoli di film del grande Regista, con studio del men&ugrave; interattivo per navigare nelle varie sezioni e anche con lo studio e la realizzazione delle copertine dei dvd finali (archivio fotografico). Doppiaggio completo (anche con M/E) degli 8 film sonori e musiche e cartelli in italiano rifatti per i 7 film muti.
@@ -242,18 +241,20 @@ fr:
             description: Organizzazione generale e realizzazione completa del &ldquo;girato&rdquo; in digital-betacam delle citt&agrave; di Venezia, Roma e Firenze.
             note: "* (3 puntate)"
     our_clients: Tra i nostri clienti ci sono
+  slogan: in un certo senso la tv &egrave; il nostro sesto senso
   sections: 
     portfolio: Portfolio
+    products: Produits
     about: Chi siamo
     contacts: Contatti
     services: Servizi
   tax_code: Partita&nbsp;Iva:&nbsp;{{tax_code}}
   cinevideoservices: Cinevideoservizi
-  translations: Traduzioni
   about: 
     story: "MACOK \xC3\xA8 un azienda nata nel 1992 dall'esperienza e dalla passione di un team esperto. <br />\n                Da allora continuiamo ad {{services}} di altissima qualit\xC3\xA0 ai nostri clienti."
     philosophy: "La filosofia che abbiamo \xC3\xA8 quella di fornire al cliente \n                      un servizio che soddisfi ogni sua necessit&agrave;, e \n                      che sia completamente personalizzato, per questo le vostre \n                      esigenze sono per noi una cosa importante."
     services: offrire servizi
+  translations: Traduzioni
   index: 
     where: Siamo a Carugate, {{distance}}.
     many: Ci occupiamo anche di numerosi {{services}}
@@ -262,41 +263,37 @@ fr:
     what: "MACOK \xC3\xA8 una casa di {{production}}."
     distance: a pochi kilometri da Milano
   production: produzione
-  locale: 
-    name: ITALIANO
-    version: Vai all versione in {{link}}
-    short: it
   contacts: 
     fax_number: 02 92 502 183
     open_map: Apri la mappa in una nuova finestra
     phone_number: 02 92 151 964
-    phone: Telefono
     contact_us: Come Contattarci
     fax: Fax
+    phone: Telefono
     address: Indirizzo
     email: E-mail
   services: 
     videoclip: 
       idea: Ideazione
-      editing: Montaggio
       title: Spot e Videoclip
+      editing: Montaggio
       id: videoclip
       storyboard: Storyboard
       recording: Riprese
       title_short: Spot e Videoclip
     footages: 
       title: Repertorio
-      library: "Video library  <br /><small style=\"white-space:nowrap;\">Dai primi del \xE2\x80\x98900 ad oggi</small>"
       id: repertorio
+      library: "Video library  <br /><small style=\"white-space:nowrap;\">Dai primi del \xE2\x80\x98900 ad oggi</small>"
       actual: Realizzazione footage ad hoc
       research: Ricerca footage
       title_short: Repertorio (&rsquo;900-oggi)
     post_production: 
       copywriting: Testi autorali
-      editing: Montaggi e grafica 3D
       title: Post Produzione
       down_mix: Mix finale
       master: Master digibeta o DLT
+      editing: Montaggi e grafica 3D
       id: post_produzione
       music: Musiche
       dubbing: Speakeraggi
@@ -307,16 +304,6 @@ fr:
       id: prodotti_finiti
       finished: Realizziamo lavori completi, dall'ideazione al prodotto finito
       title_short: Prodotti Finiti
-    events: 
-      set: Allestimento
-      shoots: Riprese e messa in onda su maxischermi
-      title: Organizzazione Eventi e Convention
-      id: eventi
-      slide: Preparazione di slide e filmati (di contributo)
-      organization: Organizzazione Generale
-      direction: Regia audio e video
-      location: Sopralluoghi
-      title_short: Eventi e Convention
     video_production: 
       title: Produzione Video
       id: produzione
@@ -324,3 +311,17 @@ fr:
       permissions: Richieste permessi
       organization: Organizzazione generale
       title_short: Produzione Video
+    events: 
+      title: Organizzazione Eventi e Convention
+      shoots: Riprese e messa in onda su maxischermi
+      set: Allestimento
+      id: eventi
+      slide: Preparazione di slide e filmati (di contributo)
+      organization: Organizzazione Generale
+      direction: Regia audio e video
+      title_short: Eventi e Convention
+      location: Sopralluoghi
+  locale: 
+    name: ITALIANO
+    version: Vai all versione in {{link}}
+    short: it

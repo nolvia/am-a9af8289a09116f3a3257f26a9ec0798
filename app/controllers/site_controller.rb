@@ -39,7 +39,7 @@ class SiteController < ApplicationController
   end
   
   def products
-    @products_per_category = YAML.load_file(Rails.root / 'lib' / 'products.yml')
+    @products_per_category = YAML.load_file(Rails.root / 'lib' / "products.#{locale}.yml")
   end
   
   def portfolio

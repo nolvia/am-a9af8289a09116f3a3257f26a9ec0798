@@ -1,0 +1,152 @@
+--- 
+emissions: 
+- title: Cine Juke-Box
+  description: 65 titres
+- title: Le Design Italien (Nouveaute)
+  description: "40 \xC3\xA9pisodes"
+- title: "Beautes D\xE2\x80\x99Italie (L'Italie Des Mereveilles)"
+  description: Diverses
+- title: "Special: Immages De Repertoire"
+  description: Diverses
+- title: Planete Terre (Japon Et Inde)
+  description: "12 \xC3\xA9pisodes"
+- title: Lumieres Bleues (Gyrophares Bleues)
+  description: Diverses
+- title: Les Grandes Conquetes Technologiques De L' Humanite
+  description: "18 \xC3\xA9pisodes"
+- title: "Nos Amis Les Animaux: Les Chiens 1 (Nouveaute)"
+  description: "12 \xC3\xA9pisodes"
+- title: "Nos Amis Les Animaux: Les Chiens 2 (Nouveaute)"
+  description: "10 \xC3\xA9pisodes"
+- title: "L\xE2\x80\x99Egypte  Des Mysteres (Nouveaute)"
+  description: "12 \xC3\xA9pisodes"
+- title: "T\xE2\x80\x99Ai Chi Ch\xE2\x80\x99 Uan (Nouveaute)"
+  description: Diverses
+- title: Les Grandes Peintres Et Sculpteurs
+  description: "25 \xC3\xA9pisodes"
+- title: Le Plaisir D' Habiter
+  description: "30 \xC3\xA9pisodes"
+- title: 60 Annees De Notre Histoire
+  description: "30 \xC3\xA9pisodes"
+- title: Les Chemins Du Monde (Peuples)
+  description: "12 \xC3\xA9pisodes"
+- title: "L\xE2\x80\x99Italie Vue Du Ciel (Nouveaute)"
+  description: "24 \xC3\xA9pisodes"
+- title: Paysages D' Italie (Nouveaute)
+  description: 22 clip
+histoire: 
+- title: "Le Massacre Inutile (Premi\xC3\xA8Re Guerre Mondiale)"
+  description: "18 \xC3\xA9pisodes"
+- title: La Repubblique Sociale Italienne (Rsi)
+  description: "12 \xC3\xA9pisodes"
+- title: Les Grands Dictateurs
+  description: "6 \xC3\xA9pisodes"
+- title: Les Grandes Batailles De La Deuxieme Guerre Mondiale
+  description: "30 \xC3\xA9pisodes"
+- title: Histoire Des Armees De Combat
+  description: "12 \xC3\xA9pisodes"
+- title: Histoire Politique, Economique Et Militaire De La    Deuxieme Guerre Mondiale
+  description: Diverses
+- title: Journal De La Deuxieme Guerre Mondiale
+  description: "12 \xC3\xA9pisodes"
+- title: Gladiateurs
+  description: "12 \xC3\xA9pisodes"
+- title: Armes Et Actions Secretes De La Deuxieme G. M.
+  description: "20 \xC3\xA9pisodes"
+- title: "100 Ann\xC3\x89Es In 100 Secondes"
+  description: Diverses
+- title: "Strateges Et Strategies De La Guerre Mondiale (G\xC3\xA9N\xC3\xA9Raux Face \xC3\xA0 Face) (Nouveaute)"
+  description: "18 \xC3\xA9pisodes"
+- title: Grands Personnages Du Vingtieme Siecle (Nouveaute)
+  description: "40 \xC3\xA9pisodes"
+projets: 
+- title: "Fetes Populairies Et Traditions D\xE2\x80\x99Italie"
+  description: "20 \xC3\xA9pisodes"
+- title: Enterprise
+  description: "16  \xC3\xA9pisodes"
+- title: "Femme\xE2\x80\xA6 En"
+  description: "18 \xC3\xA9pisodes"
+- title: Meme Si Nous Sommes Des Femmes
+  description: Diverses
+- title: Profession Nuit (Les Gents De La Nuit)
+  description: Diverses
+- title: "Lugano \xE2\x80\x93 Milan"
+  description: Diverses
+- title: "L\xE2\x80\x99Alimentation Des Enfants"
+  description: "3 \xC3\xA9pisodes"
+- title: Les Religions Du Monde
+  description: Diverses
+- title: Animaux Sauvages
+  description: Diverses
+- title: "12 Minutes Avec\xE2\x80\xA6"
+  description: "12 \xC3\xA9pisodes"
+- title: Dieux, Mythes Et Legendes
+  description: Diverses
+- title: Mode Vingtieme Siecle (Nouveaute)
+  description: Diverses
+- title: Le Dictionnaire De Bacchus
+  description: Diverses
+- title: Entre Coutume Et Societe (Histoire De La Mode)
+  description: Diverses
+- title: Histoire De La Bourse (Des Valeurs) (Nouveaute)
+  description: "1  \xC3\xA9pisode"
+sport: 
+- title: Trophee Biondetti (Voitures Historiques Du Debut Du 1900)
+  description: "60 mod\xC3\xA8les"
+- title: "Top Cars: Les Reves A 4 Roues Dans Notre Siecle"
+  description: "16 \xC3\xA9pisodes"
+- title: "Alfa Romeo: Une Tradition Qui Continue (Nouveaute)"
+  description: "22 \xC3\xA9pisodes"
+- title: Etoiles Du Golfe
+  description: "60 mod\xC3\xA8les"
+- title: Aventures Dans Les Cieux
+  description: "3  \xC3\xA9pisodes"
+- title: Aventures Sur Les Mers
+  description: "5 \xC3\xA9pisodes"
+- title: Les Grands Defis Du Sport
+  description: Diverses
+- title: Histoires De Chevaux
+  description: "20 \xC3\xA9pisodes"
+- title: Les Champions Legendaires Du Sport
+  description: Diverses
+cinema: 
+- title: Silent Movie
+  description: "23 \xC3\xA9pisodes"
+- title: "Soiree D\xE2\x80\x99Auteur"
+  description: "30 \xC3\xA9pisodes"
+- title: Les Grands Classques De Cineteque (Films Muets)
+  description: 187 titres
+- title: "L\xE2\x80\x99Art Du Rire"
+  description: "50 \xC3\xA9pisodes"
+- title: "Slapsticks: Charlie Chaplin (Charlot)"
+  description: 51 titres
+- title: "Slapsticks: Laurel Et Hardy"
+  description: 48 titres
+- title: "Slapsticks: Buster Keaton"
+  description: 32 titres
+- title: "Slapsticks: Harold Lloyd"
+  description: 14 titres
+- title: "Slapsticks: Harry Langdon"
+  description: 7 titres
+- title: "Slapsticks: Larry Semon (Ridolini)"
+  description: 18 titres
+- title: "Slapsticks: Acteurs Americains"
+  description: 51 titres
+- title: "Slapsticks: Acteurs Italiens"
+  description: 41 titres
+- title: Liste Generale Des Court Metrages
+  description: 163 titres
+- title: Liste Generale Des Bandes Annonces 01
+  description: 320 titres
+- title: Liste Generale Des Bandes Annonces 02
+  description: 511 titres
+- title: "Masques De Celluloide \xE2\x80\x93 Grands Portraits"
+  description: 30 titres
+- title: "Trois Questions  A\xE2\x80\xA6 (\xC3\xA9V\xC3\xA9Nements Italiens Avec Des Acteurs Fameux)"
+  description: Diverses
+- title: "Erotika: Les Origines Du Cin\xC3\xA9Ma Interdit (1904/1939)"
+  description: "3 \xC3\xA9pisodes"
+- title: Acrobates Poets Et Tartes Dans Le Visage
+  description: "20 \xC3\xA9pisodes"
+- title: Bientot Sur Ces Ecrans
+  description: Diverses
