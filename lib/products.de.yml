@@ -1,152 +1,218 @@
 --- 
-vostellungen: 
-- title: Kino Juke-Box
-  description: 65 Titel
-- title: Das Italienische Design (Neu)
-  description: 40 Fortsetzungen
-- title: Italienische Meisterwerke (Italien Des Wunder )
-  description: Verschiedenes
-- title: Sammlungbilder Special
-  description: Verschiedenes
-- title: Planet Erde (Japan & Indien)
-  description: 12 Fortsetzungen
-- title: Lichten Blue (Blinklichten Blue)
-  description: Verchiedenes
-- title: "Die Gr\xC3\x96\xC3\x9FEn Technologischen  Errugenschaften  Des Menschen"
-  description: 18 Fortsetzungen
-- title: "Freunden  Tiere : Die Hunde 1 (Neu)"
-  description: 12 Fortsetzungen
-- title: "Freunden  Tiere: Die Hunde 2 (Neu)"
-  description: 10 Fortsetzungen
-- title: "Das Gehimnisvolle \xC3\x84Gypten (Neu)"
-  description: 12 Fortsetzungen
-- title: "T\xE2\x80\x99Ai Chi Ch\xE2\x80\x99 Uan (Neu)"
-  description: Verschiedenes
-- title: "Bedeutende M\xC3\x84Ler & Bildhauer"
-  description: 25 Fortsetzungen
-- title: Die Freude Am Wohnen
-  description: 30 Fortsetzungen
-- title: 60 Jahren Unserer Geschichte
-  description: 30 Fortsetzungen
-- title: "Wege Der Welt (V\xC3\xB6Lker)"
-  description: 12 Fortsetzungen
-- title: Italien Von Dem Himmel(Neu)
-  description: 24 Fortsetzungen
-- title: Italienische Landschaften (Neu)
-  description: 22 Clip
-plne: 
-- title: "Volksfeiertage & Italienische   \xC3\x9CBerlieferungen"
-  description: 20 Fortsetzungen
-- title: Enterprise
-  description: 16 Fortstzungen
-- title: "Frau\xE2\x80\xA6 In"
-  description: 18 Fortsetzungen
-- title: Obwohl Wir Frauen Sind
-  description: Verschiedenes
-- title: Beruf Nacht (Leute In Der Nacht)
-  description: Verschiedenes
-- title: "Lugano \xE2\x80\x93 Mailand"
-  description: Verschiedenes
-- title: "Kinderern\xC3\x84Hrung"
-  description: 3 Fortsetzungen
-- title: Religionen Aus Der Welt
-  description: Verschiedenes
-- title: Wilde Tiere
-  description: Verschiedenes
-- title: "12 Minuten Mit\xE2\x80\xA6"
-  description: 12 Fortsetzungen
-- title: "G\xC3\x96Tter, Mythen & Sagen"
-  description: Verschiedenes
-- title: Mode Neunhundert (Neu)
-  description: 10 Fortsetzungen
-- title: "Das W\xC3\x96Rterbuch Von Bacco"
-  description: Verschiedenes
-- title: Zwischen Sitten  & Gesellschaft  (Geschichte Der Mode)
-  description: Verschiedenes
-- title: "Geschichte Der B\xC3\x96Rse (Neu)"
-  description: 1 Fortsetzungen
-kino: 
-- title: Silent Movie
-  description: "2"
-- title: Autorenabend
-  description: "30"
-- title: Bedeutende Klassiker Aus Dem Filmarchiv (Stummfilme)
-  description: 187 Titel
-- title: Die Kunst Des Lachens
-  description: 50 Fortsetzungen
-- title: "Komische Filme : Charlie Chaplin (Charlot)"
-  description: 51 Titel
-- title: Komische Filme :Stan Lauren & Oliver Hardy
-  description: 48 Titel
-- title: "Komische Filme: Buster Keaton"
-  description: 32 Titel
-- title: "Komische Filme: Harold Lloyd"
-  description: 14 Titel
-- title: "Komische Filme: Harry Langdon"
-  description: 7 Titel
-- title: "Komische Filme: Larry Semon (Ridolini)"
-  description: 18 Titel
-- title: "Komische Filme: Amerikanischen Schauspieler"
-  description: 51 Titel
-- title: "Komische Filme: Italienischen Schauspieler"
-  description: 41 Titel
-- title: Allgemeines Verzeichnis Der Shorts
-  description: 163 Titel
-- title: Allgemeines  Verzeichnis Trailers 01
-  description: 320Titel
-- title: Allgemeines  Verzeichnis Trailers 02
-  description: 511 Titel
-- title: "Zelluloidmasken \xE2\x80\x93 Gr\xC3\x96\xC3\x9FEn Portr\xC3\x84T"
-  description: 30 Titel
-- title: "Drei Fragen Nach... (Italienische Veranstaltungen Mit Ber\xC3\xBCHmten Schauspieler)"
-  description: Verschiedenes
-- title: "Erotika: Ursprung Des Verbotenen Kino  (1904/1939)"
-  description: 3 Forsetzungen
-- title: Akrobatdichter & Tortenwurf
-  description: 20 Forsetzungen
-- title: "Demn\xC3\x84Chst \xC3\x9CBer Diesen Schirme"
-  description: Verschiedenes
-sport: 
-- title: Biondetti  Preis ( Klassikenautos Aus  Anfang 900)
-  description: 60 Modellen
-- title: "Top Cars: Tr\xC3\x84Ume Auf Vier R\xC3\x84Dern In Unserem Jahrhundert"
-  description: 16 Fortsetzungen
-- title: "Alfa Romeo: Eine Dauernde \xC3\x9CBerlieferung (Neu)"
-  description: 22 Forsetzungen
-- title: Buchtsterne
-  description: 60 Modellen
-- title: Abenteuer Im Himmel
-  description: 3 Fortsetzungen
-- title: Abenteuer Auf Der Meere
-  description: 5 Fortsetzungen
-- title: "Die  Gr\xC3\x96\xC3\x9FEn Sportherausforderungen"
-  description: Verschiedenes
-- title: "Erz\xC3\x84Hlungen Von Pferde"
-  description: 20 Fortsetzungen
-- title: Die Sagenhaften Sportmeister
-  description: Verschiedenes
-geschichte: 
-- title: "Das Unn\xC3\x96Tige Blutbad (Erster Weltkrieg)"
-  description: 18 Forsetzungen
-- title: Die Italienischen Sozialrepublik (Rsi)
-  description: 12 Fortsetzungen
-- title: Die Wichtigen Diktatoren
-  description: 6 Fortsetzungen
-- title: "Die Gr\xC3\x96\xC3\x9FEn K\xC3\x84Mpfe Des Zweiten Weltkrieg"
-  description: 30 Fortsetzungen
-- title: Geschichte Der Kampfheere
-  description: 12 Fortsetzungen
-- title: "Politische, Wirtschaftliche Und Milit\xC3\x84Rische Geschichte Des Zweiten Weltkrieg"
-  description: Verschiedenes
-- title: Tagebuch Des Zweiten Weltkrieg
-  description: 12 puntate
-- title: Gladiators
-  description: 12 puntate
-- title: "Waffen & Geheime  Milit\xC3\x84Rische  Handlungen Des Zweiten Weltkrieg"
-  description: 20 puntate
-- title: 100 Jahren In 100 Sekunden
-  description: Varie
-- title: Strategen & Strategie Des Weltkriegs   (Generalen Im Vergleich) (Neu)
-  description: 18 Fortsetzungen
-- title: "Bedeutende  Pers\xC3\x96Nlichkeiten  Des 1900 (Neu)"
-  description: 40 Fortsetzungen
+categories_list: 
+- kino
+- geschichte
+- sport
+- plne
+- vostellungen
+per_category: 
+  vostellungen: 
+  - title: Kino Juke-Box
+    description: 65 Titel
+  - title: Das Italienische Design (Neu)
+    description: 40 Fortsetzungen
+    video: 
+    - category: 5
+      title: Design Italiano
+      product: 2
+      youtube_code: 5Nzo12F8wdg
+  - title: Italienische Meisterwerke (Italien Des Wunder )
+    description: Verschiedenes
+    video: 
+    - category: 5
+      title: Bellezze d'Italia (Roma)
+      product: 3
+      youtube_code: e0jE04wtUKI
+    - category: 5
+      title: Bellezze d'Italia (Venezia)
+      product: 3
+      youtube_code: Hw7DwdIw6wA
+  - title: Sammlungbilder Special
+    description: Verschiedenes
+  - title: Planet Erde (Japan & Indien)
+    description: 12 Fortsetzungen
+  - title: Lichten Blue (Blinklichten Blue)
+    description: Verchiedenes
+  - title: "Die Gr\xC3\x96\xC3\x9FEn Technologischen  Errugenschaften  Des Menschen"
+    description: 18 Fortsetzungen
+  - title: "Freunden  Tiere : Die Hunde 1 (Neu)"
+    description: 12 Fortsetzungen
+  - title: "Freunden  Tiere: Die Hunde 2 (Neu)"
+    description: 10 Fortsetzungen
+  - title: "Das Gehimnisvolle \xC3\x84Gypten (Neu)"
+    description: 12 Fortsetzungen
+  - title: "T\xE2\x80\x99Ai Chi Ch\xE2\x80\x99 Uan (Neu)"
+    description: Verschiedenes
+  - title: "Bedeutende M\xC3\x84Ler & Bildhauer"
+    description: 25 Fortsetzungen
+  - title: Die Freude Am Wohnen
+    description: 30 Fortsetzungen
+  - title: 60 Jahren Unserer Geschichte
+    description: 30 Fortsetzungen
+  - title: "Wege Der Welt (V\xC3\xB6Lker)"
+    description: 12 Fortsetzungen
+  - title: Italien Von Dem Himmel(Neu)
+    description: 24 Fortsetzungen
+  - title: Italienische Landschaften (Neu)
+    description: 22 Clip
+  plne: 
+  - title: "Volksfeiertage & Italienische   \xC3\x9CBerlieferungen"
+    description: 20 Fortsetzungen
+  - title: Enterprise
+    description: 16 Fortstzungen
+  - title: "Frau\xE2\x80\xA6 In"
+    description: 18 Fortsetzungen
+  - title: Obwohl Wir Frauen Sind
+    description: Verschiedenes
+  - title: Beruf Nacht (Leute In Der Nacht)
+    description: Verschiedenes
+  - title: "Lugano \xE2\x80\x93 Mailand"
+    description: Verschiedenes
+  - title: "Kinderern\xC3\x84Hrung"
+    description: 3 Fortsetzungen
+  - title: Religionen Aus Der Welt
+    description: Verschiedenes
+  - title: Wilde Tiere
+    description: Verschiedenes
+  - title: "12 Minuten Mit\xE2\x80\xA6"
+    description: 12 Fortsetzungen
+  - title: "G\xC3\x96Tter, Mythen & Sagen"
+    description: Verschiedenes
+  - title: Mode Neunhundert (Neu)
+    description: 10 Fortsetzungen
+    video: 
+    - category: 4
+      title: Moda '900
+      product: 12
+      youtube_code: S6dFfDAy__4
+  - title: "Das W\xC3\x96Rterbuch Von Bacco"
+    description: Verschiedenes
+  - title: Zwischen Sitten  & Gesellschaft  (Geschichte Der Mode)
+    description: Verschiedenes
+  - title: "Geschichte Der B\xC3\x96Rse (Neu)"
+    description: 1 Fortsetzungen
+  kino: 
+  - title: Silent Movie
+    description: "2"
+    video: 
+    - category: 1
+      title: Silent movie
+      product: 1
+      youtube_code: Q1-_oVmpSuU
+  - title: Autorenabend
+    description: "30"
+  - title: Bedeutende Klassiker Aus Dem Filmarchiv (Stummfilme)
+    description: 187 Titel
+  - title: Die Kunst Des Lachens
+    description: 50 Fortsetzungen
+    video: 
+    - category: 1
+      title: L'arte della risata
+      product: 4
+      youtube_code: 2lzYgbbOdB4
+  - title: "Komische Filme : Charlie Chaplin (Charlot)"
+    description: 51 Titel
+  - title: Komische Filme :Stan Lauren & Oliver Hardy
+    description: 48 Titel
+  - title: "Komische Filme: Buster Keaton"
+    description: 32 Titel
+  - title: "Komische Filme: Harold Lloyd"
+    description: 14 Titel
+  - title: "Komische Filme: Harry Langdon"
+    description: 7 Titel
+  - title: "Komische Filme: Larry Semon (Ridolini)"
+    description: 18 Titel
+  - title: "Komische Filme: Amerikanischen Schauspieler"
+    description: 51 Titel
+  - title: "Komische Filme: Italienischen Schauspieler"
+    description: 41 Titel
+  - title: Allgemeines Verzeichnis Der Shorts
+    description: 163 Titel
+  - title: Allgemeines  Verzeichnis Trailers 01
+    description: 320Titel
+  - title: Allgemeines  Verzeichnis Trailers 02
+    description: 511 Titel
+  - title: "Zelluloidmasken \xE2\x80\x93 Gr\xC3\x96\xC3\x9FEn Portr\xC3\x84T"
+    description: 30 Titel
+  - title: "Drei Fragen Nach... (Italienische Veranstaltungen Mit Ber\xC3\xBCHmten Schauspieler)"
+    description: Verschiedenes
+  - title: "Erotika: Ursprung Des Verbotenen Kino  (1904/1939)"
+    description: 3 Forsetzungen
+  - title: Akrobatdichter & Tortenwurf
+    description: 20 Forsetzungen
+  - title: "Demn\xC3\x84Chst \xC3\x9CBer Diesen Schirme"
+    description: Verschiedenes
+  sport: 
+  - title: Biondetti  Preis ( Klassikenautos Aus  Anfang 900)
+    description: 60 Modellen
+    video: 
+    - category: 3
+      title: Trofeo Biondetti
+      product: 1
+      youtube_code: drf4tJnKWic
+  - title: "Top Cars: Tr\xC3\x84Ume Auf Vier R\xC3\x84Dern In Unserem Jahrhundert"
+    description: 16 Fortsetzungen
+  - title: "Alfa Romeo: Eine Dauernde \xC3\x9CBerlieferung (Neu)"
+    description: 22 Forsetzungen
+  - title: Buchtsterne
+    description: 60 Modellen
+  - title: Abenteuer Im Himmel
+    description: 3 Fortsetzungen
+    video: 
+    - category: 3
+      title: Avventure nei cieli
+      product: 5
+      youtube_code: 8_lI1R5g2qc
+  - title: Abenteuer Auf Der Meere
+    description: 5 Fortsetzungen
+    video: 
+    - category: 3
+      title: Avventure sui mari
+      product: 6
+      youtube_code: T6cNyKEdG_E
+  - title: "Die  Gr\xC3\x96\xC3\x9FEn Sportherausforderungen"
+    description: Verschiedenes
+  - title: "Erz\xC3\x84Hlungen Von Pferde"
+    description: 20 Fortsetzungen
+  - title: Die Sagenhaften Sportmeister
+    description: Verschiedenes
+  geschichte: 
+  - title: "Das Unn\xC3\x96Tige Blutbad (Erster Weltkrieg)"
+    description: 18 Forsetzungen
+    video: 
+    - category: 2
+      title: L'intuibile strage
+      product: 1
+      youtube_code: QsJGjJSnOZI
+  - title: Die Italienischen Sozialrepublik (Rsi)
+    description: 12 Fortsetzungen
+  - title: Die Wichtigen Diktatoren
+    description: 6 Fortsetzungen
+  - title: "Die Gr\xC3\x96\xC3\x9FEn K\xC3\x84Mpfe Des Zweiten Weltkrieg"
+    description: 30 Fortsetzungen
+    video: 
+    - category: 2
+      title: "Grandi battaglie: Seconda guerra mondiale"
+      product: 4
+      youtube_code: sHlEufvUAMc
+  - title: Geschichte Der Kampfheere
+    description: 12 Fortsetzungen
+  - title: "Politische, Wirtschaftliche Und Milit\xC3\x84Rische Geschichte Des Zweiten Weltkrieg"
+    description: Verschiedenes
+  - title: Tagebuch Des Zweiten Weltkrieg
+    description: 12 puntate
+  - title: Gladiators
+    description: 12 puntate
+  - title: "Waffen & Geheime  Milit\xC3\x84Rische  Handlungen Des Zweiten Weltkrieg"
+    description: 20 puntate
+  - title: 100 Jahren In 100 Sekunden
+    description: Varie
+    video: 
+    - category: 2
+      title: 100 anni in 100 secondi
+      product: 10
+      youtube_code: u_4Jo6o1pNs
+  - title: Strategen & Strategie Des Weltkriegs   (Generalen Im Vergleich) (Neu)
+    description: 18 Fortsetzungen
+  - title: "Bedeutende  Pers\xC3\x96Nlichkeiten  Des 1900 (Neu)"
+    description: 40 Fortsetzungen

@@ -1,188 +1,216 @@
-# INDICE PROGRAMMI & PROGETTI
-# (Aggiornato al 06.04.2009)
-# N° TITOLO Puntate Immagine
-
-
-
-cinema:
-  - title: "Silent Movies"
-    description: "23 puntate"
-  - title: "Serata D’autore"
-    description: "30 puntate"
-  - title: "Grandi Classici Da Cineteca (Film Muti)"
-    description: "187 titoli"
-  - title: "L’arte Della Risata"
-    description: "50 puntate"
+--- 
+categories_list: 
+- cinema
+- storia
+- sport
+- progetti
+- programmi
+per_category: 
+  programmi: 
+  - title: Cine Juke-Box
+    description: 65 titoli
+  - title: Il Design Italiano (New)
+    description: 40 puntate
+    video: 
+    - category: 5
+      title: Design Italiano
+      product: 2
+      youtube_code: 5Nzo12F8wdg
+  - title: "Bellezze D\xE2\x80\x99Italia (Italia Delle Meraviglie)"
+    description: Varie
+    video: 
+    - category: 5
+      title: Bellezze d'Italia (Roma)
+      product: 3
+      youtube_code: e0jE04wtUKI
+    - category: 5
+      title: Bellezze d'Italia (Venezia)
+      product: 3
+      youtube_code: Hw7DwdIw6wA
+  - title: Immagini Di Repertorio Special
+    description: Varie
+  - title: Pianeta Terra (Giappone & India)
+    description: 12 puntate
+  - title: Luci Blue (Lampeggianti Blue)
+    description: Varie
+  - title: "Le Grandi Conquiste Tecnologiche Dell\xE2\x80\x99Uomo"
+    description: 18 puntate
+  - title: "Amici Animali: I Cani 1 (New)"
+    description: 12 puntate
+  - title: "Amici Animali: I Cani 2 (New)"
+    description: 10 puntate
+  - title: "L\xE2\x80\x99Egitto Misterioso (New)"
+    description: 12 puntate
+  - title: "T\xE2\x80\x99Ai Chi Ch\xE2\x80\x99 Uan (New)"
+    description: Varie
+  - title: Grandi Pittori & Scultori
+    description: 25 puntate
+  - title: Il Piacere Di Abitare
+    description: 30 puntate
+  - title: 60 Anni Della Nostra Storia
+    description: 30 puntate
+  - title: Sentieri Del Mondo (Popoli)
+    description: 12 puntate
+  - title: "L\xE2\x80\x99Italia Dal Cielo (New)"
+    description: 24 puntate
+  storia: 
+  - title: "L\xE2\x80\x99Inutile Strage (Prima Guerra Mondiale)"
+    description: 18 puntate
+    video: 
+    - category: 2
+      title: L'intuibile strage
+      product: 1
+      youtube_code: QsJGjJSnOZI
+  - title: La Repubblica Sociale Italiana (Rsi)
+    description: 12 puntate
+  - title: I Grandi Dittatori
+    description: 6 puntate
+  - title: Le Grandi Battaglie Della Seconda Guerra Mondiale
+    description: 30 puntate
+    video: 
+    - category: 2
+      title: "Grandi battaglie: Seconda guerra mondiale"
+      product: 4
+      youtube_code: sHlEufvUAMc
+  - title: Storia Degli Eserciti Combattenti
+    description: 12 puntate
+  - title: "Storia Politica, Economica & Militare Della 2\xC2\xB0 G. M."
+    description: Varie
+  - title: Diario Della Seconda Guerra Mondiale
+    description: 12 puntate
+  - title: Gladiators
+    description: 12 puntate
+  - title: Armi & Azioni Segrete Della Seconda G. M.
+    description: 20 puntate
+  - title: 100 Anni In 100 Secondi
+    description: Varie
+    video: 
+    - category: 2
+      title: 100 anni in 100 secondi
+      product: 10
+      youtube_code: u_4Jo6o1pNs
+  - title: Strateghi & Strategia Della G. M. (Generali A Confronto) (New)
+    description: 18 puntate
+  - title: "Grandi Personaggi Del \xE2\x80\x98900 (New)"
+    description: 40 puntate
+  progetti: 
+  - title: "Feste Popolari & Tradizioni D\xE2\x80\x99Italia"
+    description: 20 puntate
+  - title: Enterprise
+    description: 16 puntate
+  - title: "Donna\xE2\x80\xA6 In"
+    description: 18 puntate
+  - title: Sebben Che Siamo Donne
+    description: Varie
+  - title: Professione Notte (Gente Di Notte)
+    description: Varie
+  - title: "Lugano \xE2\x80\x93 Milano"
+    description: Varie
+  - title: "L\xE2\x80\x99Alimentazione Dei Bambini"
+    description: 3 puntate
+  - title: Le Religioni Del Mondo
+    description: Varie
+  - title: Animali Selvaggi
+    description: Varie
+  - title: "12 Minuti Con\xE2\x80\xA6"
+    description: 12 puntate
+  - title: Dei, Miti & Leggende
+    description: Varie
+  - title: Moda Novecento (New)
+    description: 10 puntate
+    video: 
+    - category: 4
+      title: Moda '900
+      product: 12
+      youtube_code: S6dFfDAy__4
+  - title: Il Dizionario Di Bacco
+    description: Varie
+  - title: "Tra Costume & Societa\xE2\x80\x99 (Storia Della Moda)"
+    description: Varie
+  - title: Storia Della Borsa (Valori) (New)
+    description: 1 puntata
+  sport: 
+  - title: Trofeo Biondetti (Auto Storiche Primi 900)
+    description: 60 modelli
+    video: 
+    - category: 3
+      title: Trofeo Biondetti
+      product: 1
+      youtube_code: drf4tJnKWic
+  - title: "Top Cars: Sogni A 4 Ruote Del Nostro Secolo"
+    description: 16 puntate
+  - title: "Alfa Romeo: Una Tradizione Che Continua (New)"
+    description: 22 puntate
+  - title: Stelle Del Golfo
+    description: 60 modelli
+  - title: Avventure Nei Cieli
+    description: 3 puntate
+    video: 
+    - category: 3
+      title: Avventure nei cieli
+      product: 5
+      youtube_code: 8_lI1R5g2qc
+  - title: Avventure Sui Mari
+    description: 5 puntate
+    video: 
+    - category: 3
+      title: Avventure sui mari
+      product: 6
+      youtube_code: T6cNyKEdG_E
+  - title: Le Grandi Sfide Dello Sport
+    description: Varie
+  - title: Racconti Di Cavalli
+    description: 20 puntate
+  - title: I Campioni Leggendari Dello Sport
+    description: Varie
+  cinema: 
+  - title: Silent Movie
+    description: 23 puntate
+    video: 
+    - category: 1
+      title: Silent movie
+      product: 1
+      youtube_code: Q1-_oVmpSuU
+  - title: "Serata D\xE2\x80\x99Autore"
+    description: 30 puntate
+  - title: Grandi Classici Da Cineteca (Film Muti)
+    description: 187 titoli
+  - title: "L\xE2\x80\x99Arte Della Risata"
+    description: 50 puntate
+    video: 
+    - category: 1
+      title: L'arte della risata
+      product: 4
+      youtube_code: 2lzYgbbOdB4
   - title: "Comiche: Charlie Chaplin (Charlot)"
-    description: "51 titoli"
+    description: 51 titoli
   - title: "Comiche: Stanlio & Ollio"
-    description: "20 titoli"
-  - title: "Miche: Buster Keaton"
-    description: "32 titoli"
-  - title: "Miche: Harold Lloyd"
-    description: "14 titoli"
-  - title: "Miche: Harry Langdon"
-    description: "7 titoli"
-  - title: "Miche: Larry Semon (Ridolini)"
-    description: "18 titoli"
-  - title: "Miche: Attori Americani"
-    description: "51 titoli"
-  - title: "Miche: Attori Italiani"
-    description: "41 titoli"
-  - title: "Enco Generale Shorts"
-    description: "163 titoli"
-  - title: "Enco Generale Trailers 01"
-    description: "320 titoli"
-  - title: "Enco Generale Trailers 02"
-    description: "511 titoli"
-  - title: "Schere Di Celluloide: Grandi Profili"
-    description: "30 titoli"
-  - title: "E Domande a… (Manifestazioni Italiane Con Attori Famosi)"
-    description: "Varie"
-  - title: "Otika: Le Origini Del Cinema Proibito (1904/1939)"
-    description: "3 puntate"
-  - title: "Robati Poeti & Torte in Faccia"
-    description: "20 puntate"
-  - title: "Ossimamente Su Questi Schermi"
-    description: "Varie"
-  - title: "Andi Comici in 40 Dvd (New)"
-    description: "40 puntate"
-
-
-
-
-storia:
-  - title: "Inutile Strage (Prima Guerra Mondiale)"
-    description: "18 puntate"
-  - title:  "Repubblica Sociale Italiana (Rsi)"
-    description: "12 puntate"
-  - title: "Grandi Dittatori"
-    description: "6 puntate"
-  - title:  "Grandi Battaglie Della Seconda Guerra Mondiale"
-    description: "30 puntate"
-  - title: "Oria Degli Eserciti Combattenti"
-    description: "12 puntate"
-  - title: "Oria Politica, Economica & Militare Della Seconda Guerra Mondiale"
-    description: "Varie"
-  - title: "Ario Della Seconda Guerra Mondiale"
-    description: "12 puntate"
-  - title: "Adiators"
-    description: "12 puntate"
-  - title: "Mi & Azioni Segrete Della Seconda Guerra Mondiale"
-    description: "20 puntate"
-  - title: "0 Anni in 100 Secondi"
-    description: "Varie"
-  - title: "Rateghi & Strategia Delle 2 Guerre Mondiali (Generali a Confronto) (New)"
-    description: "18 puntate"
-  - title: "Andi Personaggi Del ‘900 (New)"
-    description: "40 puntate"
-  - title: "Parti Speciali Italiani (New)"
-    description: "Varie"
-
-
-
-sport:
-  - title: "Ofeo Biondetti (Auto Storiche Primi 900)"
-    description: "60 modelli"
-  - title: "P Cars: Sogni a 4 Ruote Del Nostro  Secolo"
-    description: "16 puntate"
-  - title: "Fa Romeo: Una Tradizione Che  Continua (New)"
-    description: "22 puntate"
-  - title: "Elle Del Golfo"
-    description: "60 modelli"
-  - title: "Venture Nei Cieli"
-    description: "3 puntate"
-  - title: "Venture Sui Mari"
-    description: "5 puntate"
-  - title:  "Grandi Sfide Dello Sport"
-    description: "Varie"
-  - title: "Cconti Di Cavalli"
-    description: "20 puntate"
-  - title: "Campioni Leggendari Dello Sport"
-    description: "Varie"
-  - title: "Cchette Di Legno"
-    description: "Varie"
-
-
-
-
-progetti:
-  - title: "Ste Popolari & Tradizioni D’italia"
-    description: "20 puntate"
-  - title: "Terprise"
-    description: "16 puntate"
-  - title: "Nna… In"
-    description: "18 puntate"
-  - title: "Bben Che Siamo Donne"
-    description: "Varie"
-  - title: "Ofessione Notte (Gente Di Notte)"
-    description: "Varie"
-  - title: "Gano – Milano"
-    description: "Varie"
-  - title: "Alimentazione Dei Bambini"
-    description: "3 puntate"
-  - title:  "Religioni Del Mondo"
-    description: "Varie"
-  - title: "Imali Selvaggi"
-    description: "Varie"
-  - title:  "Minuti Con…"
-    description: "12 puntate"
-  - title: "I, Miti & Leggende"
-    description: "Varie"
-  - title: "Da Novecento (New)"
-    description: "10 puntate"
-  - title:  "Dizionario Di Bacco"
-    description: "Varie"
-  - title: "A Costume & Societa’ (Storia Della Moda)"
-    description: "Varie"
-  - title: "Oria Della Borsa Valori (New)"
-    description: "1 puntata"
-  - title: "Ndem: La Storia Per Due! (New)"
-    description: "12 puntate"
-
-
-
-
-programmi:
-  - title: "Ne Juke-Box"
-    description: "65 titoli"
-  - title: "Design Italiano (New)"
-    description: "40 puntate"
-  - title: "Lezze D’italia - Italia Delle Meraviglie"
-    description: "Varie"
-  - title: "Agini Di Repertorio Special"
-    description: "Varie"
-  - title: "Neta Terra (Giappone & India)"
-    description: "12 puntate"
-  - title: "I Blue (Lampeggianti Blue)"
-    description: "Varie"
-  - title: "Grandi Conquiste Tecnologiche Dell’uomo"
-    description: "18 puntate"
-  - title: "Ci Animali: I Cani 1 (New)"
-    description: "12 puntate"
-  - title: "Ci Animali: I Cani 2 (New)"
-    description: "10 puntate"
-  - title: "Gitto Misterioso (New)"
-    description: "12 puntate"
-  - title: "I Chi Ch’ Uan (New)"
-    description: "Varie"
-  - title: "Ndi Pittori & Scultori"
-    description: "25 puntate"
-  - title: "Piacere Di Abitare"
-    description: "30 puntate"
-  - title: "Anni Della Nostra Storia"
-    description: "30 puntate"
-  - title: "Tieri Del Mondo (Popoli)"
-    description: "12 puntate"
-  - title: "Talia Dal Cielo (New)"
-    description: "24 puntate"
-  - title: "Saggi Italiani"
-    description: "22 Clip"
-
-
-
-
-
-# news:
-#   - title: "Iane & Non…"
-#     description: "Varie"
+    description: 48 titoli
+  - title: "Comiche: Buster Keaton"
+    description: 32 titoli
+  - title: "Comiche: Harold Lloyd"
+    description: 14 titoli
+  - title: "Comiche: Harry Langdon"
+    description: 7 titoli
+  - title: "Comiche: Larry Semon (Ridolini)"
+    description: 18 titoli
+  - title: "Comiche: Attori Americani"
+    description: 51 titoli
+  - title: "Comiche: Attori Italiani"
+    description: 41 titoli
+  - title: Elenco Generale Shorts
+    description: 163 titoli
+  - title: Elenco Generale Trailers 01
+    description: 320 titoli
+  - title: Elenco Generale Trailers 02
+    description: 511 titoli
+  - title: "Maschere Di Celluloide \xE2\x80\x93 Grandi Profili"
+    description: 30 titoli
+  - title: "Tre Domande A\xE2\x80\xA6 (Manifestazioni Italiane Con Attori Famosi)"
+    description: Varie
+  - title: "Erotika: Alle Origini Del Cinema Proibito (1904/1939)"
+    description: 3 puntate
+  - title: Acrobati Poeti & Torte In Faccia
+    description: 20 puntate
+  - title: Prossimamente Su Questi Schermi
+    description: Varie

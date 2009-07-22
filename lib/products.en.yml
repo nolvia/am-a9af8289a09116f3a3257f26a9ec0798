@@ -1,150 +1,216 @@
 --- 
-programmes: 
-- title: Juke Box Film
-  description: 65 titles
-- title: The Italian Design (New)
-  description: 40 episodes
-- title: "Italian Beauty: The Wonders Of Italy"
-  description: Varie
-- title: Special Footages
-  description: Varie
-- title: "The Humans Of The Planet Earth: Japan And India"
-  description: 12 episodes
-- title: "Blue Lights: Flashing Siren"
-  description: Varie
-- title: The Grand Human Technology Conquest
-  description: Varie
-- title: "Friendly Animals: Dogs Part I (New)"
-  description: 10 episodes
-- title: "Friendly Animals: Dogs Part Ii (New)"
-  description: 8 episodes
-- title: The Mystery Of Egypt (New)
-  description: 12 episodes
-- title: "T\xE2\x80\x99Ai Chi Ch\xE2\x80\x99Uan (New)"
-  description: Varie
-- title: Great Painters & Sculptors
-  description: 25 episodes
-- title: The Pleasure Of Living
-  description: 30 episodes
-- title: The Last 60 Years Of Italian History
-  description: 30 episodes
-- title: The Ancestrors Of The World
-  description: 12 episodes
-- title: Italy In The Sky (New)
-  description: 24 episodes
-- title: Italian Panorama (New)
-  description: 22 clip
-history: 
-- title: "The Meaningless Bloodshed: World War I"
-  description: 18 episodes
-- title: The Italian Social Republic
-  description: 12 episodes
-- title: The Grand Dictators
-  description: 6 episodes
-- title: The Grand Battle Of World War Ii
-  description: 30 episodes
-- title: History Of Combat Training
-  description: 12 episodes
-- title: History, Politics, Economics And Military In  Ww Ii
-  description: Varie
-- title: Journals Of World War Ii
-  description: 12 episodes
-- title: Gladiators
-  description: 12 episodes
-- title: Army & Secret Events Of World War Ii
-  description: 20 episodes
-- title: 100 Years In 100 Seconds
-  description: Varie
-- title: "World War  I  Strategies \xE2\x80\x93 Overall Match (New)"
-  description: 18 episodes
-- title: "The Famous Personalities Of The \xE2\x80\x98900 (New)"
-  description: 40 episodes
-projects: 
-- title: Famous Occassions And Italian Traditions
-  description: 20 episodes
-- title: Enterprise
-  description: 16 episodes
-- title: "Ladies\xE2\x80\xA6 In"
-  description: 18 episodes
-- title: "Although  We Are  Women\xE2\x80\xA6"
-  description: Varie
-- title: "Italian Beauty: The Wonders Of Italy"
-  description: Varie
-- title: Lugano-Milano
-  description: Varie
-- title: Child Nutrition After The War
-  description: 3 episodes
-- title: World Religions
-  description: Varie
-- title: Savage Animals
-  description: Varie
-- title: "12 Minutes With\xE2\x80\xA6 Interview With Vip"
-  description: 12 episodes
-- title: About Myths And Leggends
-  description: Varie
-- title: 19th Century Fashion (New)
-  description: 10 episodes
-- title: "Bacco Dictionary: Dedicated To Wine And Drinks"
-  description: Varie
-- title: "Between Costume And Society: Story Of Fashion"
-  description: Varie
-- title: The Stock Exchange
-  description: 1 episode
-sports: 
-- title: "Trofeo Biondetti: Early Historic Elegant Cars"
-  description: 60 models
-- title: Millenium Dream Cars
-  description: 16 episodes
-- title: "Alfa Romeo: The Tradition Continues.. (New)"
-  description: 22 episodes
-- title: Stars Of The Gulf
-  description: 60 models
-- title: Sky Adventure
-  description: 3 episodes
-- title: The Grand Sport Challenge
-  description: Varie
-- title: The Horse Story
-  description: 20 episodes
-- title: The Leggendary Sport Champions
-  description: Varie
-cinema: 
-- title: Silent Movie (History Of Silent Movie)
-  description: 23 episodes
-- title: A Nigth Of Movies
-  description: 30 episodes
-- title: "Grand Classical Film Collection: Silent Movie"
-  description: 187 titles
-- title: Laughing Arts
-  description: 50 episodes
-- title: "Comical: Charlie Chaplin (Charlot)"
-  description: 51 titles
-- title: "Comical: Stan Laurel & Oliver Hardy"
-  description: 20 titles
-- title: "Comical: Buster Keaton"
-  description: 32 titles
-- title: "Comical: Harold Lloyd"
-  description: 14 titles
-- title: "Comical: Harry Langdon"
-  description: 7 titles
-- title: "Comical: Larry Semon (Ridolini)"
-  description: 18 titles
-- title: American Comedians
-  description: 51 titles
-- title: Italian Comedians
-  description: 41 titles
-- title: Full Shorts List
-  description: 163 titles
-- title: "Full Trailer\xE2\x80\x99S Lists Part I"
-  description: 320 titles
-- title: "Full Trailer\xE2\x80\x99S Lists Part Ii"
-  description: 511 titles
-- title: "Celluloid Usher \xE2\x80\x93 Grand Outline"
-  description: 30 titles
-- title: "Three Questions\xE2\x80\xA6. Actor\xE2\x80\x99S Show"
-  description: Varie
-- title: "Erotica: The Origins Of Prohibited Film"
-  description: 3 episodes
-- title: Stunts Playwright And Pie Throwned On Face
-  description: 20 episodes
-- title: "Coming Soon/ Up Next: On The Big Screen"
-  description: Varie
+categories_list: 
+- cinema
+- history
+- sports
+- projects
+- programmes
+per_category: 
+  programmes: 
+  - title: Juke Box Film
+    description: 65 titles
+  - title: The Italian Design (New)
+    description: 40 episodes
+    video: 
+    - category: 5
+      title: Design Italiano
+      product: 2
+      youtube_code: 5Nzo12F8wdg
+  - title: "Italian Beauty: The Wonders Of Italy"
+    description: Varie
+    video: 
+    - category: 5
+      title: Bellezze d'Italia (Roma)
+      product: 3
+      youtube_code: e0jE04wtUKI
+    - category: 5
+      title: Bellezze d'Italia (Venezia)
+      product: 3
+      youtube_code: Hw7DwdIw6wA
+  - title: Special Footages
+    description: Varie
+  - title: "The Humans Of The Planet Earth: Japan And India"
+    description: 12 episodes
+  - title: "Blue Lights: Flashing Siren"
+    description: Varie
+  - title: The Grand Human Technology Conquest
+    description: Varie
+  - title: "Friendly Animals: Dogs Part I (New)"
+    description: 10 episodes
+  - title: "Friendly Animals: Dogs Part Ii (New)"
+    description: 8 episodes
+  - title: The Mystery Of Egypt (New)
+    description: 12 episodes
+  - title: "T\xE2\x80\x99Ai Chi Ch\xE2\x80\x99Uan (New)"
+    description: Varie
+  - title: Great Painters & Sculptors
+    description: 25 episodes
+  - title: The Pleasure Of Living
+    description: 30 episodes
+  - title: The Last 60 Years Of Italian History
+    description: 30 episodes
+  - title: The Ancestrors Of The World
+    description: 12 episodes
+  - title: Italy In The Sky (New)
+    description: 24 episodes
+  - title: Italian Panorama (New)
+    description: 22 clip
+  history: 
+  - title: "The Meaningless Bloodshed: World War I"
+    description: 18 episodes
+    video: 
+    - category: 2
+      title: L'intuibile strage
+      product: 1
+      youtube_code: QsJGjJSnOZI
+  - title: The Italian Social Republic
+    description: 12 episodes
+  - title: The Grand Dictators
+    description: 6 episodes
+  - title: The Grand Battle Of World War Ii
+    description: 30 episodes
+    video: 
+    - category: 2
+      title: "Grandi battaglie: Seconda guerra mondiale"
+      product: 4
+      youtube_code: sHlEufvUAMc
+  - title: History Of Combat Training
+    description: 12 episodes
+  - title: History, Politics, Economics And Military In  Ww Ii
+    description: Varie
+  - title: Journals Of World War Ii
+    description: 12 episodes
+  - title: Gladiators
+    description: 12 episodes
+  - title: Army & Secret Events Of World War Ii
+    description: 20 episodes
+  - title: 100 Years In 100 Seconds
+    description: Varie
+    video: 
+    - category: 2
+      title: 100 anni in 100 secondi
+      product: 10
+      youtube_code: u_4Jo6o1pNs
+  - title: "World War  I  Strategies \xE2\x80\x93 Overall Match (New)"
+    description: 18 episodes
+  - title: "The Famous Personalities Of The \xE2\x80\x98900 (New)"
+    description: 40 episodes
+  projects: 
+  - title: Famous Occassions And Italian Traditions
+    description: 20 episodes
+  - title: Enterprise
+    description: 16 episodes
+  - title: "Ladies\xE2\x80\xA6 In"
+    description: 18 episodes
+  - title: "Although  We Are  Women\xE2\x80\xA6"
+    description: Varie
+  - title: "Italian Beauty: The Wonders Of Italy"
+    description: Varie
+  - title: Lugano-Milano
+    description: Varie
+  - title: Child Nutrition After The War
+    description: 3 episodes
+  - title: World Religions
+    description: Varie
+  - title: Savage Animals
+    description: Varie
+  - title: "12 Minutes With\xE2\x80\xA6 Interview With Vip"
+    description: 12 episodes
+  - title: About Myths And Leggends
+    description: Varie
+  - title: 19th Century Fashion (New)
+    description: 10 episodes
+    video: 
+    - category: 4
+      title: Moda '900
+      product: 12
+      youtube_code: S6dFfDAy__4
+  - title: "Bacco Dictionary: Dedicated To Wine And Drinks"
+    description: Varie
+  - title: "Between Costume And Society: Story Of Fashion"
+    description: Varie
+  - title: The Stock Exchange
+    description: 1 episode
+  sports: 
+  - title: "Trofeo Biondetti: Early Historic Elegant Cars"
+    description: 60 models
+    video: 
+    - category: 3
+      title: Trofeo Biondetti
+      product: 1
+      youtube_code: drf4tJnKWic
+  - title: Millenium Dream Cars
+    description: 16 episodes
+  - title: "Alfa Romeo: The Tradition Continues.. (New)"
+    description: 22 episodes
+  - title: Stars Of The Gulf
+    description: 60 models
+  - title: Sky Adventure
+    description: 3 episodes
+    video: 
+    - category: 3
+      title: Avventure nei cieli
+      product: 5
+      youtube_code: 8_lI1R5g2qc
+  - title: The Grand Sport Challenge
+    description: Varie
+    video: 
+    - category: 3
+      title: Avventure sui mari
+      product: 6
+      youtube_code: T6cNyKEdG_E
+  - title: The Horse Story
+    description: 20 episodes
+  - title: The Leggendary Sport Champions
+    description: Varie
+  cinema: 
+  - title: Silent Movie (History Of Silent Movie)
+    description: 23 episodes
+    video: 
+    - category: 1
+      title: Silent movie
+      product: 1
+      youtube_code: Q1-_oVmpSuU
+  - title: A Nigth Of Movies
+    description: 30 episodes
+  - title: "Grand Classical Film Collection: Silent Movie"
+    description: 187 titles
+  - title: Laughing Arts
+    description: 50 episodes
+    video: 
+    - category: 1
+      title: L'arte della risata
+      product: 4
+      youtube_code: 2lzYgbbOdB4
+  - title: "Comical: Charlie Chaplin (Charlot)"
+    description: 51 titles
+  - title: "Comical: Stan Laurel & Oliver Hardy"
+    description: 20 titles
+  - title: "Comical: Buster Keaton"
+    description: 32 titles
+  - title: "Comical: Harold Lloyd"
+    description: 14 titles
+  - title: "Comical: Harry Langdon"
+    description: 7 titles
+  - title: "Comical: Larry Semon (Ridolini)"
+    description: 18 titles
+  - title: American Comedians
+    description: 51 titles
+  - title: Italian Comedians
+    description: 41 titles
+  - title: Full Shorts List
+    description: 163 titles
+  - title: "Full Trailer\xE2\x80\x99S Lists Part I"
+    description: 320 titles
+  - title: "Full Trailer\xE2\x80\x99S Lists Part Ii"
+    description: 511 titles
+  - title: "Celluloid Usher \xE2\x80\x93 Grand Outline"
+    description: 30 titles
+  - title: "Three Questions\xE2\x80\xA6. Actor\xE2\x80\x99S Show"
+    description: Varie
+  - title: "Erotica: The Origins Of Prohibited Film"
+    description: 3 episodes
+  - title: Stunts Playwright And Pie Throwned On Face
+    description: 20 episodes
+  - title: "Coming Soon/ Up Next: On The Big Screen"
+    description: Varie

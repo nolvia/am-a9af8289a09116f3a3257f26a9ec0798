@@ -1,150 +1,216 @@
 --- 
-proyectos: 
-- title: Fiestas De Pueblo Y Tradiccion De Italia
-  description: 20 capitulos
-- title: Enterprise
-  description: 16 capitulos
-- title: "Mujer\xE2\x80\xA6 En"
-  description: 18 capitulos
-- title: Profesion Noche (Gente Por La Noche)
-  description: Varias
-- title: "Lugano \xE2\x80\x93 Milano"
-  description: Varias
-- title: "L\xE2\x80\x99Alimentacion De Los Ni\xC5\x87Os"
-  description: 3 capitulos
-- title: Las Religiones Del Mundo
-  description: Varias
-- title: Animales Selvajes
-  description: Varias
-- title: "12 Minutos Con\xE2\x80\xA6"
-  description: 12 capitulos
-- title: Dioses, Mitos Y Leyendas
-  description: Varias
-- title: Moda Noveciento (Nuevo)
-  description: 10 capitulos
-- title: El Diccionario De Bacco
-  description: Varias
-- title: Entre Costumbre Y Sociedad (Historia De La Moda)
-  description: Varias
-- title: Historia Del Mercado(Nuevo)
-  description: 1 capitulo
-programas: 
-- title: Cine Juke-Box
-  description: 65 titulos
-- title: El Design Italiano (Nuevo)
-  description: 40 capitulos
-- title: Bellezas De Italia (Italia De Las Maravillas)
-  description: Varias
-- title: Immagines De Archivo Especial
-  description: Varias
-- title: Planeta Tierra (Japon Y India)
-  description: 12 capitulos
-- title: Luces Azules (Bombillas Azules)
-  description: Varias
-- title: Las Grandes Conquistas Tecnologicas Del Hombre
-  description: 18 capitulos
-- title: "Amigos Animales: Los Perros 1 (Nuevo)"
-  description: 12 capitulos
-- title: "Amigos Animales: Los Perros 2 (Nuevo)"
-  description: 10 capitulos
-- title: El Egito Misterioso (Nuevo)
-  description: 12 capitulos
-- title: "T\xE2\x80\x99Ai Chi Ch\xE2\x80\x99 Uan (Nuevo)"
-  description: Varias
-- title: Grandes Pintores Y Escultores
-  description: 25 capitulos
-- title: El Placer De Habitar
-  description: 30 capitulos
-- title: "60 A\xC5\x87Os De La Nuestra Historia"
-  description: 30 capitulos
-- title: Rutas Del Mundo(Poblaciones)
-  description: 12 capitulos
-- title: Italia Desde El Ciel (Nuevo)
-  description: 24 capitulos
-- title: Paisajes Italianos (Nuevo)
-  description: 22 clip
-deporte: 
-- title: Trofeo Biondetti (Coches Historicos Primero 900)
-  description: 60 modeles
-- title: "Top Cars: Sue\xC5\x87Os A 4 Ruotas De Nuestro Siglo"
-  description: 16 capitulos
-- title: "Alfa Romeo: Una Tradiccion Que Sigue (New)"
-  description: 22 capitulos
-- title: Estrellas Del Gulfo
-  description: 60 modeles
-- title: Aventuras En Los Cielos
-  description: 3 capitulos
-- title: Aventuras Sobra Los Mares
-  description: 5 capitulos
-- title: Las Grandes Desfidas Del Desporte
-  description: Varias
-- title: Cuentos De Caballos
-  description: 20 capitulos
-- title: Los Legendarios Campeones Del Deporte
-  description: Varias
-historia: 
-- title: La Inutil Matanza  (Primera Guerra Mundial)
-  description: 18 capitulos
-- title: La Republica Social Italiana (Rsi)
-  description: 12 capitulos
-- title: Los Grandes Dictatores
-  description: 6 capitulos
-- title: Las Grandes Batallas De La Segunda Guerra Mundial
-  description: 30 capitulos
-- title: Historia De Los Ejercitos Combatientes
-  description: 12 capitulos
-- title: "Historia Politica, Economica Y Militar De La 2\xC2\xB0 G. M."
-  description: Varias
-- title: Diario De La Segunda Guerra Mundial
-  description: 12 capitulos
-- title: Gladiatores
-  description: 12 capitulos
-- title: Armas Y Acciones Occultas De La Segunda G. M.
-  description: 20 capitulos
-- title: "100 A\xC5\x87Os En 100 Secundos"
-  description: Varias
-- title: Estrategas Y Estrategia De La G. M. (Comparacion De Generales) (Nuevo)
-  description: 18 capitulos
-- title: "Grandes Personajes Del \xE2\x80\x98900 (Nuevo)"
-  description: 40 capitulos
-cinema: 
-- title: Silent Movie
-  description: 23 capitulos
-- title: Noche De Autor
-  description: 30 capitulos
-- title: Grandes Clasicos De Cinemateca(Peliculas Mudas)
-  description: 187 titulos
-- title: El Arte De La Risa
-  description: 50 capitulos
-- title: "Comicas: Charlie Chaplin (Charlot)"
-  description: 51 titulos
-- title: "Comicas: El Gordo Y El Flaco"
-  description: 48 titulos
-- title: "Comicas: Buster Keaton"
-  description: 32 titulos
-- title: "Comicas: Harold Lloyd"
-  description: 14 titulos
-- title: "Comicas: Harry Langdon"
-  description: 7 titulos
-- title: "Comicas: Larry Semon (Ridolini)"
-  description: 18 titulos
-- title: "Comicas: Actores Americanos"
-  description: 51 titulos
-- title: "Comicas: Actores Italianos"
-  description: 41 titulos
-- title: Lista General Cortos
-  description: 163 titulos
-- title: Lista General Trailers 01
-  description: 320 titulos
-- title: Lista General Trailers 02
-  description: 511 titulos
-- title: "Mascaras De Celuloide \xE2\x80\x93 Grandes Perfiles"
-  description: 30 titulos
-- title: "Tres Preguntas A\xE2\x80\xA6 (Manifestaciones  Italianas Con Actores Famosos)"
-  description: Varias
-- title: "Erotika: A Las Origenes Del Cine Prohibido(1904/1939)"
-  description: 3 capitulos
-- title: Acrobatas Poetas Y Tartas En La Cara
-  description: 20 capitulos
-- title: Proximamente Sobra Estas Pantallas
-  description: Varias
+categories_list: 
+- cinema
+- historia
+- deporte
+- proyectos
+- programas
+per_category: 
+  proyectos: 
+  - title: Fiestas De Pueblo Y Tradiccion De Italia
+    description: 20 capitulos
+  - title: Enterprise
+    description: 16 capitulos
+  - title: "Mujer\xE2\x80\xA6 En"
+    description: 18 capitulos
+  - title: Profesion Noche (Gente Por La Noche)
+    description: Varias
+  - title: "Lugano \xE2\x80\x93 Milano"
+    description: Varias
+  - title: "L\xE2\x80\x99Alimentacion De Los Ni\xC5\x87Os"
+    description: 3 capitulos
+  - title: Las Religiones Del Mundo
+    description: Varias
+  - title: Animales Selvajes
+    description: Varias
+  - title: "12 Minutos Con\xE2\x80\xA6"
+    description: 12 capitulos
+  - title: Dioses, Mitos Y Leyendas
+    description: Varias
+  - title: Moda Noveciento (Nuevo)
+    description: 10 capitulos
+  - title: El Diccionario De Bacco
+    description: Varias
+    video: 
+    - category: 4
+      title: Moda '900
+      product: 12
+      youtube_code: S6dFfDAy__4
+  - title: Entre Costumbre Y Sociedad (Historia De La Moda)
+    description: Varias
+  - title: Historia Del Mercado(Nuevo)
+    description: 1 capitulo
+  programas: 
+  - title: Cine Juke-Box
+    description: 65 titulos
+  - title: El Design Italiano (Nuevo)
+    description: 40 capitulos
+    video: 
+    - category: 5
+      title: Design Italiano
+      product: 2
+      youtube_code: 5Nzo12F8wdg
+  - title: Bellezas De Italia (Italia De Las Maravillas)
+    description: Varias
+    video: 
+    - category: 5
+      title: Bellezze d'Italia (Roma)
+      product: 3
+      youtube_code: e0jE04wtUKI
+    - category: 5
+      title: Bellezze d'Italia (Venezia)
+      product: 3
+      youtube_code: Hw7DwdIw6wA
+  - title: Immagines De Archivo Especial
+    description: Varias
+  - title: Planeta Tierra (Japon Y India)
+    description: 12 capitulos
+  - title: Luces Azules (Bombillas Azules)
+    description: Varias
+  - title: Las Grandes Conquistas Tecnologicas Del Hombre
+    description: 18 capitulos
+  - title: "Amigos Animales: Los Perros 1 (Nuevo)"
+    description: 12 capitulos
+  - title: "Amigos Animales: Los Perros 2 (Nuevo)"
+    description: 10 capitulos
+  - title: El Egito Misterioso (Nuevo)
+    description: 12 capitulos
+  - title: "T\xE2\x80\x99Ai Chi Ch\xE2\x80\x99 Uan (Nuevo)"
+    description: Varias
+  - title: Grandes Pintores Y Escultores
+    description: 25 capitulos
+  - title: El Placer De Habitar
+    description: 30 capitulos
+  - title: "60 A\xC5\x87Os De La Nuestra Historia"
+    description: 30 capitulos
+  - title: Rutas Del Mundo(Poblaciones)
+    description: 12 capitulos
+  - title: Italia Desde El Ciel (Nuevo)
+    description: 24 capitulos
+  - title: Paisajes Italianos (Nuevo)
+    description: 22 clip
+  deporte: 
+  - title: Trofeo Biondetti (Coches Historicos Primero 900)
+    description: 60 modeles
+    video: 
+    - category: 3
+      title: Trofeo Biondetti
+      product: 1
+      youtube_code: drf4tJnKWic
+  - title: "Top Cars: Sue\xC5\x87Os A 4 Ruotas De Nuestro Siglo"
+    description: 16 capitulos
+  - title: "Alfa Romeo: Una Tradiccion Que Sigue (New)"
+    description: 22 capitulos
+  - title: Estrellas Del Gulfo
+    description: 60 modeles
+  - title: Aventuras En Los Cielos
+    description: 3 capitulos
+    video: 
+    - category: 3
+      title: Avventure nei cieli
+      product: 5
+      youtube_code: 8_lI1R5g2qc
+  - title: Aventuras Sobra Los Mares
+    description: 5 capitulos
+    video: 
+    - category: 3
+      title: Avventure sui mari
+      product: 6
+      youtube_code: T6cNyKEdG_E
+  - title: Las Grandes Desfidas Del Desporte
+    description: Varias
+  - title: Cuentos De Caballos
+    description: 20 capitulos
+  - title: Los Legendarios Campeones Del Deporte
+    description: Varias
+  historia: 
+  - title: La Inutil Matanza  (Primera Guerra Mundial)
+    description: 18 capitulos
+    video: 
+    - category: 2
+      title: L'intuibile strage
+      product: 1
+      youtube_code: QsJGjJSnOZI
+  - title: La Republica Social Italiana (Rsi)
+    description: 12 capitulos
+  - title: Los Grandes Dictatores
+    description: 6 capitulos
+  - title: Las Grandes Batallas De La Segunda Guerra Mundial
+    description: 30 capitulos
+    video: 
+    - category: 2
+      title: "Grandi battaglie: Seconda guerra mondiale"
+      product: 4
+      youtube_code: sHlEufvUAMc
+  - title: Historia De Los Ejercitos Combatientes
+    description: 12 capitulos
+  - title: "Historia Politica, Economica Y Militar De La 2\xC2\xB0 G. M."
+    description: Varias
+  - title: Diario De La Segunda Guerra Mundial
+    description: 12 capitulos
+  - title: Gladiatores
+    description: 12 capitulos
+  - title: Armas Y Acciones Occultas De La Segunda G. M.
+    description: 20 capitulos
+  - title: "100 A\xC5\x87Os En 100 Secundos"
+    description: Varias
+    video: 
+    - category: 2
+      title: 100 anni in 100 secondi
+      product: 10
+      youtube_code: u_4Jo6o1pNs
+  - title: Estrategas Y Estrategia De La G. M. (Comparacion De Generales) (Nuevo)
+    description: 18 capitulos
+  - title: "Grandes Personajes Del \xE2\x80\x98900 (Nuevo)"
+    description: 40 capitulos
+  cinema: 
+  - title: Silent Movie
+    description: 23 capitulos
+    video: 
+    - category: 1
+      title: Silent movie
+      product: 1
+      youtube_code: Q1-_oVmpSuU
+  - title: Noche De Autor
+    description: 30 capitulos
+  - title: Grandes Clasicos De Cinemateca(Peliculas Mudas)
+    description: 187 titulos
+  - title: El Arte De La Risa
+    description: 50 capitulos
+    video: 
+    - category: 1
+      title: L'arte della risata
+      product: 4
+      youtube_code: 2lzYgbbOdB4
+  - title: "Comicas: Charlie Chaplin (Charlot)"
+    description: 51 titulos
+  - title: "Comicas: El Gordo Y El Flaco"
+    description: 48 titulos
+  - title: "Comicas: Buster Keaton"
+    description: 32 titulos
+  - title: "Comicas: Harold Lloyd"
+    description: 14 titulos
+  - title: "Comicas: Harry Langdon"
+    description: 7 titulos
+  - title: "Comicas: Larry Semon (Ridolini)"
+    description: 18 titulos
+  - title: "Comicas: Actores Americanos"
+    description: 51 titulos
+  - title: "Comicas: Actores Italianos"
+    description: 41 titulos
+  - title: Lista General Cortos
+    description: 163 titulos
+  - title: Lista General Trailers 01
+    description: 320 titulos
+  - title: Lista General Trailers 02
+    description: 511 titulos
+  - title: "Mascaras De Celuloide \xE2\x80\x93 Grandes Perfiles"
+    description: 30 titulos
+  - title: "Tres Preguntas A\xE2\x80\xA6 (Manifestaciones  Italianas Con Actores Famosos)"
+    description: Varias
+  - title: "Erotika: A Las Origenes Del Cine Prohibido(1904/1939)"
+    description: 3 capitulos
+  - title: Acrobatas Poetas Y Tartas En La Cara
+    description: 20 capitulos
+  - title: Proximamente Sobra Estas Pantallas
+    description: Varias

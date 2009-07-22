@@ -1,6 +1,6 @@
 <div id="products_container" class="glider">
   <div class="controls">
-    <% categories = @products_per_category.keys %>
+    <% categories = @products['categories_list'] %>
     <% for category in categories %>
       <div><%# this div serves to avoid the "duplicated text IE6 bug" %>
       <%= link_to category.humanize, "##{category}", 
@@ -12,7 +12,9 @@
   <div class="scroller">
     <div class="content">
       <% for category in categories %>
-        <%= render :partial => 'products', :locals => {:category => category, :products => category[:products]} %>
+        <%= render :partial => 'products', :locals => {
+          :category => category, 
+          :products => @products['per_category'][category]} %>
       <% end %>      
     </div>
   </div>
