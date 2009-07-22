@@ -39,4 +39,12 @@ module SiteHelper
     link_to image_tag("flags/#{locale}_medium.png", :title => name), 
             send( controller.action_name+'_path', locale ), :class => (active ? 'active' : '')
   end
+  
+  def youtube_video(code, locale)
+    %Q{<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/#{code}&hl=#{locale}&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/#{code}&hl=#{locale}&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>}
+  end
+  
+  def youtube_link(code)
+    "http://www.youtube.com/watch?v=#{code}"
+  end
 end
