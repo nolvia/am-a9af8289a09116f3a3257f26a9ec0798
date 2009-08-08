@@ -2,18 +2,22 @@
 
 body {
   border-collapse: collapse;
-  background-image: url('/images/background.jpg');
+/*  background-image: url('/images/background.jpg');*/
   background-repeat: repeat-x;
-  background-color: white;
+  background-color: black;
   margin:0;
   padding:0;
-  color: #141414;
+  color: #933;
   line-height: 140%;
   font-style: normal;
   font-weight: normal;
   font-size: 95%;
   font-family: "Lucida Grande", "Trebuchet MS", Verdana, Arial, sans-serif;
-  text-align:center;
+  text-align:left;
+}
+
+.page_width {
+  max-width:850px;
 }
 
 a {
@@ -24,7 +28,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-size: 200%;
-  color: #cc0099;
+  color: #F93;
 }
 
 h2 {
@@ -44,6 +48,10 @@ img {
 #macok_logo{
   
 }
+#header {
+  text-align:center;
+  margin:0 auto;
+}
 #header h2 a{
   color:black;
   text-decoration: none;
@@ -55,18 +63,18 @@ img {
 /* SECTIONS */
 
 #sections_wrapper {
-  background: url('../images/top_shadow.gif') repeat-x bottom;
+/*  background: url('../images/top_shadow.gif') repeat-x bottom;*/
 }
 
 #sections {
   margin: 0 auto;
-  width:720px;
+  margin-bottom: 1em;
+  clear:both;
   overflow:visible;
   text-align:center;
   padding:0;
   padding-top:26px;
-/*  height:190px;*/
-  height:140px;
+  border-bottom:solid 5px #400;
 }
 
 #sections a img{
@@ -82,30 +90,20 @@ img {
 #sections a{
   text-decoration: none;
   display: block;
-/*  width:136px !important;*/
-  width:100px !important;
   overflow:visible;
   float:left;
-/*  height:142px;*/
-  height:120px;
   text-align:center;
   font-size: 20px;
-  color:#c09;
+  color:#C33;
   font-weight: bold;
-  padding:2px;
+  padding:0.6em 1em;
   margin:0 20px;
 }
 
-#sections a:hover {
-  color:#f6c;
+#sections a.active, #sections a:hover {
+  color:#D33;
   text-decoration:none;
-}
-#sections a.active {
-/*  height:136px;*/
-/*  height:120px;*/
-/*  border-bottom: 6px solid #f6c;*/
-  background: white url('../images/sections/shadow.gif') no-repeat scroll bottom center;
-  color: #f6c;
+  background-color:#400;
 }
 
 ul.with_image{
@@ -132,14 +130,14 @@ ul.with_image{
   height:90px;
   text-align:center;
   font-size: 80%;
-  color:#c09;
+  color:#D33;
   font-weight: bold;
   padding:2px;
   margin:0 10px;
 }
 
 #inner_sections a:hover{
-  color:#f6c;
+  color:#C33;
 }
 
 #inner_sections a span{
@@ -153,23 +151,19 @@ ul.with_image{
 
 #container{
   clear:both;
-  width:720px;
   margin:0 auto;
 }
 
 #content { }
 
 #content a {
-  color:black;
+  color:#F90;
   font-weight: bold;
   text-decoration: none;
-  padding:3px 2px;
-  padding-bottom:0px;
-  border-bottom:3px solid #c09;
 }
 
 #content a:hover{
-  background-color: #c09;
+  background-color: #D33;
   color:white;
 }
 
@@ -183,29 +177,29 @@ ul.with_image{
 /* FOOTER */
 
 #footer{
-  color:#bbb;
-  border-top:1px solid #eee;
+  color:#555;
+  border-top:1px solid #444;
   font-size:small;
   text-align:center;
   margin-top: 3em;
 }
 
 #footer a {
-  color:#999;
+  color:#777;
   border-width:0px;
   font-weight:normal;
   background-color: transparent;
 }
 
 #footer a:hover {
-  color:black;
+  color:white;
   text-decoration: none;
   border-width:0px;
   background-color:transparent;
 }
 
 #footer .author a, #footer .author a:hover {
-  color:#ccc;
+  color:#444;
   background-color:transparent;
   text-decoration: none;
 }
@@ -216,7 +210,6 @@ ul.with_image{
 /* LOCALES */
 
 .locales {
-/*  line-height:64px;*/
   padding:1em;
   color:#444;
   color:#ccc;

@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <%= stylesheet_link_tag     'screen',     'glider',             :cache => true %>
   <%= javascript_include_tag  'prototype',  'effects', 'glider',  :cache => true %>
-  <title>MACOK <%=t :cinevideoservices %> ~ <%= controller.action_name.humanize %></title>
+  <title>Aldo Maietti | <%= controller.action_name.humanize %></title>
   
   <!--[if lt IE 7]>
     <style type="text/css" media="screen">
@@ -23,29 +23,30 @@
   
 </head>
 <body>
-  <div id="top_locales" class="locales">
-    <%= render :partial => 'locales' %>
+  <!-- <div id="top_locales" class="locales">
+    <%#= render :partial => 'locales' %>
+  </div> -->
+  
+  <div id="header">
+    <h1>
+      <%= link_to image_tag('logo.png', :alt => 'Aldo Maietti'), url_for(:action => nil, :locale => locale) %>
+      <br />
+      <em>Il re del Tango</em>
+    </h1>
   </div>
   
-  <div id="header" style="text-align:center;margin:0 auto;">
-    <h1 style="margin-bottom:0;"><%= link_to image_tag('logo_emb.gif', :alt => 'MACOK Logo'), url_for(:action => nil, :locale => locale) %></h1>
-    <h2 style="margin-top:0;"><a href="<%=url_for :action => nil, :locale => locale %>" style="line-height:140%;">
-      MACOK <%=t :cinevideoservices %><br />
-      &ldquo;<%=t :slogan %>&rdquo;
-    </a></h2>
-  </div>
 <div id="sections_wrapper">
-  <div id="sections" style="clear:both;">
-    <%= section_links :about, :services, :products, :portfolio, :contacts %>
+  <div id="sections" class="page_width">
+    <%= section_links :index, :bio, :sheets %>
     <div style="clear:both;"></div>
   </div>
 </div>
-<div style="clear:both;background: url('../images/central_shadow.gif') no-repeat top center;">
+<!-- <div s_tyle="clear:both;background: url('../images/central_shadow.gif') no-repeat top center;">
   <br />&nbsp;<br />
-</div>
+</div> -->
 <div style="clear:both;"></div>
 
-<div id="container" style="clear:both;">
+<div id="container" class="page_width">
   <div id="subsections">
     
   </div>
@@ -55,26 +56,25 @@
 <%= yield %>
 
 
-
+<div style="clear:both;"></div>
 <div id="footer">
   <p>
     <!-- <br /> -->
     
-    <a href="http://macok.com/">MACOK <%= t :cinevideoservices %></a> 
-    <span class="pi"><%=t :tax_code, :tax_code => '02235090962' %></span>
+    <a href="http://macok.com/">AldoMaietti.com</a> 
     <!-- <span id="bottom_locales" class="locales">
       <%#=t 'translations', :default => 'Translations:' %>
       <%#= render :partial => 'locales' %>
     </span> -->
-    <br />
-    <a href="mailto:macok58@tiscali.it">macok58@tiscali.it</a> &mdash;
-    <a href="contatti.html">Tel:   02 92 151 964</a> &mdash;
+    &mdash;
+    <%= mail_to 'info@aldomaietti.com' %> 
+    <!-- <a href="contatti.html">Tel:   02 92 151 964</a> &mdash;
     <a href="contatti.html">Fax:   02 92 502 183</a>
     <br />
     <a target="_blank" href="<%= macok_address_map_url %>">
       Via Toscana, 10/a &mdash;
       20061 Carugate MI
-    </a>
+    </a> -->
     <br />
     <span class="author"><a href="http://elia.wordpress.com/" title="Design and Programming: Elia Schito">
       Eli&aelig; Societas Design

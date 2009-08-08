@@ -21,7 +21,9 @@ ActionController::Routing::Routes.draw do |map|
     end
   end
   
-  %w[index home about services portfolio contacts products].each do |action_name|
+  PAGES = %w[index bio sheets]
+  
+  PAGES.each do |action_name|
     site_path map, action_name
   end
   

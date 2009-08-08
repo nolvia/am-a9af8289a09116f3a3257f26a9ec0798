@@ -17,11 +17,9 @@ module SiteHelper
   
   def section_link action_name
     url = send "#{action_name}_path", locale
-    name = content_tag(:div, image_tag("sections/#{action_name.to_s}.png"), :style => 'height:70px;' ) + 
-           t(action_name, :scope => :sections) #.gsub(/\s/, '&nbsp;')
-    
     options = {:id => action_name}
     options[:class] = :active if current_page?(url)
+    name = t(action_name, :scope => :sections, :default => action_name.to_s.humanize)
     
     link_to name, url, options
   end

@@ -1,0 +1,14 @@
+<div style="clear:both;"></div>
+<div id="sheets">
+  <h3>Free sheets download</h3>
+  <% Dir[ (Rails.root / 'public' / 'sheets' / '*.pdf') ].each do |sheet| %>
+    <div class="sheet" style="float:left;margin-right:3em;">
+      <% link_to sheet_url(sheet), :target => :_blank do %>
+        <h4>
+          <%= image_tag('sheet.png') %>
+          <%= sheet_name(sheet) %>
+        </h4>
+      <% end %>
+    </div>
+  <% end %>
+</div>

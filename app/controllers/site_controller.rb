@@ -11,6 +11,11 @@ class SiteController < ApplicationController
   
   before_filter :set_locale
   
+  
+  # def index
+  #   require 'path'
+  # end
+  
   def clean
     expired_pages = []
     PAGES.each do |action|
