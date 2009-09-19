@@ -1,7 +1,7 @@
 class SiteController < ApplicationController
   
-  PAGES = %w[index about services portfolio contacts]
-  LOCALES = %w[it en es de fr]
+  PAGES = %w[index]
+  LOCALES = [] #%w[it en es de fr]
   caches_page *PAGES unless Rails.env == 'production'
   
   
@@ -11,20 +11,19 @@ class SiteController < ApplicationController
   
   before_filter :set_locale
   
-  
-  # def index
-  #   require 'path'
-  # end
-  
   def clean
     expired_pages = []
     PAGES.each do |action|
+      paths = []
       LOCALES.each do |page_locale|
-        paths_for_action(action, page_locale).each do |path|
-          path = '/'+path
-          self.class.expire_page path
-          expired_pages << self.class.send( :page_cache_path, path) #path
-        end
+        paths << "/#{page_locale}/#{action}.html"
+        paths << "/#{page_locale}/#{action}/index.html"
+      end
+      paths << "/#{action}.html"
+      paths << "/#{action}/index.html"
+      paths.each do |path|
+        self.class.expire_page path
+        expired_pages << path
       end
     end
     expired_pages += expire_static_assets!
@@ -64,13 +63,6 @@ class SiteController < ApplicationController
     
     
     
-    def paths_for_action action, page_locale
-      [ [page_locale, action+'.html'].join('/'),
-        [page_locale, action, 'index.html' ].join('/'),
-        action+'.html',
-        action+'/index.html' ]
-    end
-
     def expire_static_assets!
       expired_pages = []
       %w[/javascripts/all.js /stylesheets/all.css].each do |path|

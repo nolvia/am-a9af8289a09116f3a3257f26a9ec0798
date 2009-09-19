@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
-@pages = %w[index home about services products portfolio contacts]
-@locales = %w[it en de fr es]
+@pages = %w[index] #%w[index home about services products portfolio contacts]
+@locales = []#%w[it en de fr es]
 
 
 @server_pid = fork do
@@ -20,18 +20,20 @@ def self.cache(path)
 end
 
 cache File.join('/clean')
-cache File.join('/index.html')
+
+puts "Press ENTER to continue..."
+gets
 
 @pages.each do |action|
-  @locales.each do |page_locale|
-    [ [page_locale, action+'.html'].join('/'),
-      [page_locale, action, 'index.html' ].join('/'),
-      action+'.html', action+'/index.html'
-    ].each do |path|
-      cache path
-    end
+  @locales.each do |locale|
+    cache [page_locale, action+'.html'       ].compact.join('/')
+    cache [page_locale, action, 'index.html' ].compact.join('/') unless action == 'index'
   end
+  cache action+'.html'
+  cache action+'/index.html' unless action == 'index'
 end
+cache File.join('/stylesheets/all.css')
+cache File.join('/javascripts/all.js')
 
 
 Process.kill 'KILL', @server_pid
