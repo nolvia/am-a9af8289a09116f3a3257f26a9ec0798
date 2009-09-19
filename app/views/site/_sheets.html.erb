@@ -1,0 +1,21 @@
+<div id="sheets">
+  <h3>Scarica gratuitamente gli spartiti</h3>
+  
+  <% Dir[ (Rails.root / 'public' / 'sheets' / '*.pdf') ].each do |sheet| %>
+    <div class="sheet">
+      
+      <% link_to sheet_url(sheet).to_xs, :target => :_blank do %>
+        <h4>
+          <%= image_tag 'sheet.png', :style => "float:left;margin-right:1em;" %>
+          <%= sheet_name(sheet) %>
+          <br />
+          <span style="color:#630;font-weight:normal">
+          [Download <%= File.stat(sheet).size / 1000 %>KB]
+          </span>
+          <div style="clear:both;"></div>
+        </h4>
+      <% end %>
+    </div>
+  <% end %>
+  <div style="clear:both;"></div>
+</div>

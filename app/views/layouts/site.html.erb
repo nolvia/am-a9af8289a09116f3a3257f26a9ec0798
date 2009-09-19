@@ -30,14 +30,12 @@
   <div id="header">
     <h1>
       <%= link_to image_tag('logo.png', :alt => 'Aldo Maietti'), url_for(:action => nil, :locale => locale) %>
-      <br />
-      <em>Il re del Tango</em>
     </h1>
   </div>
   
 <div id="sections_wrapper">
   <div id="sections" class="page_width">
-    <%= section_links :index, :bio, :sheets %>
+    <%#= section_links :index, :bio, :sheets %>
     <div style="clear:both;"></div>
   </div>
 </div>
@@ -59,22 +57,9 @@
 <div style="clear:both;"></div>
 <div id="footer">
   <p>
-    <!-- <br /> -->
-    
-    <a href="http://macok.com/">AldoMaietti.com</a> 
-    <!-- <span id="bottom_locales" class="locales">
-      <%#=t 'translations', :default => 'Translations:' %>
-      <%#= render :partial => 'locales' %>
-    </span> -->
+    &nbsp;&nbsp;&nbsp;<a href="http://aldomaietti.com/">AldoMaietti.com</a> 
     &mdash;
     <%= mail_to 'info@aldomaietti.com' %> 
-    <!-- <a href="contatti.html">Tel:   02 92 151 964</a> &mdash;
-    <a href="contatti.html">Fax:   02 92 502 183</a>
-    <br />
-    <a target="_blank" href="<%= macok_address_map_url %>">
-      Via Toscana, 10/a &mdash;
-      20061 Carugate MI
-    </a> -->
     <br />
     <span class="author"><a href="http://elia.wordpress.com/" title="Design and Programming: Elia Schito">
       Eli&aelig; Societas Design

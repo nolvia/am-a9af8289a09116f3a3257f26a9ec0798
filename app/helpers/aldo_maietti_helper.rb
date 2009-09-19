@@ -4,6 +4,6 @@ module AldoMaiettiHelper
   end
   
   def sheet_name sheet
-    File.basename(sheet, '.pdf')[3..-1].humanize
+    File.basename(sheet, '.pdf') #[3..-1].humanize
   end
 end
