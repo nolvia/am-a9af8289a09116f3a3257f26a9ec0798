@@ -1,0 +1,30 @@
+#title
+  - link_to root_path do
+    %h1= image_tag('logo.png', :alt => 'Aldo Maietti')
+    .subtitle
+      %blockquote
+        .quote Il Re Italiano del Tango
+        .author TV Sorrisi e Canzoni
+
+#navigation
+  %ul
+    %li{:class => current_page?(downloads_path(locale)) ? 'active' : ''}
+      - link_to downloads_path(locale) do
+        %h3 Scarica
+        .description Spartiti, MP3, Midi del grande artista
+    %li{:class => current_page?(pictures_path(locale)) ? 'active' : ''}
+      - link_to pictures_path(locale) do
+        %h3 Foto
+        .description Ritratti originali dagli archivi dell'epoca
+    %li{:class => current_page?(life_path(locale)) ? 'active' : ''}
+      - link_to life_path(locale) do
+        %h3 Vita
+        .description Biografia, interviste, recensioni
+    %li.last{:class => current_page?(contacts_path(locale)) ? 'active' : ''}
+      - link_to contacts_path(locale) do
+        %h3 Contatti
+        .description Indirizzo e numeri di telefono
+  .clear
+
+:javascript
+  $$('blockquote').move({x: -600, mode: 'relative', queue: 'end', duration: 10});

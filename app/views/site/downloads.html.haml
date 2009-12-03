@@ -1,0 +1,87 @@
+.albums.content
+  /
+    .siae
+      %h4 Attenzione: Regole per l'utilizzo e DIRITTI SIAE
+      .rules
+        %p
+          %em L'uso del materiale disponibile
+          in questa pagina 
+          %br
+          %em rimane soggetto al pagamento dei diritti
+          %br
+          per la riproduzione pubblica e privata.
+      
+        %p 
+          Il fatto che sia scaricabile gratuitamente 
+          %br
+          %em
+            non implica che i diritti 
+            dell'autore decadano.
+      
+        %p
+          %em Scaricando e/o aprendo 
+          il materiale disponibile
+          nella pagina 
+          %br
+          %em si aderisce implicitamente 
+          a quanto sopra menzionato.
+      
+  %h3 Scarica gratuitamente gli spartiti
+  
+
+  - for album in @albums
+    .album
+      %h4= album.name.humanize
+      %img.art{:src => album.art}
+      %table.description
+        %tr
+          %th Titolo
+          %td=h album.name.humanize
+        %tr
+          %th Anno
+          %td 1999
+        %tr
+          %th Edizioni
+          %td MIDASOL
+        %tr
+          %th Brani
+          %td= album.songs.size
+        %tr
+          %th Incisioni
+          %td Gino Puglisi
+          
+        - if album.midi_bundle
+          %tr
+            %th Scarica
+            %td
+              = link_to "Basi MIDI", album.midi_bundle
+              .tip Questo file contiene tutte le basi MIDI del disco
+        - if album.name =~ /tango argentino/i
+          %tr
+            %th Acquista
+            %td
+              Le incisioni originali dell' "Orchestra Aldo Maietti"
+              %br
+              sono disponibili presso D.V. MORE RECORD:
+              %br
+              
+              /= link_to "", "http://www.dvmore.com/cd_cerca.php?cc=maietti&cd=artista&cdg=GENERE&x=0&y=0"
+              = link_to "Tango Argentino Vol.1", "http://www.dvmore.com/cd.php?id=8014406022261"
+              %br
+              = link_to "Tango Argentino Vol.2", "http://www.dvmore.com/cd.php?id=8014406022360"
+      .clear
+      
+      %table.songs
+        - album.songs.each do |song|
+          %tr.song{ :class => cycle('odd', 'even') }
+            %td.track_number #{song.track_number}.
+            %td.title=h song.name
+            %td.links
+              %span.tip Scarica:
+              /= song.pdf
+              = link_to 'spartito' ,          song.pdf.     from(Song::PUBLIC).absolute.to_s if song.pdf.exist?
+              = link_to 'versione integrale', song.mp3.     from(Song::PUBLIC).absolute.to_s if song.mp3.exist?
+              = link_to '(solo base)',        song.mp3_base.from(Song::PUBLIC).absolute.to_s if song.mp3_base.exist?
+              
+    .clear
+  

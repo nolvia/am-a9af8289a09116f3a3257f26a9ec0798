@@ -1,0 +1,17 @@
+!!! strict
+%html{html_attrs}
+  %head
+    %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+    = stylesheet_link_tag     :all, :cache => true
+    = javascript_include_tag  'prototype',  'effects', 'glider', :cache => true
+    %title
+      Aldo Maietti 
+      »
+      = yield(:title) || controller.action_name.humanize
+  
+  %body{ :class => action_name }
+    #container
+      = render 'header'
+      = yield
+      
+      = render 'footer'

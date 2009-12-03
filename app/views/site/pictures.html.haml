@@ -1,0 +1,34 @@
+
+.content
+
+  %h2 Foto dagli archivi storici di Alfredo Maietti
+  
+  .photoreel_controls
+    =link_to_function '« indietro', 'glider.previous()'
+    =link_to_function 'avanti »', 'glider.next()'
+  #pictures.pictures
+    .photoreel
+      - @pictures.each do |picture|
+        .picture(onclick="glider.next()")
+      
+          - if picture.title
+            %h4= picture.title
+          
+          .image= image_tag picture.path.from(Rails.public_path).absolute.to_s, |
+                            :width => 780, :title => picture.description        |
+          .description
+            = picture.description
+            .place_and_date
+              = [picture.place, picture.date].compact.join("; ")
+
+
+
+:javascript
+  var glider = new Glider({
+      duration:  0.5, 
+      // controls:  $$('#bike_list .bike'),
+      initial:   $$(".picture").first(),
+      scroller:  $('pictures'),
+      sections:  $$('.pictures .picture')
+  });
+  //glider.start()

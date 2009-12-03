@@ -1,0 +1,18 @@
+#products_container.glider
+  .controls
+    - categories = @products['categories_list']
+    - for category in categories
+    %div
+      - # this div serves to avoid the "duplicated text IE6 bug"
+      = link_to category.humanize, "##{category}",  :class => (category == categories.first ? 'active ' : '')+"#{category}_link"
+    - end
+  %div{ :style => "clear:both;" }
+  .scroller
+    .content
+      - for category in categories
+      = render :partial => 'products', :locals => { :category => category,  :products => @products['per_category'][category]}
+      - end
+= image_tag 'left_arrow.gif',  :class => 'imgLink', :alt => '&larr;', :onclick => 'products_glider.previous();return false;'
+= image_tag 'right_arrow.gif', :class => 'imgLink', :alt => '&rarr;', :onclick => 'products_glider.next();return false;'
+%script{ :type => "text/javascript", :charset => "utf-8" }
+  var products_glider = new Glider('products_container', {duration:0.5, lastActiveElement: "<haml:loud> categories.first </haml:loud>"});

@@ -1,0 +1,22 @@
+!!! strict
+%html{html_attrs}
+  %head
+    %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+    = stylesheet_link_tag     :all, :cache => true
+    = javascript_include_tag  'prototype',  'effects', 'glider',  :cache => true
+    %title
+      Aldo Maietti |
+      = controller.action_name.humanize
+  %body{ :class => action_name }
+    #container
+      #title
+        %h1= link_to image_tag('logo.png', :alt => 'Aldo Maietti'), url_for(:action => nil, :locale => locale)
+      .clear
+      
+      #body
+        #content
+          = yield
+        
+          .clear
+        
+      = render 'footer'

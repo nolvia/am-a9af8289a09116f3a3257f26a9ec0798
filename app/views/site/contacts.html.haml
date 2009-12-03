@@ -1,0 +1,13 @@
+.content
+
+  %h2= t 'contacts.contact_us'
+  
+  %h3 Email:
+  %p= mail_to 'info@aldomaietti.com'
+    
+  %h3 Telefono / Fax:
+  %p 02 48 911 203
+    
+  %h3 #{t 'contacts.address'}:
+  %p= link_to_if false, 'Via Palmi, 20 – 20152 — Milano', '', :target => '_blank',  :title => t('contacts.open_map')
+
