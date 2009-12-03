@@ -1,0 +1,25 @@
+✓ foto intera che comprenda il quadro nella home page (done at 18.53 11/26/09)
+✓ inserire link alla dvmore delle incisioni originali (done at 21.28 11/30/09)
+- scorrimento del "re del tango italiano"
+- iniziare traduzioni
+- prendere foto da http://www.facebook.com/group.php?v=wall&gid=41573222797
+- mettere gli mp3 in qualità originale
+
+
+
+
+=====
+
+ñ => n:
+  Dir["*.mp3"].each{|f| puts f.underscore.gsub(/\s+/,'_').gsub(/n[^_a-z\d\.]+/,"n")}
+
+
+itunes: 
+  
+  
+  include Appscript
+  i = app('iTunes')
+  tt = i.tracks.get.select{|t| t.artist.get == "Aldo Maietti"}
+  tt.map{|t| t.track_number.set t.name.get.scan(/^\d+/).first.to_i}
+  tt.map{|t| t.name.set t.name.get.gsub(/^\d+ /, '')}
+  

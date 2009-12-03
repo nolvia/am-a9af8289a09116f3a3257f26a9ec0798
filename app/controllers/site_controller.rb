@@ -1,3 +1,5 @@
+require 'ostruct'
+
 class SiteController < ApplicationController
   
   PAGES = %w[index]
@@ -31,16 +33,18 @@ class SiteController < ApplicationController
     render :text => "ok, expired pages:<br/>#{expired_pages.join('<br/>')}"
   end
   
-  def services
-    @services = [
-      ['video_production', [:organization, :permissions, :recording]                      ],
-      ['post_production',  [:editing, :copywriting, :dubbing, :music, :down_mix, :master] ],
-      ['footages',         [:library, :research, :actual]                                 ],
-      ['videoclip',        [:idea, :storyboard, :recording, :editing]                     ],
-      ['finished_product', [:finished, :new]                                              ],
-      ['events',           [:organization, :location, :slide, :set, :direction, :shoots]  ]
-    ]
+  def downloads
+    @albums = Album.all
   end
+  
+  def pictures
+    @pictures = Picture.all
+  end
+  
+  
+  
+  
+  # MACOK
   
   def products
     @products = YAML.load_file(Rails.root / 'lib' / "products.#{locale}.yml")

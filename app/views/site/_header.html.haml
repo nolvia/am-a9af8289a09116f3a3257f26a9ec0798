@@ -3,8 +3,9 @@
     %h1= image_tag('logo.png', :alt => 'Aldo Maietti')
     .subtitle
       %blockquote
-        .quote Il Re Italiano del Tango
-        .author TV Sorrisi e Canzoni
+        .marquee
+          .quote Il Re Italiano del Tango
+          .author TV Sorrisi e Canzoni
 
 #navigation
   %ul
@@ -27,4 +28,10 @@
   .clear
 
 :javascript
-  $$('blockquote').move({x: -600, mode: 'relative', queue: 'end', duration: 10});
+  var marquee = $$('blockquote .marquee').first();
+  $$('blockquote').first().setStyle("overflow:hidden");
+  var i = 0;
+  // while(i++ < 10){
+    new Effect.Move(marquee, {x:  800, y: 0, mode: 'relative', queue: 'end', duration:  0});
+    new Effect.Move(marquee, {x: -800, y: 0, mode: 'relative', queue: 'end', duration: 10});  
+  // }/

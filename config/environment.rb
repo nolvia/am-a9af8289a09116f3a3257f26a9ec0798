@@ -5,22 +5,18 @@
 ENV['RAILS_ENV'] ||= 'production'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.3.3' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
 
-module PathSlashOperator
-  def / *path_elements
-    File.join self, *path_elements
-  end
-end
-
-Pathname.send :include, PathSlashOperator
-String.send :include, PathSlashOperator
-
-
 Rails::Initializer.run do |config|
+  config.gem 'chriseppstein-compass', :lib => 'compass', :source => 'http://gems.github.com/'
+  config.gem 'haml'
+  config.gem 'formtastic'
+  config.gem 'jrails'
+  config.gem 'elia'
+  
   # config.i18n.load_path << Dir[File.join(RAILS_ROOT, 'my', 'locales', '*.{rb,yml}')]
   
   # Settings in config/environments/* take precedence over those specified here.
@@ -63,8 +59,8 @@ Rails::Initializer.run do |config|
   # Make sure the secret is at least 30 characters and all random, 
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
-    :session_key => '_macok_session',
-    :secret      => '7c0ad0233fff415764c649b0965001d4513656a71b1dab52ec64fb785e528fc18da6f360c1b7a19619c1959cb9dae0752b412395127f7739f16c73b7b1550c07'
+    :session_key => '_aldomaietti_session',
+    :secret      => '684f49ed86d13be13b4fc16ad6f7057754fab946ebad3ad75d92a44c44c9cf51b40a149837443248bebbb69aced9e124e2ccf71b1ddee62dc9c2dd6220bfd67c'
   }
 
   # Use the database for sessions instead of the cookie-based default,
@@ -81,3 +77,7 @@ Rails::Initializer.run do |config|
   # Please note that observers generated using script/generate observer need to have an _observer suffix
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
 end
+
+require 'elia'
+require 'path_operator'
+
