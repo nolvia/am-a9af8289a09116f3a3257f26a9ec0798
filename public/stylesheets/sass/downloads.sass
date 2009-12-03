@@ -1,0 +1,127 @@
+@import helper.sass
+!albums_padding = 10px
+
+body.downloads
+  .albums
+    h3
+      font-size: 2em
+      margin: 0
+    
+    
+    .siae
+      margin: 2em 0
+      +border-radius(10px)
+      background-color= !text_color
+      border: #{!text_color} solid 1px
+      color= !dark_bg
+      color: black
+      h4
+        font-size: 2em
+        line-height: 2em
+        margin: 0
+        padding: 0
+      .rules
+        font-size:   1.3em
+        line-height: 1.3em
+        padding: 1em
+        +border-radius-bottom(10px)
+        background-color= !text_color * 0.6
+        em
+          font-style: normal
+          font-weight: bold
+          text-decoration: underline
+        
+    
+    
+    
+    
+    .album
+      text-align: left
+      padding= !albums_padding
+      
+      h4
+        font-size: 1.6em
+    
+      img.art
+        float: left
+        margin: 0 1em
+        background-color = !dark_bg
+        border: #{!dark_bg * 1.5} solid 1px
+        padding: 4px
+        
+      .description
+        th
+          vertical-align: top
+          padding-right: 1em
+          padding-left: 1em
+          color= !text_color * 0.6
+          font-weight: normal
+          text-align: right
+      
+      .songs
+        margin-top: 1em
+        clear: both
+        +border-radius(5px)
+        width: 100%
+        .song
+          padding-left: 1em
+          margin-left: -2em
+          list-style-position: inside
+          .track_number
+            text-align: right
+            padding-right: 0.5em
+          .title
+            padding-left: 0.5em
+            
+          .links
+            text-align: right
+            float: right
+            a, span
+              margin-right: 1em
+            a
+              color= !text_color * 0.6
+              &:hover
+                color= !text_color * 1
+              
+            .tip
+              color= !text_color * 0.4
+              
+          div, .title
+            display: inline
+            // width: 20em
+            
+          img
+            display: none
+          &.odd
+            background-color= !dark_bg * 0.8
+          &.even
+            background-color= !dark_bg * 0.6
+        
+        //
+          .song
+            +border-radius(10px)
+            background-color= !dark_bg
+            text-align: left
+            width= !width / 3 - (4 * !albums_padding)
+            //outline: white 1px solid
+            float: left
+            padding= !albums_padding
+            margin= !albums_padding
+            margin-left: 0
+            .title
+              margin: 0
+              font-size: 1.1em
+            .links
+              font-size: 0.8em
+              b
+                display: block
+            
+            img
+              margin-right: 10px
+              float: left
+  #sheets
+    .sheet
+      h4
+        span
+          color: #630
+          font-weight: normal

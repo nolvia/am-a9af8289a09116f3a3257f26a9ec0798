@@ -1,0 +1,46 @@
+@import helper.sass
+@import glider.sass
+
+
+body.pictures
+  .content
+  
+    .photoreel_controls
+      margin: 1em
+      a
+        color= !text_color * 0.4
+        font-size: 1.5em
+        padding: 1em 3em
+        &:hover
+          color= !text_color * 0.9
+          
+    
+    
+    .pictures
+      +glider_container(800px, 800px)
+      .photoreel
+        +glider_sections_container
+      
+        .picture
+          +typewriter
+          +glider_section(800px)
+          width: 790px
+          padding: 5px
+          .image, .description
+            width: 780px
+            padding: 5px
+            margin: 0
+            max-height: 700px
+            overflow: hidden
+      
+            img
+              width: 780px !important
+              padding: 0
+              margin: 0
+    
+          .description
+            text-align: left
+      
+          .place_and_date
+            color= !ink_color * 1.3
+            text-align: right

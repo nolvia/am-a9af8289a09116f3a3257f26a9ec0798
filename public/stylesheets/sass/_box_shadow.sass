@@ -1,0 +1,8 @@
+=box-shadow( !color = black,  !blur = 10px, !x_shadow = nil, !y_shadow = nil)
+  !x_shadow        ||=        !blur
+  !y_shadow        ||=        !blur
+  
+  box-shadow         = !color !blur         !x_shadow        !y_shadow
+  -moz-box-shadow    = !color !blur         !x_shadow        !y_shadow
+  -webkit-box-shadow = !color !blur         !x_shadow        !y_shadow
+

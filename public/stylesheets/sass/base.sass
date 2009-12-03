@@ -1,0 +1,272 @@
+@import helper.sass
+
+body
+  background: black url('/images/bandoneon.gif') no-repeat scroll top left
+  margin: 0
+  padding: 0
+  color= !text_color
+  line-height: 140%
+  font-style: normal
+  font-weight: normal
+  font-size: 95%
+  font-family: "Lucida Grande", "Trebuchet MS", Verdana, Arial, sans-serif
+  text-align: center
+
+a
+  color= !text_color - #222
+  &:hover
+    color= !text_color + #111
+
+.clear
+  clear: both
+.tip
+  color= !text_color * 0.6
+
+
+
+// SPECIFIC
+
+#title
+  a
+    text-decoration: none
+  h1
+    margin: 0
+  font-size: 2em
+  blockquote
+    margin-top: -0.6em
+    .quote
+      color= !text_color * 0.6
+      letter-spacing: 0.4em
+      text-transform: uppercase
+      font-size: 1em
+    .author
+      text-align: right
+      font-size: 0.8em
+      line-height: 1.5em
+      color= !text_color * 1
+
+#container
+  clear: both
+  margin: 0 auto
+  width= !width
+
+  #body
+    background-color: #211
+    padding: 1em
+    text-align: left
+    
+    
+  #navigation
+    clear: both
+    +border-radius-top(20px)
+    height= !navigation_height
+    overflow: hidden
+    background-color= #2E1C12
+
+    ul
+      &, li, a, h3
+        margin: 0
+        padding: 0
+
+      &, li
+        display: block
+        height= !navigation_height
+      li
+        text-align: left
+        width= !width / 4
+        float: left
+        &.last a
+          border: none
+        a
+          height= !navigation_height
+          display: block
+          padding: 10px 1.5em
+          text-decoration: none
+          border-right: 3px solid black
+          border-right-color= #532B0E * 0.5
+          color= #532B0E * 2
+          h3
+            color= #532B0E * 3
+
+          .description
+            font-size: 0.9em
+
+        a:hover
+          background-color= #2E1C12 * 1.4
+          color= !text_color
+          h3
+            color= !text_color * 1.5
+        &.active a
+          background-color= #2E1C12 * 1.4
+              
+  
+  
+.content
+  background-color= !dark_bg * 0.5
+  border: 1px solid #{!dark_bg}
+  padding: 20px
+  +border-radius-bottom(1em)
+  
+
+
+#footer
+  opacity: 0.6
+  background-color= !dark_bg * 0.9
+  
+  width= !width - 2 * 10px
+  padding: 10px
+  bottom: 0
+  
+  +border-radius-top(1em)
+  clear: both
+  margin-top: 2em
+  font-size: 1em
+  color= !dark_bg * 2
+  a
+    color= !dark_bg * 3
+    text-decoration: none
+    
+  &:hover
+    color= !dark_bg * 4
+    background-color= !dark_bg
+  
+  &:hover a
+    color= !dark_bg * 8
+    background-color= !dark_bg
+  
+  a:hover
+    color= !dark_bg * 11
+    text-decoration: underline
+    
+  
+  .author
+    a
+      color= !dark_bg * 2
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+        
+  &:hover .author a
+    color= !dark_bg * 3
+      
+
+
+// DEVELOPMENT
+.placeholder
+  background-color: #333
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.disabled
+  a
+    text-decoration: none
+  
+  h1
+    text-align: center
+    text-transform: uppercase
+    font-size: 200%
+    color: #F93
+
+  h2
+    text-align: center
+    font-size: 130%
+
+  img
+    border-width: 0px
+
+  #title
+    text-align: center
+    margin: 0 auto
+
+    h2 a
+      color: black
+      text-decoration: none
+
+
+
+
+
+
+
+  #footer
+    border-top: 1px solid #100
+    font-size: small
+    text-align: center
+    margin-top: 3em
+    color: #510
+
+    .phone_number
+      font-weight: bold
+    a
+      color: #510
+      padding: 1em
+      border-width: 0px
+      font-weight: normal
+      background-color: transparent
+
+      &:hover
+        color: #FC0
+        text-decoration: none
+        border-width: 0px
+        background-color: transparent !important
+
+    .author a
+      color: #200
+      background-color: transparent !important
+      text-decoration: none
+
+      &:hover
+        color: #200
+        background-color: transparent !important
+        text-decoration: none
+        
+      
+  
+
+  .locales
+    padding: 1em
+    color: #444
+    color: #ccc
+
+    img
+      opacity: 0.5
+
+    a.active img
+      vertical-align: top
+      opacity: 1
+
+
+  #content .locales a.active img
+    vertical-align: top
+    opacity: 1
+
+
+  .locales a.active, #content .locales a.active
+    background: white url('../images/flags/shadow.gif') no-repeat scroll bottom center
+
+
+  #top_locales
+    position: absolute
+    top: 0
+    right: 0
+
+
+  #bottom_locales
+    padding: 0
+
+    a.active img
+      background-color: transparent !important
+
+

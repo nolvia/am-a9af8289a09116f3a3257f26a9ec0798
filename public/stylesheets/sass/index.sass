@@ -1,0 +1,107 @@
+@import helper.sass
+
+body.index
+  .alfredo_maietti
+    +border-radius(1em)
+    font-style: italic
+    font-family: Georgia, "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, times, "Times New Roman", sans-serif
+    background-color= !dark_bg
+    padding: 1em
+    margin: 2em 0
+    font-size: 1.3em
+    line-height: 1.2em
+    .photo
+      background-color: white
+      +box-shadow(#fff)
+      padding: 5px
+      padding-bottom: 10px
+      float: left
+      margin-right: 1em
+      margin-bottom: 1em
+    .says
+      opacity: 0.7
+      text-align: justify
+      p
+        text-indent: 2em
+        margin-top: 0
+        em
+          font-weight: bold
+    .signature
+      text-align: right
+
+  
+  #cover_photo
+    background-color= !dark_bg
+    +border-radius-bottom(5px)
+    &, .photo, img, .description
+      margin: 0
+      padding: 0
+    .photo
+      margin-bottom: -4px
+    .description
+      display: block
+      font-size: 0.7em
+      color= (!text_color - #444)
+
+
+
+
+/*
+body.index_old
+  #quotes
+    font-family: Georgia, serif
+    font-style: italic
+
+    blockquote
+      color: #FC9
+      font-size: 1.5em
+
+    .author
+      text-align: right
+
+  #bio
+    font-family: Georgia, serif
+    font-style: italic
+    background-color: #402F26
+    padding: 1em
+    margin-top: 2em
+
+    h3
+      line-height: 1em
+      color: #FC9
+
+  
+  #sheets
+    background-color: #100
+    margin-top: 2em
+
+    h3
+      font-size: 2em
+      color: #F90
+      padding: 0.5em
+      padding-top: 1em
+
+    a
+      color: #F90
+      font-weight: bold
+      text-decoration: none
+
+      &:hover
+        background-color: #D33 !important
+
+  .sheet
+    float: left
+    margin: 0em 1em
+    width: 380px
+
+    h4
+      border: 1px solid #310
+      padding: 1em
+
+      &:hover
+        background-color: #F90
+        color: black
+        padding: 1em
+
+
+*/
