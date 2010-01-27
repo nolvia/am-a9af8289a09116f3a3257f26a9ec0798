@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+require File.dirname(__FILE__) + '/../config/boot'
+require 'active_support'
+require 'album'
+
+paths = Dir[File.expand_path "~/Music/Aldo Maietti/*"]
+
+Album::ALBUMS.each_pair do |title, songs|
+  full, base = nil, nil
+  paths.each do |p|
+    p_to_s = p.to_path.basename.to_s.upcase.gsub(/\W+/, '_')
+    if p_to_s.include? title.to_s
+      p.include?(' (bas') ? base = p : full = p
+    end
+  end
+  
+  puts "Copying #{title}"
+  puts "full: #{full}"
+  puts "base: #{base}"
+  puts "continue?"
+  if (got = gets) =~ /x|n/
+    puts got.inspect
+    next
+  end
+  
+  songs.compact.each_with_index do |song_title, track_number|
+    next unless full and base
+    
+    track_number += 1
+    # puts Dir[File.expand_path(full / '10*.mp3')]
+    # puts File.expand_path(full / "#{track_number.to_s.rjust(2,'0')}*")
+    # full_source = Dir[File.expand_path(full / "#{track_number.to_s.rjust(2,'0')}*")].first
+    track_number = track_number.to_s.rjust(2,'0')
+    full_source, full_dest = Dir[File.expand_path(full / "#{track_number}*")].first, Rails.public_path / 'albums' / title.to_s.downcase / 'mp3' / "#{track_number}_#{song_title.downcase.gsub(/\W+/,'_')}.mp3"
+    base_source, base_dest = Dir[File.expand_path(base / "#{track_number}*")].first, Rails.public_path / 'albums' / title.to_s.downcase / 'mp3' / "#{track_number}_#{song_title.downcase.gsub(/\W+/,'_')}.base.mp3"
+    
+    puts  "copying" + full_source + " => " + full_dest
+    gets
+    `cp #{full_source.inspect} #{full_dest.inspect}`
+    
+    puts  "copying" + base_source + " => " + base_dest
+    gets
+    `cp #{base_source.inspect} #{base_dest.inspect}`
+  end
+end
