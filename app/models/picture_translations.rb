@@ -53,6 +53,19 @@ module PictureTranslations
           :position => 13
         },
 
+        :canaro_abbraccia_maietti => {
+          :description => 
+            "Il Maestro Francisco Canaro abbraccia Aldo Maietti dopo 
+            l'interpretazione di Ernesto Rondò (a destra) del tango \"Mano a 
+            mano\", accompagnato dall'orchestra Canaro diretta da Maietti.
+            Gli applausi sono stati molto calorosi quando Canaro al pubblico
+            che cedera la battuta della sua orchestra a Maietti, un uomo che 
+            lo merita per la sua brillante attività con il tango porteño.",
+          :date => "24 Giugno 1961",
+          :place => "Teatro Astral, Buenos Aires",
+          :position => 13
+        },
+
         :radio_elmundo => {
           :description => 
             "A radio «El Mundo», da sinistra: Aldo Maietti, Edmundo Rivero 
