@@ -55,6 +55,22 @@ a
     padding: 1em
     text-align: left
     
+  .locales
+    +border-radius-top(10px)
+    background-color= #2E1C12 * 0.7
+    padding: 3px
+    padding-bottom: 0
+    display: inline
+    border: #2E1C12 solid 1px
+    border-bottom: none
+    font-size: 23px
+    a
+      vertical-align: middle
+      
+      &.active, &:hover
+        vertical-align: super
+        padding-bottom: 3px
+    
     
   #navigation
     clear: both
@@ -119,9 +135,15 @@ a
   
   +border-radius-top(1em)
   clear: both
-  margin-top: 2em
+  margin-top: 4em
   font-size: 1em
   color= !dark_bg * 2
+  
+  .locales
+    display: block
+    background: none
+    border: none
+    margin-bottom: 5px
   a
     color= !dark_bg * 3
     text-decoration: none
