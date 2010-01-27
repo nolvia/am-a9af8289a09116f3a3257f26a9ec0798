@@ -52,7 +52,7 @@ class Album
      "Capriccio",
      "Classico Tango",
      "Tango Story"]
-  INVITO_AL_BALLO =   [
+  INVITO_AL_BALLO = [
      "Il Folletto",
      "Volteggiando",
      "Campi Elisi",
@@ -91,6 +91,11 @@ class Album
      "Arenales De Rio",
      "Rio Bianco"]
   
+  ALBUMS = {
+    :TANGO_ARGENTINO => TANGO_ARGENTINO,
+    :APPUNTAMENTO_CON_IL_TANGO => APPUNTAMENTO_CON_IL_TANGO,
+    :INVITO_AL_BALLO => INVITO_AL_BALLO
+  }
     
   def song_names
     case name

@@ -5,3 +5,13 @@ doc/api
 *.log
 macok.zip
 *.tmproj
+vendor/rails
+vendor/gems
+tmp/*
+*.mp3
+.sass-cache
+public/albums
+all.js
+all.css
+*.css
+*.sassc
