@@ -26,7 +26,7 @@
           %em si aderisce implicitamente 
           a quanto sopra menzionato.
       
-  %h3 Scarica gratuitamente gli spartiti
+  %h3=t '.title'
   
 
   - for album in @albums
@@ -35,34 +35,34 @@
       %img.art{:src => album.art}
       %table.description
         %tr
-          %th Titolo
+          %th=t '.album.title'
           %td=h album.name.humanize
         %tr
-          %th Anno
+          %th=t '.album,year'
           %td 1999
         %tr
-          %th Edizioni
+          %th=t '.album.records'
           %td MIDASOL
         %tr
-          %th Brani
+          %th=t '.album.tracks'
           %td= album.songs.size
         %tr
-          %th Incisioni
+          %th=t '.album.recorded_by'
           %td Gino Puglisi
           
         - if album.midi_bundle
           %tr
-            %th Scarica
+            %th=t '.album.download'
             %td
-              = link_to "Basi MIDI", album.midi_bundle
-              .tip Questo file contiene tutte le basi MIDI del disco
+              = link_to t('.album.midi.play_a_long'), album.midi_bundle
+              .tip=t '.album.midi.tip'
         - if album.name =~ /tango argentino/i
           %tr
-            %th Acquista
+            %th=t '.album.buy'
             %td
-              Le incisioni originali dell' "Orchestra Aldo Maietti"
+              =t '.album.dvmore_records.line1'
               %br
-              sono disponibili presso D.V. MORE RECORD:
+              =t '.album.dvmore_records.line2'
               %br
               
               /= link_to "", "http://www.dvmore.com/cd_cerca.php?cc=maietti&cd=artista&cdg=GENERE&x=0&y=0"
@@ -79,9 +79,9 @@
             %td.links
               %span.tip Scarica:
               /= song.pdf
-              = link_to 'spartito' ,          song.pdf.     from(Song::PUBLIC).absolute.to_s if song.pdf.exist?
-              = link_to 'versione integrale', song.mp3.     from(Song::PUBLIC).absolute.to_s if song.mp3.exist?
-              = link_to '(solo base)',        song.mp3_base.from(Song::PUBLIC).absolute.to_s if song.mp3_base.exist?
+              = link_to t('.album.track.sheet'),        song.pdf.     from(Song::PUBLIC).absolute.to_s if song.pdf.exist?
+              = link_to t('.album.track.full_version'), song.mp3.     from(Song::PUBLIC).absolute.to_s if song.mp3.exist?
+              = link_to t('.album.track.play_a_long'),  song.mp3_base.from(Song::PUBLIC).absolute.to_s if song.mp3_base.exist?
               
     .clear
   

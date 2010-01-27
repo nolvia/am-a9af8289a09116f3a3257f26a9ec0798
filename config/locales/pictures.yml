@@ -1,0 +1,7 @@
+it:
+  site:
+    pictures:
+      title: Foto dagli archivi storici di Alfredo Maietti
+      image:
+        next: avanti
+        previous: indietro

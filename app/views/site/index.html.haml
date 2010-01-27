@@ -1,22 +1,19 @@
-- content_for :title, "Il Re italiano del Tango"
+- content_for :title, t('.title')
 
 / = render 'header'
 
 #cover_photo
-  .photo
-    = image_tag("orchestra.jpg", :size => '850x405', :class => :placeholder)
+  .photo= image_tag("orchestra.jpg", :size => '850x405', :class => :placeholder)
   .description
-    Negli studi di registrazione della POLIDOR di Parigi
-    %em Aldo Maietti
-    dirige la sua orchestra di 18 elementi avvalendosi 
-    di valenti musicisti di diverse nazionalità
+    :markdown
+      #{t '.description'}
   .clear
 
 .alfredo_maietti
   .photo= image_tag 'alfredo_maietti.jpg'
   .says
-    %p Mio padre Aldo, oltre ad aver dedicato una vita al <em>Tango</em> iniziò la sua attività di editore musicale e discografico nel 1948 proseguendola con tale impegno e successo da essere insignito nel 1992 dalle medaglie d'oro come compositore ed editore per i 45 anni di appartenenza alla Società Italiana degli autori e degli editori. Dopo la sua scomparsa avvenuta nel 1994 , ho sentito il dovere di proseguire nell'attività editoriale che da lui ho ereditato e in cui per tanti anni l'ho affiancato traendone preziosi insegnamenti. Ancora oggi anche grazie alla preziosa collaborazione del maestro Gino Puglisi, svolgo questo lavoro così difficile con la passione e i rigorosi  principi professionali che lui mi ha insegnato.
-    %p Con gli album “Tango Argentino” e “Appuntamento con il Tango” concepiti tenendo conto della costante evoluzione artistica di orchestre e cantanti mi auguro di essere riuscito a onorare la memoria di mio padre in maniera conforme all'immensa stima e ammirazione che per lui ho sempre nutrito.
+    %p=t '.alfredo_says.line1'
+    %p=t '.alfredo_says.line2'
   
   .signature Alfredo Maietti
   .clear

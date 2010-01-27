@@ -1,11 +1,11 @@
 
 .content
 
-  %h2 Foto dagli archivi storici di Alfredo Maietti
+  %h2= t('.title')
   
   .photoreel_controls
-    =link_to_function '« indietro', 'glider.previous()'
-    =link_to_function 'avanti »', 'glider.next()'
+    =link_to_function "« #{t '.image.previous'}", 'glider.previous()'
+    =link_to_function "#{t '.image.next'} »", 'glider.next()'
   #pictures.pictures
     .photoreel
       - @pictures.each do |picture|

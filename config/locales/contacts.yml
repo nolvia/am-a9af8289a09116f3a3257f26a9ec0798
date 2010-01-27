@@ -1,0 +1,8 @@
+it:
+  site:
+    contacts:
+      title: Come Contattarci
+      
+      email: "Email:"
+      phone_fax: "Telefono / Fax:"
+      address: "Indirizzo:"

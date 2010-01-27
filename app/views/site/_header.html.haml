@@ -4,7 +4,7 @@
     .subtitle
       %blockquote
         .marquee
-          .quote Il Re Italiano del Tango
+          .quote=t '.slogan'
           .author TV Sorrisi e Canzoni
 
 = render 'locales'
@@ -12,20 +12,20 @@
   %ul
     %li{:class => current_page?(downloads_path(locale)) ? 'active' : ''}
       - link_to downloads_path(locale) do
-        %h3 Scarica
-        .description Spartiti, MP3, Midi del grande artista
+        %h3=t           '.navigation.downloads.title'
+        .description=t  '.navigation.downloads.description'
     %li{:class => current_page?(pictures_path(locale)) ? 'active' : ''}
       - link_to pictures_path(locale) do
-        %h3 Foto
-        .description Ritratti originali dagli archivi dell'epoca
+        %h3=t           '.navigation.pictures.title'
+        .description=t  '.navigation.pictures.description'
     %li{:class => current_page?(life_path(locale)) ? 'active' : ''}
       - link_to life_path(locale) do
-        %h3 Vita
-        .description Biografia, interviste, recensioni
+        %h3=t           '.navigation.life.title'
+        .description=t  '.navigation.life.description'
     %li.last{:class => current_page?(contacts_path(locale)) ? 'active' : ''}
       - link_to contacts_path(locale) do
-        %h3 Contatti
-        .description Indirizzo e numeri di telefono
+        %h3=t           '.navigation.contacts.title'
+        .description=t  '.navigation.contacts.description'
   .clear
 
 :javascript

@@ -1,0 +1,17 @@
+it:
+  site:
+    header:
+      slogan: Il Re Italiano del Tango
+      navigation:
+        downloads:
+          title: Scarica
+          description: "Spartiti, MP3, Midi del grande artista"
+        pictures:
+          title: Foto
+          description: Ritratti originali dagli archivi dell'epoca
+        life:
+          title: Vita
+          description: "Biografia, interviste, recensioni"
+        contacts:
+          title: Contatti
+          description: Indirizzo e numeri di telefono

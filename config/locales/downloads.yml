@@ -1,0 +1,24 @@
+it:
+  site:
+    downloads:
+      title: Scarica gratuitamente gli spartiti
+      album:
+        title: Titolo
+        year: Anno
+        records: Edizioni
+        tracks: Brani
+        recorded_by: Incisioni
+        download: Scarica
+        buy: Acquista
+        
+        dvmore_records:
+          line1: "Le incisioni originali dell' \"Orchestra Aldo Maietti\""
+          line2: "sono disponibili presso D.V. MORE RECORD:"
+        midi:
+          play_a_long: Basi MIDI
+          tip: Questo file contiene tutte le basi MIDI del disco
+        track:
+          sheet: spartito
+          full_version: versione integrale
+          play_a_long: (solo base)
+          
