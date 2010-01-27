@@ -112,9 +112,13 @@ a
           color= !text_color
           h3
             color= !text_color * 1.5
-        &.active a
+        &.active a, a:hover
           background-color= #2E1C12 * 1.4
-              
+          
+        &.first a
+          +border-radius-top-left(20px)
+        &.last a
+          +border-radius-top-right(20px)
   
   
 .content

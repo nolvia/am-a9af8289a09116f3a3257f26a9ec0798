@@ -10,7 +10,7 @@
 = render 'locales'
 #navigation
   %ul
-    %li{:class => current_page?(downloads_path(locale)) ? 'active' : ''}
+    %li.first{:class => current_page?(downloads_path(locale)) ? 'active' : ''}
       - link_to downloads_path(locale) do
         %h3=t           '.navigation.downloads.title'
         .description=t  '.navigation.downloads.description'
