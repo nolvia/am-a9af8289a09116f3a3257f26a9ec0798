@@ -29,10 +29,34 @@
   .clear
 
 :javascript
-  var marquee = $$('blockquote .marquee').first();
   $$('blockquote').first().setStyle("overflow:hidden");
-  var i = 0;
-  // while(i++ < 10){
-    new Effect.Move(marquee, {x:  800, y: 0, mode: 'relative', queue: 'end', duration:  0});
-    new Effect.Move(marquee, {x: -800, y: 0, mode: 'relative', queue: 'end', duration: 10});  
-  // }/
+  // var marquee_width = 750;
+  
+  new Marquee({
+    element: $$('blockquote').first(),
+    animIn: Marquee.slideIn,
+    animOut: Marquee.slideOut
+  });
+  
+  // var marquee = $$('blockquote .marquee').first();
+  // new Effect.Move(marquee, {x:  marquee_width, y: 0, mode: 'relative', queue: {scope: 'marquee', position: 'end', limit: 0}, duration: 0});
+  // var marquee_position = 'right'
+  // 
+  // new PeriodicalExecuter(function(e){
+  //   var marquee = $$('blockquote .marquee').first();
+  //   var timeout = 8;
+  //   
+  //   window.setTimeout(function() {
+  //   }, timeout*1000);
+  //   
+  //   if (marquee_position == 'right') {
+  //     new Effect.Move(marquee, {x: -marquee_width,   y: 0, mode: 'relative', queue: {scope: 'marquee', position: 'end', limit: 0}, duration: 8});  
+  //     marquee_position = 'center';
+  //   } else if (marquee_position == 'center') {
+  //     new Effect.Move(marquee, {x: -marquee_width,   y: 0, mode: 'relative', queue: {scope: 'marquee', position: 'end', limit: 0}, duration: 8});  
+  //     marquee_position = 'left';
+  //   } else if (marquee_position == 'left') {
+  //     new Effect.Move(marquee, {x:  marquee_width*2, y: 0, mode: 'relative', queue: {scope: 'marquee', position: 'end', limit: 0}, duration: 0});
+  //     marquee_position = 'right';
+  //   }
+  // }, 1);
